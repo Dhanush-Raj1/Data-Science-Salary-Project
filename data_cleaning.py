@@ -282,3 +282,9 @@ df1['Revenue'] = df1['Revenue'].str.replace('5 - 10 billion', '5000 - 10000 mill
 df1['Revenue'] = df1['Revenue'].str.replace('500 million - 1 billion', '500 - 1000 million')
 df1['Revenue'] = df1['Revenue'].str.replace('Less than 1 million', '1 - 5 million')
 
+
+
+
+
+# saving the file 
+df1.to_csv("cleaned_jobs_data.csv", index=False)
