@@ -9,6 +9,8 @@ df1 = df.copy()
 
 
 
+
+
 # 1. Preprocessing 'Salary Estimate'
 # removing unwanted texts 
 # handling missing values
@@ -48,12 +50,15 @@ df1.loc[626, ['min_salary', 'max_salary']] = df1.loc[626, ['min_salary', 'max_sa
 # converting the dtype of 'min_salary' and 'max_salary'
 df1[['min_salary', 'max_salary']] = df1[['min_salary', 'max_salary']].astype('int64')
 
-# finding the average salary, storing it into a new column and converting it to into int64
+# finding the average salary 
 df1['avg_salary'] = (df1.min_salary+df1.max_salary)/2
 df1['avg_salary'] = df1['avg_salary'].astype('int64')
 
 # dropping the 'Salary Estimate' columns as we no longer need it
 df1.drop(['Salary Estimate'], axis=1, inplace=True)
+
+# double checking the new columns
+df1[['min_salary', 'max_salary', 'avg_salary']].isna().any()
 
 
 
@@ -70,6 +75,12 @@ df1['Rating'].describe()
 # more than half of the ratings are higher than or equal to 4.0 
 df1['Rating'] = df1['Rating'].replace(-1, 4.0)
 
+# dtype of rating 
+df1['Rating'].dtype
+
+# double checking for missing values
+df1['Rating'].isna().any()
+
 
 
 
@@ -78,9 +89,8 @@ df1['Rating'] = df1['Rating'].replace(-1, 4.0)
 # handling missing values
 
 # filling NaN values with:
-# the most repeated value is 10000+ employees so without a question we have to use it but
-# using the domine knowledge, considering the nature of the companies in India most of the company's size 
-# is not more than 10000+ employees, there are many companies with the size of 100-500 and 1000-5000 employees
+# the most repeated value is 10000+ employees 
+# most of the company's size in India is not more than 10000+ employees but 100-500 and 1000-5000 employees
 # therefore we will be using 51-200, 1000-5000 and 10000+ employees to fill the NaN values
 df1['Size'].value_counts()
 
@@ -118,7 +128,8 @@ replacement_values = {
 # Replace values in the 'Size' column using the replacement dictionary
 df1['Size'] = df1['Size'].replace(replacement_values)
 
-
+# replacing 'to' with '-'
+df1['Size'] = df1['Size'].str.replace('to', '-', regex=True) 
 
 
 
@@ -168,13 +179,16 @@ df1['Sector'].fillna(pd.Series(np.random.choice(common_sectors, size=len(df1.ind
 # handling missing values
 # creating new feature 'age'
 
+# determining the most suitable replacement values 
 df1['Founded'].value_counts()
 found = df1['Founded'][(df1['Founded'] != '-1') & (df1['Founded'] != '--')]
 sns.distplot(found)
 found = found.astype('int64')
 plt.scatter(found.index, found.values)
 plt.show()
-found.value_counts().head(40)
+found.value_counts().head(40)   # couldn't find suitable replacement values, going with forward fill
+
+
 df1['Founded'].value_counts().head(30)
 
 # replacing '-1' and '--' with NaN
@@ -184,8 +198,7 @@ df1['Founded'] = df1['Founded'].replace({'-1': np.nan, '--': np.nan})
 df1['Founded'] = pd.to_numeric(df1['Founded'], errors='coerce')
 
 # filling nan values with forward fill method as missing values are completely at random
-# ffill() is the most viable option, mean/mode imputation is not suitable as we are dealing with 'Founded' column
-# ffill() fills missing values with last non-missing value 
+# mean/mode imputation is not suitable as we are dealing with 'Founded' column
 df1['Founded'] = df1['Founded'].ffill()
 
 # there still some missing values that are not replaced
@@ -194,7 +207,7 @@ df1[df1['Founded'].isna()]
 # we have to separately replace the 1st row of founded column as ffill() method will not work for it
 df1['Founded'].fillna(2006, inplace=True)
 
-# using the 'Founded' feature we can create a new feature which is the age of the company
+# create a new feature which is the age of the company
 df1['age'] = df1.Founded.apply(lambda x: x if x < 1 else 2024 - x)
 
 
@@ -206,9 +219,8 @@ df1['age'] = df1.Founded.apply(lambda x: x if x < 1 else 2024 - x)
 # observing values and its counts
 df1['Ownership'].value_counts()
 
-# filling missing values with 'Company - Private' and 'Company - Public'
 # among the many companies in India including foreign based the ownership is either public or private
-# therefore we can fill 60% of the missing values with  Private and rest 40% with Public
+# therefore we can fill 60% of the missing values with Private and rest 40% with Public
 private_missing = int(0.6 * 332)  # 60% of 332
 public_missing = int(round(0.4 * 332))  # 40% of 332
 
@@ -219,8 +231,7 @@ public_fill = ['Company - Public'] * public_missing
 # replacing '-1' and 'Unknown' with NaN in the 'Ownership' column
 df1['Ownership'].replace({'-1': np.nan, 'Unknown': np.nan}, inplace=True)
 
-# filling missing values with NaN with an equal mix of 'Company - Private' and 'Company - Public'
-# The string 'Ownership' after .loc[] specifies the column where the replacement will occur which is the 'Ownership' column
+# 'Ownership' after .loc[] specifies the column where the replacement will occur which is the 'Ownership' column
 df1.loc[df1['Ownership'].isna(), 'Ownership'] = private_fill + public_fill
 
 
@@ -229,4 +240,45 @@ df1.loc[df1['Ownership'].isna(), 'Ownership'] = private_fill + public_fill
 
 # 8. Preprocessing 'Revenue'
 # handling missing values 
+# removing unwanted texts 
+
+df1['Revenue'].value_counts()
+
+# replacement values
+reven_replacement = ['$10+ billion (USD)',           
+                     '$2 to $5 billion (USD)', 
+                     '$100 to $500 million (USD)']
+
+# replacing -1 and unknown with NaN
+df1['Revenue'] = df1['Revenue'].replace({'-1': np.nan, 'Unknown / Non-Applicable': np.nan})
+
+# in total we have to replace 602 nan values 
+df1.Revenue.isna().sum()
+
+# 70% of 602 values to be replaced with '$10+ billion (USD)'
+# 20% of 602 values to be replaced with  '$2 to $5 billion (USD)'
+# 10% of 602 values to be replaced with '$100 to $500 million (USD)'
+seventy_per = int(0.7 * 602)    
+twenty_per = int(0.2 * 602)
+ten_per = int(0.102 * 602) # 10.2% to get 61 not 60
+
+seventy_fill = ['$10+ billion (USD)'] * seventy_per
+twenty_fill = ['$2 to $5 billion (USD)'] * twenty_per
+ten_fill = ['$100 to $500 million (USD)'] * ten_per
+
+# replacing the nan values of 'Revenue' column with those 3 replacement values
+df1.loc[df1['Revenue'].isna(), 'Revenue'] = seventy_fill + twenty_fill + ten_fill
+
+# removing '$' and '(USD)'
+df1['Revenue'] = df1['Revenue'].str.replace(r'[$(USD)]', '', regex=True) 
+
+# replacing 'to' with '-'
+df1['Revenue'] = df1['Revenue'].str.replace('to', '-', regex=True)
+
+# converting billions to millions 
+df1['Revenue'] = df1['Revenue'].str.replace('10+ billion', '10000+ million')
+df1['Revenue'] = df1['Revenue'].str.replace('2 - 5 billion', '2000 - 5000 million')
+df1['Revenue'] = df1['Revenue'].str.replace('5 - 10 billion', '5000 - 10000 million')
+df1['Revenue'] = df1['Revenue'].str.replace('500 million - 1 billion', '500 - 1000 million')
+df1['Revenue'] = df1['Revenue'].str.replace('Less than 1 million', '1 - 5 million')
 
