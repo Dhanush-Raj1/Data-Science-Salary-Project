@@ -286,5 +286,35 @@ df1['Revenue'] = df1['Revenue'].str.replace('Less than 1 million', '1 - 5 millio
 
 
 
+# 9. Preprocessing 'Job Description'
+# parsing keywords 
+
+# 1 if is present in 'Job Description' else 
+# python
+df1['python'] = df1['Job Description'].str.contains('Python', case=False).astype(int)
+
+# r studio
+df1['r'] = df1['Job Description'].str.contains('r studio', case=False).astype(int)
+
+# spark
+df1['spark'] = df1['Job Description'].str.contains('spark', case=False).astype(int)
+
+# aws 
+df1['aws'] = df1['Job Description'].str.contains('aws', case=False).astype(int)
+
+# excel
+df1['excel'] = df1['Job Description'].str.contains('excel', case=False).astype(int)
+
+# GenAI
+df1['genai'] = df1['Job Description'].str.contains('GenAI', case=False).astype(int)
+
+# LLMs
+df1['LLMs'] = df1['Job Description'].str.contains('LLM', case=False).astype(int)
+
+
+# Sql
+df1['sql'] = df1['Job Description'].str.contains('sql', case=False).astype(int)
+
+
 # saving the file 
 df1.to_csv("cleaned_jobs_data.csv", index=False)
