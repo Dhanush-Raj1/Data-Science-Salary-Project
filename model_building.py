@@ -53,7 +53,7 @@ X_train_scaled = ss.fit_transform(X_train)
 # only transform on X_test
 X_test_scaled = ss.transform(X_test)
 
-
+X_test_scaled = pd.DataFrame(X_test_scaled)
 
 
 
@@ -65,7 +65,7 @@ lin_reg = LinearRegression()
 
 lin_reg.fit(X_train_scaled, y_train)
 lin_mse = cross_val_score(lin_reg, X_train_scaled, y_train, scoring ='neg_mean_squared_error', cv=5)
-mean_lin_mse = np.mean(mse)
+mean_lin_mse = np.mean(lin_mse)
 print(mean_lin_mse)
 
 
@@ -85,6 +85,7 @@ print(mean_ridge_mse)
 
 
 # ridge regression (L2) fine tunning with GridSearchCV
+from sklearn.model_selection import GridSearchCV
 ridge_grid = Ridge()
 
 params = {'alpha' : [1e-15, 1e-10, 1e-8, 1e-5, 1e-3, 1e-2, 1, 5, 10, 20, 30, 35, 40, 45, 50, 55, 100]}
@@ -101,7 +102,6 @@ print(ridge_regressor.best_score_)
 
 # lasso regression (L1) with cross_val_score
 from sklearn.linear_model import Lasso
-from sklearn.model_selection import cross_val_score
 lasso = Lasso()
 
 lasso.fit(X_train_scaled, y_train)
@@ -158,11 +158,17 @@ params = {'n_estimators': [10, 100, 10],     # Number of trees in the forest
           'max_depth': [None, 10, 20, 30],   # Maximum depth of the tree
           'min_samples_split': [2, 5, 10],   # Minimum number of samples required to split an internal node
           'min_samples_leaf': [1, 2, 4] }    # Minimum number of samples required to be at a leaf node
-ran_for_regressor = GridSearchCV(ran_for_grid, params, scoring='neg_mean_squared_error', cv=5)
-ran_for_regressor.fit(X_train_scaled, y_train)
+ran_regressor = GridSearchCV(ran_for_grid, params, scoring='neg_mean_squared_error', cv=5)
+ran_regressor.fit(X_train_scaled, y_train)
 
-print(ran_for_regressor.best_params_)
-print(ran_for_regressor.best_score_)
+# will give the best parameter
+print(ran_regressor.best_params_)
+
+# will give the best score/ lowest mse
+print(ran_regressor.best_score_)
+
+# it is the trained random forest regressor model with the best parameter found in the grid search process
+print(ran_regressor.best_estimator_)
 
 
 
@@ -182,6 +188,8 @@ lasso_predictions = lasso_regressor.predict(X_test_scaled)
 # Random Forest
 ran_for_predictions = ran_for_regressor.predict(X_test_scaled)
 
+
+
 # mae
 from sklearn.metrics import mean_absolute_error
 
@@ -194,6 +202,8 @@ print("Mean absolute Error for Linear Regression:", lin_reg_mae)
 print("Mean absolute Error for Ridge Regression:", ridge_mae)
 print("Mean absolute Error for Lasso Regression:", lasso_mae)
 print("Mean absolute Error for Random Forest:", ran_for_mae)
+
+
 
 # mse
 from sklearn.metrics import mean_squared_error
@@ -210,3 +220,19 @@ print("Mean Squared Error for Random Forest:", ran_for_mse)
 
 # mae and mse for average of linear regression predictions and random forest predictions
 mean_absolute_error(y_test, (lin_reg_predictions+ran_for_predictions)/2)
+
+
+
+
+# build model file (ran_regressor.best_estimator) using pickle
+import pickle
+pickl = {'model': ran_regressor.best_estimator_}
+pickle.dump(pickl, open('model_file' + ".p", "wb"))
+
+file_name = 'model_file.p'
+with open(file_name, 'rb') as pickled:
+    data = pickle.load(pickled)
+    model = data['model']
+    
+# model.predict(X_test_scaled.iloc[1, :].values.reshape(1, -1))
+
