@@ -53,7 +53,7 @@
         - Found the companies which has higher ratings (more than 4.0 & 4.5)
         - Found the common industries and sectors the company is in and so on.
           
-<imgs src = "https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/correlation.png" width = 200 height = 200>  
+<imgs src = "https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/correlation.png" width = 100 height = 100>  
           
 ![]("https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/correlation.png")  
   
