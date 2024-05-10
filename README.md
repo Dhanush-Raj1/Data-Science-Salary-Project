@@ -1,11 +1,11 @@
 # End to End Data Science Project "Predicting Salary of a Data Scientist in India". 
 ## Project Overview :
-   - Created a model which estimates the salary of a Data Scientist working in India.
+   - Developed a robust model to predict the salary of Data Scientists in India.
    - Collected data from glassdoor website, scraped over 900 job postings.
-   - Cleaned and pre-processed the raw data thoroughly. 
-   - Performed feature engineering, created new features that captures the importance of tools like 'python', 'r', 'sql', 'aws', 'spark', 'genai', 'LLMs' for a data science role.
-   - Trained the model using different machine learning algorithms, optimized it using cross validation, gridsearch methods.
-   - Build an application using Flask, pickle.
+   - Cleaned and pre-processed the raw data. 
+   - Engineered featues, created new features that captures the importance of tools like 'python', 'r', 'sql', 'aws', 'spark', 'genai', 'LLMs' for a data science role.
+   - Trained the model by utilizing different machine learning algorithms, optimized it using cross validation, gridsearch methods.
+   - Deployed the model as an application using Flask, pickle.
 
 
 ## 1. Data Collection:
@@ -53,15 +53,15 @@
    - Found the companies which has higher ratings (more than 4.0 & 4.5)
    - Found the common industries and sectors the company is in and so on.
 
-<imgs src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/correlation.png">  
+<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/correlation.png">  
 
-<imgs src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/founded_date.png" width="200" height="400">   
+<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/founded_date.png" width="200" height="400">   
 
-<imgs src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/location.png" width="200" height="400">  
+<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/location.png" width="200" height="400">  
 
-<imgs src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/missing_values.png" width="200" height="400">  
+<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/missing_values.png" width="200" height="400">  
 
-<imgs src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/word_cloud.png" width="200" height="400">  
+<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/word_cloud.png" width="200" height="400">  
 
         
 
