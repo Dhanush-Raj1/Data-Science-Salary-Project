@@ -53,15 +53,15 @@
    - Found the companies which has higher ratings (more than 4.0 & 4.5)
    - Found the common industries and sectors the company is in and so on.
 
-<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/correlation.png">  
+<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/correlation.png" width="500" height="800">  
 
-<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/founded_date.png" width="200" height="400">   
+<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/founded_date.png" width="500" height="800">   
 
-<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/location.png" width="200" height="400">  
+<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/location.png" width="500" height="800">  
 
-<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/missing_values.png" width="200" height="400">  
+<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/missing_values.png" width="500" height="800">  
 
-<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/word_cloud.png" width="200" height="400">  
+<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/word_cloud.png" width="600" height="700">  
 
         
 
