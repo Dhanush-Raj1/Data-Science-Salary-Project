@@ -52,12 +52,19 @@
         - Found relationship between the revenue of the company and the salary they provide.
         - Found the companies which has higher ratings (more than 4.0 & 4.5)
         - Found the common industries and sectors the company is in and so on.
-<imgs src = "https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/correlation.png">
-![]("https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/correlation.png")
-![](https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/founded_date.png)
-        ![](https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/location.png)
-        ![](https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/missing_values.png)
-        ![](https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/python.png)
-        ![](https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/word_cloud.png)
+          
+<imgs src = "https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/correlation.png">  
+          
+![]("https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/correlation.png")  
+  
+![alt text](https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/founded_date.png?raw=true)    
+
+![](https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/location.png)  
+        
+![](https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/missing_values.png)
+        
+![](https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/python.png)
+        
+![](https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/word_cloud.png)
         
         
