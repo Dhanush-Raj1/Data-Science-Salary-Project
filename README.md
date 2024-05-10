@@ -59,9 +59,9 @@
 
 <img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/location.png" width="500" height="500">  
 
-<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/missing_values.png" width="500" height="500">  
+<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/missing_values.png" width="800" height="500">  
 
-<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/word_cloud.png" width="600" height="500">  
+<img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/eda_images/word_cloud.png" width="500" height="700">  
 
         
 
