@@ -67,7 +67,7 @@
         - Random forest regressor - Finally used random forest as it would be a good fit for sparsity associated with the data.
    - Out of all the models random forest regressor's performance was better and error rate was lower.
 
-## 5. Produtionization:
+## 5. Productionization:
    - In the final step, to productionize the model I build a flask API endpoint (application) using the flask module.
    - The app takes in a request with a list of values of a job posting and returns the estimated salary.v
    - For simplicity the app was hosted on a local webserver. 
