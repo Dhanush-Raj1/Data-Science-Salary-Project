@@ -44,7 +44,7 @@
              * LLMs
 
 ## 3. Exploratory Data Analysis & Feature Engineering:
-   - Once the data is clearned I analyzed the data to find hidden patterns, trends other relationship between features.
+   - After the data is clearned I analyzed the data to find hidden patterns, trends other relationship between features.
    - Performed both univariate and bivariate/multi-variate analysis.
    - Visualized the distribution of each features and explored the values and their counts of each features.
    - Visualized the presence of missing values in the dataset.
