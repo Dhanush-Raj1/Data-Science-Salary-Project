@@ -7,9 +7,12 @@ from datetime import datetime
 # log file name
 logs_file_name = datetime.now().strftime('%d_%m_%Y_%H_%M_%S') + ".log" 
 
+# log folder name 
+logs_folder_name = datetime.now().strftime('%d_%m_%Y')
+
 
 # logs folder path 
-logs_path = os.path.join(os.getcwd(), "logs", logs_file_name)
+logs_path = os.path.join(os.getcwd(), "logs", logs_folder_name)
 
 
 # create logs folder path 

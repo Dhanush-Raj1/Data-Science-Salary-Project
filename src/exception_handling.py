@@ -32,10 +32,10 @@ class Custom_Exception(Exception):                           # Customer_Exceptio
     
     
 # test code 
-try:
-    print(hello)
+#try:
+    #print(hello)
 
-except Exception as e:
-    raise Custom_Exception(e, sys)
+#except Exception as e:
+    #raise Custom_Exception(e, sys)
         
     

@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <title>Customer Churn Prediction</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap');
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "Roboto", sans-serif;
+            }
+            
+            body {
+                /*background-color: rgb(90, 90, 90);*/   
+                /*background-color: black;*/      
+                /*background: linear-gradient(to right, #434343 0%, black 100%);*/ 
+                background: linear-gradient( #363434, #5c5757);                                                                                           
+                color: #000000; 
+            }
+
+            .header { 
+                width: 100%;
+                height: 100%;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.65)), url('img2.jpg'); 
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: scroll;
+                background-position-x: 30%;
+                background-position-y: center;
+                display: flex;
+                left: 0;
+            }
+
+            .row {
+                width: 100%;
+                max-width: 1000px;
+                padding: 0px 20px;
+                /*position: relative;*/
+                z-index: 1;
+                margin-left: 280px;
+                margin-top: 19px;
+                
+            }
+
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                align-items:center;
+                padding: 13px 5px;
+                position: relative;
+                z-index: 2;
+                background: rgba(255, 247, 247, 0.3);
+                background-color: rgb(225, 225, 225);
+                border-radius: 10px;
+                max-width: 1000px;
+                margin-bottom: 10px;
+    
+                
+            }
+
+            .navbar ul {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: px;
+                list-style: none;
+            }
+
+            .navbar ul li a {
+                padding: 10px 6px;
+                border-radius: 5px;
+                font-family: sans-serif;
+                font-size: 16px;
+                color: #020c16;;
+                text-decoration: none;
+                margin-right: 15px;
+            }
+
+            .navbar ul li a:hover {
+                background-color: #59a8e4;
+            }
+
+            .navbar h1 {
+                float: left;
+                color: #010911;
+                font-size: 1.7em;
+                font-weight: bold;
+                margin-top: px;
+                margin-left: 25px;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .navbar ul.menu{ 
+
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <div class="row">
+                    <nav class="navbar">
+                        <h1>Salary Estimator</h1>
+                        <ul>
+                            <li><a href="#">Github</a></li>
+                            <li><a href="#">Get in touch</a></li>
+                        </ul>
+                        <ul class='menu'>
+                            <li>
+                                <a href="#">Menu</a>
+                                <ul class='dropdown'>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <section class="main">
+                    <div class="content">
+                        <h1>Predict and Prevent Customer Churn</h1>
+                        <p>Empower your business with predictive analytics to anticipate and prevent customer churn in advance.</p>
+                        <a href="{{ url_for('predict') }}">Predict</a>
+                    </div>
+                </section>
+            </div>
+        </header>
+    </body>
+</html>

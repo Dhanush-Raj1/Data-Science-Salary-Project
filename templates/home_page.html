@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Science Salary Estimator</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/hp_style.css') }}">
+    </head>
+   
+    <body>
+        <header>
+            <div class="header">
+                <div class="row">
+                    <nav class="navbar">
+                        <h1>Salary Estimator</h1>
+                        <ul>
+                            <li><a href="#">Github</a></li>
+                            <li><a href="#">Get in touch</a></li>
+                        
+                            <li>
+                                <a href="#">Menu</a>
+                                <ul class='dropdown'>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <section class="main">
+                    <div class="content">
+                        <h1>Predict Your Data Science Salary</h1>
+                        <p>Discover your earning potential in the data science field.</p>
+                        <p>Get a salary estimate based on your skills, experience, and company profile.</p>
+                        <a href="{{ url_for('predict') }}">Predict</a>
+                    </div>
+                </section>
+            </div>
+        </header>
+
+        
+    </body>
+</html>

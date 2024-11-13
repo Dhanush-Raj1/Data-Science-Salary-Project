@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+ 
+body{
+    background-color: #fff;
+    color: #000000;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.header { 
+    width: 100%;
+    height: 100vh;
+    align-items: ;
+    justify-content: ;
+    background-image: linear-gradient(rgba(99, 96, 96, 0.8), rgba(50, 50, 50, 0.8)), url('../images/img2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center; 
+    position: absolute;
+    /*background-position-x: 50%;
+    background-position-y: center;
+    display: block;*/
+    top: 0;
+    left: 0;
+}
+
+.row {
+    width: 200%;
+    max-width: 1000px;
+    padding: 0px 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 19px;
+    margin-left: 280px;
+}
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 13px 5px;
+    position: relative;
+    z-index: ;
+    background-color: rgb(225, 225, 225);
+    border-radius: 10px;
+    max-width: 1000px;
+    margin-bottom: 20px;
+}
+
+.navbar h1 {
+    float: left;
+    color: #010911;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-top: px;
+    margin-left: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: px;
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.navbar ul li a {
+    padding: 10px 6px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #020c16;;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.navbar ul li a:hover {
+    background-color: #59a8e4;
+}
+
+
+
+
+ul li ul.dropdown {
+    width: 100%;
+    background: ;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li ul.dropdown li{
+    display: block;
+    padding: 10px;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+ul li ul.dropdown a:hover{
+    background-color: #cccaca;
+}
+
+ul li:hover ul.dropdown{
+    display: list-item;
+    background: rgb(225, 225, 225);
+}
+
+
+
+
+.content {
+    width: 100%;
+    min-height: 650px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.content h1 {
+    font-size: 3.2em;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.content p {
+    padding: 3px 15px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.content p + p {
+    margin-top: 0px; /* Adjust this value as needed to control spacing */
+}
+
+
+.content a {
+    padding: 12px 30px;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 30px; 
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #5da7ed;
+    border-radius: 4px;
+    color: #ffffff; /* Kept white for contrast */
+}
