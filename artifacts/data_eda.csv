@@ -32,6 +32,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.1,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,4,30,17,3.0,0,0,0,0,0,0,data scientist,na
 4.0,1001 - 5000 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,2,10,6,3.0,0,0,0,0,0,0,data scientist,na
 4.0,1001 - 5000 Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,30,50,40,58.0,0,0,0,0,0,0,data scientist,na
+3.9,10000+ Employees,Investment & Asset Management,Finance,Company - Public,10000+ million ,6,10,8,162.0,0,0,0,0,0,0,data scientist,na
 4.3,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,7,10,8,8.0,0,0,0,0,0,0,data scientist,na
 4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,15,24,19,8.0,0,0,0,0,0,0,data scientist,na
 3.7,10000+ Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,4,30,17,8.0,0,0,0,0,0,0,data scientist,na
@@ -72,10 +73,12 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.0,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,3,4,3,15.0,1,0,0,0,0,0,data scientist,na
 4.1,10000+ Employees,Internet & Web Services,Information Technology,Company - Private,2000 - 5000 million ,32,48,40,20.0,0,0,0,0,0,0,data scientist,na
 3.7,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,10,10,10,46.0,0,0,0,0,0,0,data scientist,na
+3.9,1001 - 5000 Employees,Research and development,Management and consulting,Company - Public,5000 - 10000 million ,7,10,8,37.0,0,0,0,0,0,0,data scientist,na
 4.0,1001 - 5000 Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,2,10,6,37.0,0,0,0,0,0,0,data scientist,na
 4.0,10000+ Employees,Transportation Equipment Manufacturing,Manufacturing,Company - Public,10000+ million ,7,9,8,121.0,0,0,0,0,0,0,data scientist,na
 4.0,1001 - 5000 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,2,10,6,121.0,0,0,0,0,0,0,na,na
 4.0,1001 - 5000 Employees,Business consulting,Information Technology,Company - Private,10000+ million ,3,8,5,121.0,0,0,0,0,0,0,data scientist,na
+3.6,5001 - 10000 Employees,Advertising & Public Relations,Media and communication,Company - Public,10000+ million ,5,6,5,121.0,0,0,0,0,0,0,data scientist,na
 3.8,10000+ Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,4,30,17,121.0,1,1,0,0,0,0,data scientist,na
 4.1,10000+ Employees,Machinery Manufacturing,Manufacturing,Company - Public,10000+ million ,9,9,9,135.0,1,0,0,0,0,0,data scientist,na
 3.8,10000+ Employees,Internet & Web Services,Information Technology,Company - Public,10000+ million ,2,10,6,26.0,0,0,0,0,0,0,data scientist,na
@@ -91,12 +94,15 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,2,10,6,85.0,0,0,0,0,0,0,na,na
 3.9,1 - 50 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,3,7,5,85.0,0,0,0,0,0,0,data scientist,senior
 4.0,1001 - 5000 Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,5,18,11,85.0,1,0,0,0,0,0,data engineer,na
+4.1,10000+ Employees,Electronics Manufacturing,Manufacturing,Company - Public,10000+ million ,5,5,5,57.0,0,0,0,0,0,0,data scientist,na
 3.4,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,5000 - 10000 million ,6,7,6,101.0,0,0,0,0,0,0,data scientist,na
 4.0,1001 - 5000 Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,5,17,11,101.0,0,0,0,0,0,0,data scientist,na
 4.1,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,4,30,17,101.0,0,0,0,0,0,0,data scientist,na
 3.6,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,8,9,8,10.0,0,0,1,0,0,0,data scientist,na
 4.0,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,4,5,4,10.0,1,0,0,0,0,0,data scientist,na
 4.4,201 - 500 Employees,Business consulting,Finance,Company - Private,10000+ million ,4,30,17,117.0,1,0,0,0,0,1,data scientist,na
+3.9,10000+ Employees,Electronics Manufacturing,Manufacturing,Company - Public,10000+ million ,10,10,10,79.0,0,0,0,0,0,0,data scientist,na
+2.9,1 - 50 Employees,Research and development,Management and consulting,Company - Private,1 - 5 million ,2,10,6,6.0,1,0,0,0,0,1,data scientist,na
 3.9,201 - 500 Employees,Transportation Equipment Manufacturing,Manufacturing,Company - Private,10000+ million ,10,10,10,6.0,0,0,0,0,0,0,data scientist,na
 4.0,201 - 500 Employees,Business consulting,Management and consulting,Company - Public,10000+ million ,2,10,6,6.0,1,0,0,0,0,0,analyst,na
 4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,3,5,4,6.0,0,0,0,0,0,0,data scientist,na
@@ -135,6 +141,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.0,10000+ Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,4,30,17,43.0,0,0,0,0,0,0,data scientist,na
 3.4,10000+ Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,4,30,17,43.0,0,0,0,1,0,0,data scientist,senior
 4.0,1001 - 5000 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,2,10,6,43.0,1,1,0,0,0,0,na,na
+4.0,10000+ Employees,Electronics Manufacturing,Manufacturing,Company - Public,10000+ million ,2,3,2,44.0,0,0,0,0,0,0,data scientist,na
 4.4,201 - 500 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,4,30,17,44.0,0,0,0,0,0,0,data scientist,na
 4.1,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,2,3,2,44.0,0,0,0,0,0,0,data scientist,na
 4.0,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,4,9,6,21.0,1,0,0,0,0,0,data scientist,na
@@ -169,6 +176,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.0,10000+ Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,4,30,17,12.0,0,0,0,0,0,0,data scientist,na
 4.0,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,15,20,17,12.0,1,0,0,0,0,0,data scientist,senior
 4.1,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,4,30,17,12.0,0,0,0,0,0,0,data scientist,senior
+3.6,5001 - 10000 Employees,Advertising & Public Relations,Media and communication,Company - Public,10000+ million ,5,7,6,12.0,0,0,0,0,0,0,na,na
 4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,4,10,7,49.0,0,0,1,0,1,0,na,na
 3.4,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,5000 - 10000 million ,6,7,6,101.0,0,0,0,0,0,0,data scientist,na
 3.5,10000+ Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,4,30,17,101.0,0,0,0,0,0,0,data scientist,na
@@ -179,6 +187,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.0,1001 - 5000 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,4,30,17,10.0,0,0,0,0,0,0,na,na
 4.1,51 - 200 Employees,HR Consulting,Human resources and staffing,Private Practice / Firm,10000+ million ,3,9,6,26.0,0,0,0,0,0,0,data scientist,na
 3.8,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,4,30,17,26.0,1,1,0,0,0,0,data scientist,na
+4.1,10000+ Employees,Electronics Manufacturing,Manufacturing,Company - Public,10000+ million ,5,5,5,57.0,0,0,0,0,0,0,data scientist,na
 3.8,10000+ Employees,Business consulting,Manufacturing,Company - Private,10000+ million ,4,30,17,57.0,0,0,0,0,0,0,manager,na
 3.8,10000+ Employees,Business consulting,Finance,Company - Private,10000+ million ,4,30,17,57.0,1,0,0,0,0,1,data scientist,na
 4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,4,7,5,57.0,0,0,0,0,0,0,data scientist,na
@@ -190,6 +199,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 3.7,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,3,8,5,43.0,1,0,0,0,0,1,data scientist,na
 4.9,10000+ Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,4,30,17,43.0,0,0,0,0,0,0,data scientist,senior
 4.6,10000+ Employees,Business consulting,Manufacturing,Company - Private,10000+ million ,4,30,17,43.0,0,0,0,0,0,0,data scientist,na
+3.6,501 - 1000 Employees,Advertising & Public Relations,Media and communication,Company - Private,10000+ million ,8,10,9,14.0,0,0,0,0,0,0,data scientist,na
 4.1,1001 - 5000 Employees,Software Development,Information Technology,Company - Public,10000+ million ,2,3,2,12.0,0,0,0,0,0,0,data scientist,na
 4.0,1 - 50 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,2,10,6,26.0,0,0,0,0,0,0,mle,na
 5.0,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,4,7,5,26.0,0,0,0,0,0,0,data scientist,na
@@ -205,6 +215,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 3.9,201 - 500 Employees,Business consulting,Finance,Company - Private,10000+ million ,4,30,17,139.0,1,0,0,0,0,0,data scientist,na
 3.9,1001 - 5000 Employees,Internet & Web Services,Information Technology,Company - Private,10000+ million ,4,4,4,17.0,0,0,0,0,0,0,data scientist,senior
 3.4,501 - 1000 Employees,Computer Hardware Development,Information Technology,Company - Private,10000+ million ,4,9,6,14.0,0,0,0,0,0,0,data scientist,na
+4.1,51 - 200 Employees,Electronics Manufacturing,Manufacturing,Company - Private,10000+ million ,6,8,7,9.0,0,0,0,0,0,0,data scientist,na
 3.5,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,5 - 25 million ,9,10,9,7.0,0,0,0,0,0,0,mle,na
 4.4,1001 - 5000 Employees,Internet & Web Services,Information Technology,Subsidiary or Business Segment,10000+ million ,2,4,3,19.0,0,0,0,0,0,1,analyst,na
 4.1,51 - 200 Employees,HR Consulting,Human resources and staffing,Private Practice / Firm,10000+ million ,1,3,2,26.0,0,0,0,0,0,0,data scientist,na
@@ -243,6 +254,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,3,3,3,225.0,0,0,0,0,0,0,data scientist,na
 4.0,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,2,2,2,225.0,0,0,0,0,0,0,mle,na
 4.2,10000+ Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Public,10000+ million ,4,8,6,128.0,0,0,0,0,0,0,data scientist,senior
+3.8,10000+ Employees,Advertising & Public Relations,Media and communication,Company - Public,5000 - 10000 million ,4,7,5,98.0,0,0,0,0,0,0,mle,na
 4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,6,19,12,98.0,1,1,0,0,0,0,data scientist,senior
 3.9,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,3,13,8,334.0,0,0,0,0,0,0,mle,na
 3.9,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,5 - 25 million ,5,6,5,18.0,1,0,0,0,1,0,data scientist,na
@@ -265,6 +277,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 3.9,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,6,9,7,120.0,0,0,0,0,0,0,data scientist,na
 4.4,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,4,8,6,120.0,0,0,0,0,0,0,data scientist,na
 4.0,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,4,7,5,120.0,0,0,0,0,0,0,data scientist,na
+4.2,5001 - 10000 Employees,Health Care Products Manufacturing,Manufacturing,Company - Public,10000+ million ,5,9,7,132.0,0,0,0,0,0,0,data scientist,na
 4.0,1 - 50 Employees,Business consulting,Information Technology,Company - Private,10000+ million ,4,7,5,31.0,0,0,0,0,0,0,data scientist,na
 3.7,10000+ Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,5,10,7,41.0,0,0,0,0,0,0,na,na
 4.0,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,4,10,7,139.0,0,0,0,0,0,0,data scientist,na
@@ -286,6 +299,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.5,10000+ Employees,Business consulting,Information Technology,Company - Private,10000+ million ,4,30,17,79.0,0,0,0,0,0,0,data scientist,na
 4.0,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,4,30,17,79.0,0,0,0,0,0,0,na,na
 4.1,10000+ Employees,Machinery Manufacturing,Manufacturing,Company - Public,10000+ million ,6,10,8,135.0,0,0,0,0,0,0,data scientist,na
+3.6,10000+ Employees,Health Care Products Manufacturing,Manufacturing,Company - Public,2000 - 5000 million ,6,9,7,101.0,0,0,0,0,0,0,data scientist,na
 4.0,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,5 - 25 million ,4,9,6,12.0,0,0,0,0,0,0,data scientist,na
 3.8,51 - 200 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,2,8,5,4.0,0,0,0,0,0,0,data scientist,na
 4.2,10000+ Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,4,30,17,4.0,0,0,0,1,0,0,data scientist,na
@@ -314,6 +328,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Finance,Company - Public,10000+ million ,7,15,11,5.0,0,0,0,0,0,0,na,na
 3.9,201 - 500 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,4,30,17,5.0,0,0,0,0,0,0,data scientist,na
 3.7,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,4,7,5,15.0,1,1,0,0,0,0,data scientist,na
+3.8,1001 - 5000 Employees,Research and development,Management and consulting,Company - Private,100 - 500 million ,4,9,6,21.0,0,0,0,0,1,0,data scientist,na
 4.0,1001 - 5000 Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,2,5,3,21.0,1,0,0,0,0,0,na,na
 4.2,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,1,7,4,85.0,0,0,0,0,1,0,na,na
 4.0,1001 - 5000 Employees,Software Development,Information Technology,Company - Private,10000+ million ,4,8,6,11.0,0,0,0,0,0,0,data scientist,na
@@ -328,6 +343,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.0,1001 - 5000 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,2,10,6,6.0,1,0,0,1,0,0,mle,na
 4.0,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,4,13,8,297.0,0,0,0,0,0,0,mle,na
 4.7,10000+ Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,4,30,17,297.0,0,0,0,0,0,0,na,na
+3.5,201 - 500 Employees,Electronics Manufacturing,Manufacturing,Company - Public,25 - 50 million ,2,8,5,28.0,0,0,0,0,0,0,na,na
 4.0,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,5,15,10,28.0,0,0,0,0,1,0,na,na
 3.9,10000+ Employees,Transportation Equipment Manufacturing,Manufacturing,Company - Public,10000+ million ,6,7,6,109.0,0,0,0,0,0,0,analyst,na
 4.0,1 - 50 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,2,6,4,35.0,0,0,0,0,0,0,data scientist,na
@@ -346,8 +362,10 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 3.8,10000+ Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,4,30,17,6.0,0,0,0,0,0,0,na,na
 4.1,1 - 50 Employees,Information Technology Support Services,Manufacturing,Company - Public,10000+ million ,4,7,5,6.0,0,0,0,0,0,0,data scientist,na
 3.9,201 - 500 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,4,30,17,6.0,0,0,0,0,0,0,na,na
+3.6,10000+ Employees,Investment & Asset Management,Finance,Company - Public,10000+ million ,7,10,8,240.0,0,0,0,1,0,0,data scientist,na
 4.4,1 - 50 Employees,Business consulting,Management and consulting,Company - Private,1 - 5 million ,5,9,7,188.0,0,0,0,0,0,0,data scientist,na
 4.0,10000+ Employees,Business consulting,Finance,Company - Private,10000+ million ,4,30,17,188.0,0,0,0,1,0,0,manager,na
+3.2,5001 - 10000 Employees,Health Care Products Manufacturing,Manufacturing,Subsidiary or Business Segment,2000 - 5000 million ,4,10,7,84.0,0,0,0,0,0,0,data scientist,na
 4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,3,6,4,84.0,0,0,0,0,0,0,analyst,na
 4.0,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,4,30,17,84.0,0,0,0,0,0,0,data scientist,senior
 4.1,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,3,6,4,56.0,1,0,0,1,1,1,na,na
@@ -361,6 +379,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.4,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,4,30,17,26.0,1,0,0,0,0,0,data scientist,na
 4.1,51 - 200 Employees,HR Consulting,Human resources and staffing,Private Practice / Firm,10000+ million ,3,9,6,26.0,0,0,0,0,0,0,na,na
 4.1,10000+ Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Public,10000+ million ,5,10,7,148.0,0,0,0,0,0,0,data scientist,na
+4.0,501 - 1000 Employees,Investment & Asset Management,Finance,Company - Private,100 - 500 million ,4,8,6,14.0,0,0,0,0,0,0,data scientist,na
 4.0,51 - 200 Employees,Computer Hardware Development,Information Technology,Company - Private,10000+ million ,3,8,5,14.0,1,0,0,0,0,0,data scientist,na
 3.4,201 - 500 Employees,Software Development,Information Technology,Company - Private,10000+ million ,5,9,7,9.0,0,0,0,0,0,0,director,na
 4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,25,30,27,9.0,1,0,0,0,0,0,mle,senior
@@ -386,6 +405,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.0,10000+ Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,4,30,17,9.0,0,0,0,0,0,0,data scientist,na
 3.4,201 - 500 Employees,Internet & Web Services,Information Technology,Company - Private,25 - 50 million ,5,7,6,12.0,0,0,0,0,0,0,data scientist,senior
 4.0,1001 - 5000 Employees,Business consulting,Manufacturing,Company - Private,10000+ million ,2,10,6,12.0,0,0,0,0,0,0,na,na
+4.0,501 - 1000 Employees,Investment & Asset Management,Finance,Company - Private,100 - 500 million ,2,8,5,14.0,0,0,0,0,1,0,data scientist,na
 4.0,10000+ Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,4,30,17,26.0,0,0,0,0,0,0,data scientist,na
 4.0,10000+ Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,4,30,17,26.0,0,0,0,0,0,0,na,na
 4.2,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,2,2,2,5.0,0,0,0,0,0,0,data scientist,na
@@ -424,8 +444,10 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.0,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,4,30,17,188.0,0,0,0,0,0,0,data scientist,senior
 4.6,10000+ Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,4,30,17,188.0,1,0,0,0,0,0,mle,na
 3.9,1 - 50 Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,2,6,4,188.0,0,0,0,1,0,0,data scientist,na
+4.0,51 - 200 Employees,Research and development,Management and consulting,Company - Private,10000+ million ,4,5,4,19.0,1,0,0,1,0,1,data scientist,na
 4.5,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,4,8,6,19.0,0,0,0,0,0,0,data scientist,na
 4.0,10000+ Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,4,30,17,19.0,0,0,0,0,0,0,data scientist,na
+3.7,1001 - 5000 Employees,Advertising & Public Relations,Media and communication,Company - Public,100 - 500 million ,5,10,7,17.0,0,0,0,0,0,0,mle,na
 4.0,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,4,30,17,17.0,0,0,0,0,0,0,na,na
 3.2,501 - 1000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,100 - 500 million ,8,10,9,24.0,0,0,0,0,0,0,data scientist,na
 4.0,1 - 50 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,2,6,4,24.0,0,0,0,0,0,0,data scientist,na
@@ -449,6 +471,8 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.0,1001 - 5000 Employees,Information Technology Support Services,Management and consulting,Company - Public,10000+ million ,4,7,5,26.0,0,0,0,0,0,0,data scientist,na
 4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,7,10,8,12.0,0,0,0,0,0,0,data scientist,na
 4.1,201 - 500 Employees,Business consulting,Finance,Company - Public,10000+ million ,4,30,17,12.0,0,0,0,0,0,0,na,senior
+4.0,5001 - 10000 Employees,Advertising & Public Relations,Media and communication,Subsidiary or Business Segment,2000 - 5000 million ,7,9,8,55.0,0,0,0,0,0,0,data scientist,senior
+4.0,5001 - 10000 Employees,Advertising & Public Relations,Media and communication,Subsidiary or Business Segment,2000 - 5000 million ,7,9,8,55.0,0,0,0,0,0,0,manager,na
 4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,4,30,17,55.0,0,0,0,0,1,0,data scientist,senior
 3.8,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Public,10000+ million ,4,30,17,55.0,0,0,0,1,1,0,data scientist,na
 3.9,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,4,30,17,154.0,0,0,0,0,0,0,mle,senior
@@ -480,6 +504,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 3.7,10000+ Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Public,2000 - 5000 million ,2,3,2,34.0,0,0,0,0,0,0,data scientist,na
 3.8,51 - 200 Employees,Business consulting,Finance,Company - Private,10000+ million ,2,10,6,34.0,1,0,0,0,0,1,na,na
 4.8,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Public,10000+ million ,4,30,17,34.0,0,0,0,0,0,0,data scientist,na
+4.0,10000+ Employees,Electronics Manufacturing,Manufacturing,Company - Public,10000+ million ,6,8,7,141.0,0,0,0,0,0,0,data scientist,na
 4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,2000 - 5000 million ,3,3,3,42.0,1,1,0,1,0,1,na,na
 4.1,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Public,10000+ million ,4,30,17,42.0,0,0,0,0,0,0,data scientist,na
 3.5,1001 - 5000 Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Subsidiary or Business Segment,2000 - 5000 million ,4,7,5,89.0,0,0,0,1,0,0,data scientist,na
@@ -492,6 +517,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.5,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,10,15,12,24.0,1,0,0,0,0,0,data scientist,na
 4.3,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,7,10,8,8.0,0,0,0,0,0,0,data scientist,senior
 4.3,10000+ Employees,Business consulting,Information Technology,Company - Public,10000+ million ,4,30,17,26.0,1,0,1,0,0,0,data scientist,na
+2.5,51 - 200 Employees,Advertising & Public Relations,Media and communication,Company - Private,10000+ million ,2,6,4,21.0,0,0,0,0,0,0,data scientist,senior
 4.0,1001 - 5000 Employees,Business consulting,Finance,Company - Public,10000+ million ,4,30,17,21.0,1,0,0,0,0,1,data scientist,na
 3.7,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,3,5,4,17.0,0,0,0,0,0,0,data scientist,na
 3.9,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,5,9,7,334.0,0,0,0,0,0,0,na,na
@@ -501,11 +527,13 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 3.7,10000+ Employees,Business consulting,Information Technology,Company - Public,10000+ million ,4,30,17,36.0,1,0,0,1,0,0,na,na
 4.0,1 - 50 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,4,7,5,36.0,0,0,0,0,0,0,data scientist,na
 3.7,10000+ Employees,Banking & Lending,Finance,Company - Public,2000 - 5000 million ,1,6,3,39.0,0,0,0,0,0,1,data scientist,senior
+3.4,51 - 200 Employees,Investment & Asset Management,Finance,Company - Private,10000+ million ,4,9,6,26.0,1,0,0,1,0,0,data scientist,senior
 3.8,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,4,30,17,26.0,0,0,0,0,0,0,data scientist,na
 4.0,10000+ Employees,Information Technology Support Services,Finance,Company - Public,10000+ million ,4,30,17,26.0,1,0,0,1,0,1,data scientist,na
 3.9,201 - 500 Employees,Business consulting,Management and consulting,Company - Public,10000+ million ,20,26,23,26.0,1,0,0,0,0,0,data scientist,senior
 4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Public,10000+ million ,6,9,7,26.0,1,0,0,1,0,1,na,na
 4.0,1 - 50 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,4,7,5,26.0,1,1,0,0,0,1,na,na
+3.9,10000+ Employees,Electronics Manufacturing,Manufacturing,Company - Public,10000+ million ,7,8,7,134.0,0,0,0,0,0,0,na,na
 4.1,1001 - 5000 Employees,Business consulting,Management and consulting,Company - Private,100 - 500 million ,7,10,8,24.0,1,0,0,0,0,1,data scientist,na
 3.7,5001 - 10000 Employees,Information Technology Support Services,Information Technology,Company - Private,100 - 500 million ,4,9,6,17.0,1,1,0,0,0,1,na,na
 4.7,10000+ Employees,Enterprise Software & Network Solutions,Finance,Company - Public,10000+ million ,4,30,17,96.0,0,0,0,0,0,0,data scientist,na
@@ -587,6 +615,7 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 3.7,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,2000 - 5000 million ,4,30,17,66.0,0,0,0,0,0,0,data scientist,na
 3.7,10000+ Employees,Internet & Web Services,Information Technology,Company - Public,10000+ million ,5,10,7,30.0,1,0,1,0,0,1,data scientist,na
 4.2,501 - 1000 Employees,Banking & Lending,Finance,Company - Private,2000 - 5000 million ,10,10,10,13.0,0,0,0,0,0,0,data scientist,senior
+4.0,1001 - 5000 Employees,Advertising & Public Relations,Media and communication,Subsidiary or Business Segment,100 - 500 million ,6,9,7,52.0,0,0,0,1,0,0,data scientist,senior
 4.0,5001 - 10000 Employees,Information Technology Support Services,Information Technology,Company - Public,2000 - 5000 million ,5,8,6,52.0,0,0,0,0,0,0,na,na
 4.5,51 - 200 Employees,Business consulting,Manufacturing,Company - Private,2000 - 5000 million ,7,15,11,52.0,0,0,0,0,0,0,data scientist,na
 4.5,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,2000 - 5000 million ,7,15,11,52.0,0,0,0,0,0,0,data scientist,na
@@ -607,11 +636,13 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.0,51 - 200 Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Private,1 - 5 million ,5,5,5,8.0,0,0,0,0,0,0,analyst,senior
 3.9,1 - 50 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,5 - 25 million ,4,7,5,8.0,1,0,0,1,0,0,na,na
 3.9,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Public,2000 - 5000 million ,4,30,17,8.0,0,0,0,0,1,0,data scientist,na
+3.2,5001 - 10000 Employees,Health Care Products Manufacturing,Manufacturing,Subsidiary or Business Segment,2000 - 5000 million ,4,10,7,84.0,0,0,0,0,0,0,data scientist,na
 3.8,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,25 - 50 million ,5,9,7,12.0,0,0,0,0,0,0,data scientist,na
 3.8,5001 - 10000 Employees,Information Technology Support Services,Information Technology,Company - Public,2000 - 5000 million ,2,5,3,183.0,0,0,0,0,0,0,analyst,senior
 4.0,1 - 50 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,2000 - 5000 million ,4,7,5,183.0,0,0,0,0,0,0,data scientist,na
 2.4,201 - 500 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,2000 - 5000 million ,9,9,9,183.0,0,0,0,0,0,0,mle,na
 3.9,10000+ Employees,Banking & Lending,Finance,Company - Public,100 - 500 million ,1,8,4,55.0,0,0,0,0,0,0,na,na
+3.9,1001 - 5000 Employees,Research and development,Management and consulting,Company - Public,5000 - 10000 million ,7,10,8,37.0,0,0,0,1,1,0,na,senior
 4.0,51 - 200 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,2000 - 5000 million ,3,7,5,37.0,0,0,0,0,0,0,mle,na
 4.1,10000+ Employees,Business consulting,Management and consulting,Company - Private,2000 - 5000 million ,4,9,6,174.0,0,0,0,0,0,0,data scientist,senior
 4.1,201 - 500 Employees,Business consulting,Management and consulting,Company - Private,2000 - 5000 million ,8,8,8,9.0,0,0,0,0,0,0,data scientist,senior
@@ -651,12 +682,15 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.8,1 - 50 Employees,Information Technology Support Services,Information Technology,Private Practice / Firm,2000 - 5000 million ,3,9,6,8.0,0,0,0,0,0,0,data scientist,senior
 4.0,201 - 500 Employees,Software Development,Information Technology,Company - Private,2000 - 5000 million ,1,3,2,12.0,0,0,0,0,0,0,data scientist,senior
 4.0,51 - 200 Employees,Software Development,Information Technology,Company - Private,1 - 5 million ,4,8,6,6.0,1,0,0,0,0,0,data scientist,senior
+4.2,5001 - 10000 Employees,Health Care Products Manufacturing,Manufacturing,Company - Public,10000+ million ,6,8,7,132.0,0,0,0,0,0,0,na,senior
 4.4,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,2000 - 5000 million ,2,5,3,16.0,0,0,0,0,0,0,data scientist,senior
 4.2,1001 - 5000 Employees,Internet & Web Services,Information Technology,Company - Private,2000 - 5000 million ,6,10,8,16.0,0,0,0,0,0,0,data scientist,senior
 4.0,1 - 50 Employees,Business consulting,Information Technology,Company - Private,2000 - 5000 million ,3,8,5,16.0,0,0,0,0,0,0,data scientist,senior
+4.1,10000+ Employees,Health Care Products Manufacturing,Manufacturing,Company - Public,10000+ million ,3,5,4,83.0,0,0,0,0,0,0,director,na
 4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,2000 - 5000 million ,4,8,6,12.0,0,0,0,0,0,0,data scientist,senior
 4.3,501 - 1000 Employees,Information Technology Support Services,Information Technology,Company - Private,2000 - 5000 million ,3,6,4,14.0,0,0,0,0,0,0,mle,na
 4.0,1001 - 5000 Employees,Information Technology Support Services,Finance,Company - Public,2000 - 5000 million ,3,3,3,14.0,1,0,0,0,0,0,mle,na
+4.3,10000+ Employees,Investment & Asset Management,Finance,Company - Private,10000+ million ,10,10,10,78.0,0,0,0,1,0,0,data scientist,senior
 4.0,201 - 500 Employees,Information Technology Support Services,Finance,Company - Public,2000 - 5000 million ,4,30,17,78.0,0,0,0,0,0,0,na,na
 4.3,10000+ Employees,Business consulting,Finance,Company - Public,2000 - 5000 million ,4,30,17,78.0,0,0,0,0,0,0,na,na
 3.6,5001 - 10000 Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Public,2000 - 5000 million ,4,6,5,70.0,0,0,0,0,0,0,data scientist,senior
@@ -734,11 +768,15 @@ Rating,Size,Industry,Sector,Ownership,Revenue,min_salary,max_salary,avg_salary,a
 4.5,201 - 500 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,100 - 500 million ,10,15,12,10.0,0,0,0,1,0,0,data scientist,na
 4.2,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,100 - 500 million ,2,2,2,5.0,0,0,0,0,0,0,data scientist,senior
 4.8,51 - 200 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,100 - 500 million ,5,8,6,5.0,0,0,0,0,0,0,na,na
+4.0,10000+ Employees,Investment & Asset Management,Finance,Company - Public,2000 - 5000 million ,3,7,5,46.0,0,0,0,0,0,0,mle,na
+3.9,10000+ Employees,Electronics Manufacturing,Manufacturing,Company - Public,10000+ million ,6,10,8,17.0,1,0,1,0,0,1,data scientist,na
+3.8,10000+ Employees,Investment & Asset Management,Finance,Company - Public,10000+ million ,4,5,4,212.0,0,0,0,0,0,0,na,na
 3.9,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,2000 - 5000 million ,3,10,6,27.0,0,0,0,0,0,0,data scientist,na
 3.8,10000+ Employees,Information Technology Support Services,Finance,Company - Public,100 - 500 million ,4,30,17,27.0,0,0,0,0,0,0,data engineer,na
 4.1,201 - 500 Employees,Business consulting,Management and consulting,Company - Public,100 - 500 million ,4,30,17,27.0,0,0,0,0,0,0,na,na
 4.9,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Public,100 - 500 million ,4,30,17,27.0,0,0,0,1,0,0,mle,na
 4.5,51 - 200 Employees,Business consulting,Manufacturing,Company - Private,100 - 500 million ,10,25,17,103.0,0,0,0,0,0,0,data scientist,senior
+3.8,1001 - 5000 Employees,Research and development,Management and consulting,Company - Private,100 - 500 million ,4,9,6,21.0,0,0,0,0,1,0,data scientist,senior
 4.0,1001 - 5000 Employees,Information Technology Support Services,Finance,Company - Public,100 - 500 million ,31,41,36,21.0,0,0,0,0,0,0,na,na
 4.0,1 - 50 Employees,Business consulting,Finance,Company - Private,100 - 500 million ,2,6,4,21.0,0,0,0,0,0,0,data scientist,na
 4.0,1 - 50 Employees,Business consulting,Finance,Company - Private,100 - 500 million ,1,6,3,21.0,1,0,0,0,0,0,mle,na
