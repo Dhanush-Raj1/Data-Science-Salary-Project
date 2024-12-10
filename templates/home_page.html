@@ -1,44 +1,213 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
     <head>
         <title>Data Science Salary Estimator</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/hp_style.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/hp_style.css')}}">
     </head>
-   
+
     <body>
-        <header>
-            <div class="header">
-                <div class="row">
-                    <nav class="navbar">
-                        <h1>Salary Estimator</h1>
-                        <ul>
-                            <li><a href="#">Github</a></li>
-                            <li><a href="#">Get in touch</a></li>
-                        
-                            <li>
-                                <a href="#">Menu</a>
-                                <ul class='dropdown'>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <section class="main">
-                    <div class="content">
-                        <h1>Predict Your Data Science Salary</h1>
-                        <p>Discover your earning potential in the data science field.</p>
-                        <p>Get a salary estimate based on your skills, experience, and company profile.</p>
-                        <a href="{{ url_for('predict') }}">Predict</a>
-                    </div>
-                </section>
+        <header class="header">
+            <div class="topbar">
+                <h1>Salary Estimator</h1>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project" target="_blank"><i class="fab fa-github"></i> Github</a></li>
+                        <li><a href="">Get in touch</a></li>
+                        <!--Dropdown menu-->
+                        <li>
+                            <a href="">Menu <i class="fa-solid fa-square-caret-down" style="color: rgb(131, 129, 129);"></i></a>  
+                            <ul class="dropdown">
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#about us">About us</a></li>
+                                <li><a href="#contact us">Contact us</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
             </div>
+
+            <main class="content">
+                <section class="intro">
+                    <h1>Predict Your Data Science Salary</h1>
+                    <p>Discover your earning potential in the data science field.</p>
+                    <p>Get a salary estimate based on your skills, experience, and company profile.</p>
+                </section>
+
+                <section class="p_button">
+                    <a href="{{ url_for('predict') }}">Predict</a>   
+                </section>
+
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /></defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
+                        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff"/>
+                    </g>
+                </svg>
+            </main>
         </header>
+        
+
 
         
+        <!--Extra information section-->
+        <section class="extra-info">
+            <div class="container">
+                <h1>2,000+</h1>
+                <p>Empowered over 2500 data scientist with accurate salary insights</p>
+            </div>
+
+            <div class="container">
+                <h1>50+</h1>
+                <p>Trusted by more than 50+ leading companies worldwide</p>
+            </div>
+
+            <div class="container">
+                <h1>8+</h1>
+                <p>Around a decade of expertise in data science solutions</p>
+            </div>
+        </section>
+
+
+
+
+        <!--Insights section-->
+        <section class="insights">
+
+            <!-- 1. Key Statistics -->
+            <h3><i class="fa-solid fa-arrow-trend-up" style="color: #000000;"></i>Industry Statistics</h3>    
+            <div class="container1">
+                <div class="stat-list-left">
+                    <div class="stat-item">
+                        <i class="fa-solid fa-hand-holding-dollar" style="color: #000000;"></i>
+                        <h4>$153,000</h4>
+                        <p>Average Base Salary</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fa-solid fa-seedling" style="color: #000000;"></i>
+                        <h4>89%</h4>
+                        <p>Companies Investing in AI/ML</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fa-solid fa-business-time" style="color: #000000;"></i>
+                        <h4>3-5 Years</h4>
+                        <p>Experience for Senior Roles</p>
+                    </div>
+                    <!--Image-->
+                    <div class="img-card-left" data-tilt>
+                        <script src="{{ url_for('static', filename='js/tilt.js')}}"></script>
+                        <!--script src=https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js></script-->
+                    </div>
+                </div>
+                    
+
+                <div class="stat-list-right">
+                    <div class="stat-item">
+                        <i class="fa-solid fa-house-laptop" style="color: #000000;"></i>
+                        <h4>Remote work</h4>
+                        <p>Remote work opportunities increased by 35% since 2023</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fa-solid fa-square-poll-vertical" style="color: #000000;"></i>
+                        <h4>Growth rate</h4>
+                        <p>45.6% projected industry growth rate through 2024-2029</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fa-solid fa-rocket" style="color: #000000;"></i>
+                        <h4>Rise in demand</h4>
+                        <p>By 2026 there will be a need for 11.5 million new data scientists</p>
+                    </div>
+                    <div class="img-card-right" data-tilt>
+                        <script src="{{ url_for('static', filename='js/tilt.js')}}"></script>
+                        <!--script src=https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js></script-->
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+            
+
+            <!-- 2. Essential Skills -->
+            <!--<div class="container2">
+                <h3><i class="fas fa-laptop-code"></i> Most In-Demand Skills</h3>
+                    <div class="skill-category">
+                        <h4>Technical Skills</h4>
+                        <ul>
+                            <li>Python & R Programming</li>
+                            <li>Machine Learning</li>
+                            <li>SQL & Database Management</li>
+                            <li>Cloud Computing (AWS/Azure)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Business Skills</h4>
+                        <ul>
+                            <li>Problem-Solving</li>
+                            <li>Data Visualization</li>
+                            <li>Business Intelligence</li>
+                            <li>Project Management</li>
+                        </ul>
+                    </div>
+            </div>
+        </section-->
+
+
+
+        <!--Services Section-->
+        <section id="services" class="section-container">
+            <h1>Our Services</h1>
+            <div class="service-grid">
+                <div class="service-item">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h3>Salary Prediction</h3>
+                    <p>Advanced machine learning models to predict data science salaries accurately. We leverage comprehensive datasets, industry benchmarks, and cutting-edge algorithms to provide precise salary estimates tailored to your specific skills, experience, and job market conditions.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3>Career Insights</h3>
+                    <p>Detailed industry insights and trend analysis for data science professionals. Our platform offers in-depth research on emerging technologies, skill requirements, and career progression paths. Get personalized recommendations to boost your professional growth and stay ahead in the competitive data science landscape.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h3>Job Market Analysis</h3>
+                    <p>Comprehensive reports on data science job market trends and opportunities. We analyze hiring patterns, emerging roles, and industry demand across different sectors. Our insights help professionals and organizations make informed decisions about career development, recruitment, and talent strategy.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--About us Section-->
+        <section id="about us" class="section-container">
+            <div class="about-us">
+                <h1>About Us</h2>
+                <div class="about-content">
+                    <p>Founded in 2016, our Data Science Salary Estimator emerged from a critical need in the tech industry: providing transparent, data-driven insights into career opportunities and compensation. We are a dedicated team of data scientists, machine learning engineers, and career research specialists committed to bridging the information gap in the rapidly evolving data science landscape.</p>
+                    
+                    <p>Our platform leverages advanced machine learning algorithms and extensive industry research to deliver precise salary predictions and career insights. By analyzing over 50,000 data points from leading tech companies, we provide unparalleled accuracy in salary estimation and professional trend analysis.</p>
+                    
+                    <h4>Key achievements of our team include:</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-square-check" style="color: #3777dd;"></i>   Developed predictive models used by 100+ tech companies</li>
+                            <li><i class="fa-solid fa-square-check" style="color: #3777dd;"></i>   Analyzed salary trends across 15 different tech hubs globally</li>
+                            <li><i class="fa-solid fa-square-check" style="color: #3777dd;"></i>   Helped over 3000 data professionals make informed career decisions</li>
+                            <li><i class="fa-solid fa-square-check" style="color: #3777dd;"></i>   Recognized as a top career insights platform by industry leaders</li>
+                        </ul>
+                    
+                    <p>Our mission is to empower data science professionals by providing them with actionable, reliable, and comprehensive career intelligence. We believe in transparency, continuous learning, and helping individuals navigate their professional journey with confidence.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Footer section-->
+        <footer id="contact us" class="footer">
+            <p>Contact: info@DSSalaryEstimator.com | 0123-4567</p>
+            <p>&copy; 2024 Data Science Salary Estimator. All rights reserved.</p>
+        </footer>
+    
     </body>
 </html>
