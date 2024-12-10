@@ -1,181 +1,619 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap');
 
+/* font awesome for icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+/*text fonts */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Funnel+Display:wght@300..800&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+Ahom&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika+Negative:wght@300..700&family=Signika:wght@300..700&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');    
+    
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    /*box-sizing: border-box;
+    font-family: "Roboto", sans-serif;*/
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
+.header{
     width: 100%;
-    min-height: 100%;
-}
- 
-body{
-    background-color: #fff;
-    color: #000000;
-    width: 100%;
-    min-height: 100vh;
-    position: relative;
-}
-
-.header { 
-    width: 100%;
-    height: 100vh;
-    align-items: ;
-    justify-content: ;
-    background-image: linear-gradient(rgba(99, 96, 96, 0.8), rgba(50, 50, 50, 0.8)), url('../images/img2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-position: center; 
-    position: absolute;
-    /*background-position-x: 50%;
-    background-position-y: center;
-    display: block;*/
+    height: 81vh;                              /* full viewport height */
+    background-image: linear-gradient(rgba(43, 39, 39, 0.8), rgba(50, 50, 50, 0.8)), url('../images/img1.jpg');
+    background-size: cover;                     /* Ensures the image covers the div */
+    background-position: center;                /* Centers the image */
+    background-repeat: no-repeat;               /* Prevents tiling */
     top: 0;
     left: 0;
 }
 
-.row {
-    width: 200%;
-    max-width: 1000px;
-    padding: 0px 20px;
-    position: relative;
-    z-index: 1;
-    margin-top: 19px;
-    margin-left: 280px;
+
+
+
+/* border box */
+.topbar{
+    display: flex;                      /* align <h1> and <nav> items horizontally, makes it a flex container (as a row) */
+    justify-content: space-between;     /* spreads the space between flex items (<h1> to left and <nav> to right end of the container)  */
+    padding: 12px 5px;                  /* size of the border box */
+    border-radius: 30px;                /* corners of the border box */
+    background-color: white;          /* white color background for border box */
+    max-width: 1100px;                  /* adjust the width of the border box */
+    /*margin-top: 22px;*/
+    position: relative;                 /* allows moving the border box downwards without affecting the background image */
+    top: 22px;                          /* moving the border box downwards */
+    margin-left: 220px;                  
+}
+
+.topbar h1{
+   margin-left: 15px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   font-family: "Josefin Sans", sans-serif;
+   font-size: 25px;
+   font-weight: bold;
+   transition: transform 0.2s ease-in-out;
+}
+
+.topbar h1:hover {
+    animation: shake 0.5s ease-in-out; /* Apply the shake animation when hovered */
+}
+
+@keyframes shake {
+    0% { transform: translateY(0); }        /* Initial position */
+    25% { transform: translateY(-5px); }     /* Move upwards */
+    50% { transform: translateY(5px); }      /* Move downwards */
+    75% { transform: translateY(-5px); }     /* Move upwards again */
+    100% { transform: translateY(0); }       /* Return to the original position */
+}
+
+/*.topbar h1:hover {
+    transform: translateY(-10px);   /* Move the text upwards */
+    /*font-size: ;                 /* Increase the font size */
+/*}*/
+
+
+
+
+
+
+/* navigation items */
+.navbar ul{
+    display: flex;                   /* moving the navigation items to the right side */
+    gap: 25px;                       /* space between navigation items */
+    margin-top: 5px;
+    list-style: none;
+    font-family: "Host Grotesk", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+/* Position the parent menu item */
+.navbar ul li {
+    position: relative;    /* This is important for dropdown positioning */   
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:rgb(131, 129, 129);
+}
+
+
+/* Hover effect of navigation items */
+.navbar ul li a:hover {
+    color: #000000;                /* Change text color on hover */
+}
+
+
+.navbar ul li ul.dropdown{
+    display: none;                  /* hiding the dropdown items */
+    position: absolute;             /* Position the dropdown items below the parent item */
+    background-color: #fff;       
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 0;                  /* Space between 'Menu' and the dropdown */
+    list-style: none;
+    min-width: 110px;               /* enough space for the dropdown items */
+    z-index: 100;                   /* Ensure it appears above other elements */
+    transform: translateX(-22%);    /* Adjust for perfect centering */
+    text-align: center;             /* aligning the dropdown items to center */
+}
+
+
+.navbar ul li:hover ul.dropdown {
+    display: block;               /* Show the dropdown menu when 'Menu' is hovered */
+    /*margin-top: 25px;*/
+    
+}
+
+
+.navbar ul li ul li a {
+    display: block;                /* Make each item a block element */
+    color: #333333;                /* Dark gray text color */
+    padding: 8px 15px;           
+    font-size: 16px;               /* Adjust font size for readability */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul li ul li:last-child a {
+    border-bottom: none;                   /* Remove border-bottom for the last dropdown item */
+}
+
+.navbar ul li ul li a:hover {
+    background-color: #f0f2f3;    
+    /*color: #ffffff;                /* Change text color on hover */
 }
 
 
 
 
-.navbar {
+
+/* content info */
+.content{
+    margin-top: 180px;
+    margin-left: 0px;
+    text-align: center; 
+}
+
+.intro h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.intro p{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: ;
+}
+
+.p_button{
+    position: relative;
+    padding: 21px;
+    border-radius: 5px;
+    background-color: rgb(101, 151, 232);
+    max-width: 185px;
+    min-height: 30px;
+    margin-left: 660px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    transition: 1s all ease-in-out;
+    overflow: hidden;                /*hides the ::before and ::after border in areas except .p_button*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.p_button .p_button-text a{
+    position: absolute;
+    z-index: 100;
+}*/
+ 
+.p_button a{
+    position: relative;
+    font-family: "Kanit", sans-serif;
+    font-size: 34px;
+    color: #000000;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.p_button::before,
+.p_button::after {
+    content: "";
+    position: absolute;
+    background: #ffffff;
+    width: 18rem;
+    height: 15.2rem;
+    border-radius: 40%;
+    top: -12rem;
+    left: -1.5rem;
+    transition: 2s all ease-in-out;
+    animation: wave 9s linear infinite;
+    z-index: 1;  /* Lower z-index than the text */
+}
+
+.p_button::after {
+    opacity: 80%;
+}
+
+@keyframes wave{
+    0%{rotate: 0deg;}
+    100%{rotate: 360deg;}
+}
+
+.p_button:hover::before,
+.p_button:hover::after {
+    top: -30rem;
+}
+
+
+
+
+
+/* Waves */
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    min-height: 100px;
+    max-height: 100px;
+    margin-top: 80px;
+}
+
+.parallax > use {
+    -webkit-animation: moveForever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+            animation: moveForever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax > use:nth-child(1) {
+    -webkit-animation-delay: -2s;
+            animation-delay: -2s;
+    -webkit-animation-duration: 7s;
+            animation-duration: 7s;
+}
+
+.parallax > use:nth-child(2) {
+    -webkit-animation-delay: -3s;
+            animation-delay: -3s;
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+}
+
+.parallax > use:nth-child(3) {
+    -webkit-animation-delay: -4s;
+            animation-delay: -4s;
+    -webkit-animation-duration: 13s;
+            animation-duration: 13s;
+}
+
+.parallax > use:nth-child(4) {
+    -webkit-animation-delay: -5s;
+            animation-delay: -5s;
+    -webkit-animation-duration: 20s;
+            animation-duration: 20s;
+}
+
+@-webkit-keyframes moveForever {
+    0% {
+        -webkit-transform: translate3d(-90px, 0, 0);
+                transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(85px, 0, 0);
+                transform: translate3d(85px, 0, 0);
+    }
+}
+
+@keyframes moveForever {
+    0% {
+        -webkit-transform: translate3d(-90px, 0, 0);
+                transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(85px, 0, 0);
+                transform: translate3d(85px, 0, 0);
+    }
+}
+
+
+
+
+/* Extra information section */
+.extra-info{
+    display: flex;                             /* Makes the section a flex container */
+    justify-content: space-between;            /* Distributes the columns with equal spacing */
+    align-items: center;                       /* Aligns the items vertically in the center */
+    border-radius: 10px;
+    background-color: #fdfdfd;  
+    max-width: 950px;
+    position: relative;
+    padding: 40px 20px;       
+    margin-top: -80px;
+    margin-left: 270px;
+    border: 1px solid #ccc; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.extra-info .container{
+    flex: 1;                          /* Ensures all columns take equal width */
+    text-align: center;               /* Centers text within each column */
+    padding: 20px;                    /* Adds some spacing between columns */
+    border-right: 1px solid #ccc;   /* line between the columns */
+}
+
+.extra-info .container:last-child {
+    border-right: none;              /* Remove the border for the last column */
+}
+
+.extra-info h1{
+    font-size: 50px;
+    font-family: 'Noto Serif Ahom', sans-serif;
+    color: #2d2a2a;
+}
+
+.extra-info p{
+    font-size: 20px;
+    font-family: ;
+    color: #666;           
+}
+
+
+
+
+
+/* Insights section*/
+.insights {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.insights h3{
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.insights h3 i{
+    margin-right: 20px;
+}
+
+
+/* container1 */
+.container1{
+    padding-top: 50px;
+}
+
+.container1 .stat-item{
+    padding: 20px;
+    border: 1px solid #a39f9f; /* Optional: to match the example */
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.stat-list-left i, .stat-list-right i{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.stat-list-left h4, .stat-list-right h4{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+
+.stat-list-left p, .stat-list-right p{
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+
+.stat-list-left{
+    margin-top: 40px;
+    width: 45%;
+}
+  
+.stat-list-right {
+    margin-top: 120px;
+    text-align: right;
+    width: 500px;
+    margin-left: 500px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+
+
+.stat-list-left .img-card-left{
+    background-image: url('../images/img2.jpg');  
+    background-size: cover;                       /* Makes image cover the container */
+    background-position: center;                  
+    width: 400px;                                
+    height: 400px;                               
+    /*filter: brightness(60%);*/ 
+    margin-left: 600px;
+    margin-top: -390px;
+}
+
+.stat-list-right .img-card-right{
+    background-image: url('../images/img3.jpg');  
+    background-size: cover;                       /* Makes image cover the container */
+    background-position: center;                 
+    width: 400px;                                
+    height: 400px;                               
+    position: absolute;
+    left: -500px;
+    top: -10px;
+}
+
+
+
+
+
+
+.section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section-container h1{
+    font-family: 'figtree', sans-serif;
+    font-size: 50px;
+    margin-top: -5px;
+}
+
+/* Services Section */
+#services {
+    background-color: #f4f4f4;
+}
+
+.service-grid {
     display: flex;
     justify-content: space-between;
-    align-items:center;
-    padding: 13px 5px;
-    position: relative;
-    z-index: ;
-    background-color: rgb(225, 225, 225);
+    margin-top: 40px;
+}
+
+.service-item {
+    flex: 1;
+    padding: 30px;
+    height: 340px;
+    margin: 0 10px;
+    background-color: white;
     border-radius: 10px;
-    max-width: 1000px;
-    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.navbar h1 {
-    float: left;
-    color: #010911;
-    font-size: 1.7em;
-    font-weight: bold;
-    margin-top: px;
-    margin-left: 25px;
-    font-size: 25px;
-    font-weight: bold;
+.service-item i {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #58b4df;
 }
 
-.navbar ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: px;
-    list-style: none;
+.service-item h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    margin-top: 3px;
+    font-weight:
 }
 
-.navbar ul li{
-    display: inline-block;
-    position: relative;
-}
-
-.navbar ul li a {
-    padding: 10px 6px;
-    border-radius: 5px;
-    font-family: sans-serif;
-    font-size: 16px;
-    color: #020c16;;
-    text-decoration: none;
-    margin-right: 15px;
-}
-
-.navbar ul li a:hover {
-    background-color: #59a8e4;
+.service-item p{
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-top: 20px;
+    text-align:inherit;
 }
 
 
 
-
-ul li ul.dropdown {
-    width: 100%;
-    background: ;
-    position: absolute;
-    z-index: 999;
-    display: none;
+/* About Us Section */
+.about-us h1{
+    font-family: 'figtree', sans-serif;
+    font-size: 50px;
+    margin-top: -5px;
+    padding-bottom: 10px; /* Adds spacing below the text */
+    border-bottom: 2px solid #5186db;
 }
 
-ul li ul.dropdown li{
-    display: block;
+.about-content {
+    margin: 0 auto;
+    margin-top: 15px;
     padding: 10px;
-    align-items: center;
-    margin-top: 5px;
-    justify-content: center;
+    text-align: left;
+    line-height: 1.6;
 }
 
-ul li ul.dropdown a:hover{
-    background-color: #cccaca;
+.about-content h4{
+    margin-top: 30px;
+    font-size: 19px;
+    font-family: 'Host Grotesk', sans-serif;
+    margin-bottom: 6px;
 }
 
-ul li:hover ul.dropdown{
-    display: list-item;
-    background: rgb(225, 225, 225);
+.about-content p{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
 }
 
+.about-content p:first-of-type {
+    margin-bottom: 20px;           /* space below first <p> tag */
+}
+
+.about-content h4 {
+    margin-bottom: 10px;           /* Space after <h4> */
+}
+
+.about-content p:last-of-type {
+    margin-top: 30px;
+    margin-left: -1px;             /* the <li> moves the last <p> to right side, therefore moving last <p> towards left */ 
+}
+
+.about-content ul li{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40px;
+    list-style: none;
+
+}
+
+.about-content ul li i:hover{
+    color: #ddd;
+}*/
+
+/*styling list points */
+/*.about-content ul li::marker{
+    color: #5186db;
+    transition: color 0.3s ease-in-out;
+    font-size: 1.3em;
+
+    font-family: 'Font Awesome 6 Free';
+    content: '\f14a';
+}
+
+.about-content ul li:hover::marker{
+    color: #ddd;
+}*/
 
 
+/* Contact Us Section */
+#contact-us {
+    background-color: #f9f9f9;
+}
 
-.content {
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
     width: 100%;
-    min-height: 650px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    z-index: 1;
-    margin-right: 0px;
-    padding-right: 0px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
-.content h1 {
-    font-size: 3.2em;
-    color: #ffffff;
-    font-weight: 700;
+.contact-form button {
+    background-color: #58b4df;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.content p {
-    padding: 3px 15px;
-    margin-top: 5px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #ffffff;
-}
-
-.content p + p {
-    margin-top: 0px; /* Adjust this value as needed to control spacing */
+.contact-form button:hover {
+    background-color: #4a9bc1;
 }
 
 
-.content a {
-    padding: 12px 30px;
-    font-size: 25px;
-    font-weight: 400;
-    text-decoration: none;
-    margin-top: 30px; 
-    display: inline-block;
-    letter-spacing: 2px;
-    background-color: #5da7ed;
-    border-radius: 4px;
-    color: #ffffff; /* Kept white for contrast */
+
+/*footer section*/
+footer{
+    margin-top: 100px;
+    text-align: center;
+    background-color: #314464;
+    min-height: 90px;
+}
+
+footer p{
+    font-size: 19px;
+    font-family: 'Kanit', sans-serif;
+    color: whitesmoke;
+}
+
+footer p:first-of-type{
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+}
+
+footer p:last-of-type{
+    margin-bottom: 20px;
 }
