@@ -19,7 +19,6 @@ def save_object(file_path, obj):
         with open(file_path, "wb") as file_obj:
             dill.dump(obj, file_obj)    
             
-            
     except Exception as e:
         raise Custom_Exception(e, sys)
     
@@ -30,7 +29,7 @@ def save_object(file_path, obj):
 def load_object(file_path):
     try:
         with open(file_path, "rb") as obj:
-            dill.load(obj)
+            return dill.load(obj)
             
     except Exception as e:
         raise Custom_Exception(e, sys)
@@ -47,7 +46,7 @@ def evaluate_models(X_train, X_test, y_train , y_test, models, params):
         for model_name, model in models.items():
             param = params[model_name]
             
-            gs = GridSearchCV(model, param, cv=6, scoring=r2_score)
+            gs = GridSearchCV(model, param, cv=3, scoring=r2_score)
             logging.info(f"Starting gridsearch for {model_name}")
             gs.fit(X_train, y_train)
             

@@ -14,56 +14,58 @@ class NewData:
     """
     
     def __init__(self, 
-                 Rating: int, 
-                 Size: str, 
                  Industry: str, 
                  Sector: str, 
+                 Size: str,
+                 Revenue: str,
                  Ownership: str, 
-                 Revenue: str, 
+                 Rating: int,
                  age: int, 
+                 Job_simp: str, 
+                 seniority: str,
                  python: int, 
                  spark: int, 
                  aws: int, 
                  excel: int, 
                  LLMs: int, 
-                 sql: int, 
-                 Job_simp: str, 
-                 seniority: str):
+                 sql: int ):
         
-        self.Rating = Rating
-        self.Size = Size
+        
         self.Industry = Industry
         self.Sector = Sector
+        self.Size = Size
+        self.Revenue = Revenue
         self.Ownership = Ownership
-        self.Revenue = Revenue 
+        self.Rating = Rating
         self.age = age
+        self.Job_simp = Job_simp 
+        self.seniority = seniority
         self.python = python 
         self.spark = spark
         self.aws = aws
         self.excel = excel 
         self.LLMs = LLMs
         self.sql = sql
-        self.Job_simp = Job_simp 
-        self.seniority = seniority 
+         
         
-    
+     
     def get_data_as_dataframe(self):
         try:
-            new_data_input = {"Rating": [self.Rating], 
-                              "Size": [self.Rating], 
-                              "Industry": [self.Industry], 
+            new_data_input = { "Industry": [self.Industry], 
                               "Sector": [self.Sector], 
-                              "Ownership": [self.Ownership],
+                              "Size": [self.Size],
                               "Revenue": [self.Revenue],
+                              "Ownership": [self.Ownership],
+                              "Rating": [self.Rating],
                               "age": [self.age], 
+                              "Job_simp": [self.Job_simp], 
+                              "seniority": [self.seniority],
                               "python": [self.python],
                               "spark": [self.spark],
                               "aws": [self.aws],
                               "excel": [self.excel],
                               "LLMs": [self.LLMs],
-                              "sql": [self.sql],
-                              "Job_simp": [self.Job_simp],
-                              "seniorty": [self.seniority]  }
+                              "sql": [self.sql]  }
             
             logging.info("Converting the data as a DataFrame.")
             return pd.DataFrame(new_data_input)

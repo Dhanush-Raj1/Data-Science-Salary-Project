@@ -32,21 +32,22 @@ class ModelTrainer:
     def __init__(self):
         self.model_trainer_config = ModelTrainerConfig()
         
-    def initiate_model_trainer(self, train_array, test_array):
+    #def initiate_model_trainer(self, train_array, test_array):
+    def initiate_model_trainer(self, X_train, X_test, y_train, y_test):
         try:
             logging.info("Model training has been started.")
             
-            X_train, X_test, y_train, y_test = (train_array[:, :-1], test_array[:, :-1],
-                                                train_array[:, -1], test_array[:, -1])
+            #X_train, X_test, y_train, y_test = (train_array[:, :-1], test_array[:, :-1],
+                                                #train_array[:, -1], test_array[:, -1])
 
-            logging.info("Train, test split has been completed.")
+            #logging.info("Train, test split has been completed.")
             
             models = { "Linear regression": LinearRegression(), 
                        "Knn regressor": KNeighborsRegressor(), 
                        "Decision tree regressor": DecisionTreeRegressor(), 
                        "Random Forest regressor": RandomForestRegressor(), 
                        "Adaboost regressor": AdaBoostRegressor(), 
-                       "Gradientboost regressor": GradientBoostingRegressor(),
+                       "Gradientboost regressor": GradientBoostingRegressor(), 
                        "Xgboost regressor": XGBRegressor(), 
                        "Support vector regressor": SVR(),
                        "Catboost regressor": CatBoostRegressor()   }

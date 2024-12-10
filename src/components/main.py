@@ -16,8 +16,10 @@ from src.components.model_trainer import ModelTrainer
 
 
 data_transformation = DataTransformation()
-train_arr, test_arr = data_transformation.initiate_data_transformation()
+X_train, X_test, y_train, y_test = data_transformation.initiate_data_transformation()
+#train_arr, test_arr = data_transformation.initiate_data_transformation()
 
 
 model_trainer = ModelTrainer()
-model_trainer.initiate_model_trainer(train_arr, test_arr)
+model_trainer.initiate_model_trainer(X_train, X_test, y_train, y_test)
+#model_trainer.initiate_model_trainer(train_arr , test_arr)
