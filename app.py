@@ -17,24 +17,24 @@ def home():
 def predict():
     if request.method == 'GET':
         return render_template('predict_page.html')
-    
+     
     else:
         logging.info("POST request has been made.")
-        data = NewData(Industry = request.form.get("Industry of the company"), 
-                       Sector = request.form.get("Sector of the company"), 
-                       Size = request.form.get("Size of the company"),
-                       Revenue = request.form.get("Revenue of the company"),
-                       Ownership = request.form.get("Ownership of the company"),
-                       Rating = request.form.get("Rating of the company"),  
-                       age = request.form.get("Age of the company"),
-                       python = request.form.get("python"),
-                       spark = request.form.get("spark"),
-                       aws = request.form.get("aws"),
-                       excel = request.form.get("excel"),
-                       LLMs = request.form.get("LLMs"),
-                       sql = request.form.get("sql"),
+        data = NewData(Industry = request.form.get("Industry"), 
+                       Sector = request.form.get("Sector"), 
+                       Size = request.form.get("Size"),
+                       Revenue = request.form.get("Revenue"),
+                       Ownership = request.form.get("Ownership"),
+                       Rating = int(request.form.get("Rating")),  
+                       age = int(request.form.get("age")),
+                       python = int(request.form.get("python")),
+                       spark = int(request.form.get("spark")),
+                       aws = int(request.form.get("aws")),
+                       excel = int(request.form.get("excel")),
+                       LLMs = int(request.form.get("LLMs")),
+                       sql = int(request.form.get("sql")),
                        Job_simp = request.form.get("Job_simp"),
-                       seniority = request.form.get("seniority") )
+                       seniority = request.form.get("seniority") ) 
         
         df = data.get_data_as_dataframe()
         logging.info("Data has been converted into a dataframe.")
@@ -43,9 +43,10 @@ def predict():
         
         Prediction = Predict()
         result = Prediction.predict_data(df)
+        logging.info("Prediction Result: {result}")
         print(f"Predition result {result}")
         
-        result_text =  "The salary for the given role is :"
+        result_text =  "Your estimated salary is:"
         
         
         return render_template('predict_page.html', result = result[0], result_text = result_text)
