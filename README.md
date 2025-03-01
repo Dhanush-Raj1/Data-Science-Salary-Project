@@ -146,8 +146,11 @@ The app will be available at: **http://127.0.0.1:5000/**
 ### 🔵 Predict Page
 <img src="readme_images/predict_page.PNG" width="1000" height="500">
 
+<br>
+
 ### Result 
-<img src="readme_images/result.PNG" width="1000" height="300">
+<img src="readme_images/result.PNG" width="800" height="200">
+
 <br>
 
 # 🎯 Future Enhancements
