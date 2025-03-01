@@ -149,7 +149,7 @@ The app will be available at: **http://127.0.0.1:5000/**
 <br>
 
 ### Result 
-<img src="readme_images/result.PNG" width="800" height="200">
+<img src="readme_images/result.PNG" width="800" height="300">
 
 <br>
 
