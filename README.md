@@ -1,6 +1,15 @@
 <h1 align="center"> Data Science Salary Estimator </h1>
 <h3 algin="center"> End to End Data Science Project: "Predicting Salary of a Data Scientist in India" </h3>
-
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=black&labelColor=white&color=red" />
+  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=black&labelColor=white&color=darkblue" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=black&labelColor=white&color=teal" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=black&labelColor=white&color=brightgreen" />
+  <img src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=CSS&logoColor=black&labelColor=white&color=fuchsia" />
+  <img src="https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=black&labelColor=white&color=cyan" />
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=black&labelColor=white&color=blue" />
+  <img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=black&labelColor=white&color=yellow" />
+</p>
 
 ## 📌 Project Overview
    - Developed a robust model to predict the salary of Data Scientists in India.
@@ -137,6 +146,8 @@ The app will be available at: **http://127.0.0.1:5000/**
 ### 🔵 Predict Page
 <img src="readme_images/predict_page.PNG" width="1000" height="500">
 
+### Result 
+<img src="readme_images/result.PNG" width="1000" height="300">
 <br>
 
 # 🎯 Future Enhancements
