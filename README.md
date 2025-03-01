@@ -1,5 +1,5 @@
 <h1 align="center"> Data Science Salary Estimator </h1>
-<h3 algin="center"> End to End Data Science Project: "Predicting Salary of a Data Scientist in India" </h3>
+<h3 align="center"> End to End Data Science Project: "Predicting Salary of a Data Scientist in India" </h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=black&labelColor=white&color=red" />
   <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=black&labelColor=white&color=darkblue" />
@@ -153,13 +153,13 @@ The app will be available at: **http://127.0.0.1:5000/**
 
 <br>
 
-# 🎯 Future Enhancements
-✅ Add more job platforms like LinkedIn and Indeed for better data
-✅ Include real-time salary updates based on market trends and inflation
-✅ Implement automated Retraining Pipeline  
-✅ Add company benefits and work culture factors to prediction model    
-✅ Develop a more user-friendly web interface with visualizations 
-✅ Automate data scraping to keep the model updated with fresh job listings.
+# 🎯 Future Enhancements  
+✅ Add more job platforms like LinkedIn and Indeed for better data  
+✅ Include real-time salary updates based on market trends and inflation  
+✅ Implement automated Retraining Pipeline    
+✅ Add company benefits and work culture factors to prediction model      
+✅ Develop a more user-friendly web interface with visualizations   
+✅ Automate data scraping to keep the model updated with fresh job listings.  
 
 <br>
 
