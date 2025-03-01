@@ -15,7 +15,7 @@ def home():
 # route for predict page
 @app.route('/predictdata', methods=['GET', 'POST'])
 def predict():
-    if request.method == 'GET':
+    if request.method == 'GET': 
         return render_template('predict_page.html')
      
     else:
