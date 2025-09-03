@@ -1,3 +1,0 @@
-# didn't deploy on heroku as credit card is required.
-
-web: gunicorn app:app 

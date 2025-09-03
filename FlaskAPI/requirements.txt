@@ -1,7 +1,0 @@
-pandas == 2.0.3
-numpy == 1.24.4
-scikit-learn == 1.3.2 
-Flask == 2.2.5 
-requests == 2.31.0
-pickle
-gunicorn == 22.0.0
