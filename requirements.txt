@@ -16,4 +16,4 @@ gunicorn
 wordcloud
 nltk
 
-#-e .
+-e .

@@ -9,7 +9,8 @@ def get_requirements(file_path:str)->List[str]:              # return type hint 
     requirements = []
     with open(file_path) as file_obj:
         requirements = file_obj.readlines()
-        requirements = [req.replace("/n", "") for req in requirements]
+        #requirements = [req.replace("\n", "") for req in requirements]
+        requirements = [req.strip() for req in requirements]
         
         if var in requirements:
             requirements.remove(var)
