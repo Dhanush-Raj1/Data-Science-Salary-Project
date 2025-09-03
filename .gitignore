@@ -162,8 +162,8 @@ cython_debug/
 #.idea/
 
 
-# My readme file
+# My files
 My-readme.md
-
-# Rough folder 
 Rough/
+.vscode/
+catboost_info/
