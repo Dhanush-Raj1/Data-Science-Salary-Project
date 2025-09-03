@@ -21,14 +21,13 @@ from catboost import CatBoostRegressor
 
 
 
-
 @dataclass 
 class ModelTrainerConfig:
     model_path = os.path.join('artifacts', 'model.pkl')
     
     
 class ModelTrainer:
-    
+     
     def __init__(self):
         self.model_trainer_config = ModelTrainerConfig()
         
