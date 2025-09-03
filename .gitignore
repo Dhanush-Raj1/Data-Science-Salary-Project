@@ -164,6 +164,6 @@ cython_debug/
 
 # My files
 My-readme.md
-Rough/
+rough/
 .vscode/
 catboost_info/
