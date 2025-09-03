@@ -1,650 +1,609 @@
-Rating,Size,Industry,Sector,Ownership,Revenue,avg_salary,age,python,spark,aws,excel,LLMs,sql,Job_simp,seniority
-4.2,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,17,6.0,0,0,0,0,0,0,data scientist,senior
-4.0,51 - 200 Employees,Research and development,Management and consulting,Company - Private,10000+ million ,4,19.0,1,0,0,1,0,1,data scientist,na
-4.8,10000+ Employees,Business consulting,Information Technology,Company - Private,10000+ million ,17,11.0,0,0,0,0,0,0,mle,na
-3.9,5001 - 10000 Employees,Transportation Equipment Manufacturing,Manufacturing,Company - Private,2000 - 5000 million ,7,46.0,0,0,0,0,0,0,data scientist,na
-4.0,51 - 200 Employees,Business consulting,Management and consulting,Company - Private,25 - 50 million ,4,24.0,0,0,0,1,0,0,na,na
-3.6,5001 - 10000 Employees,Advertising & Public Relations,Media and communication,Company - Public,10000+ million ,5,121.0,0,0,0,0,0,0,data scientist,na
-3.7,10000+ Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,17,21.0,0,0,0,0,0,0,data scientist,na
-3.2,10000+ Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Public,10000+ million ,17,7.0,0,0,0,0,0,0,mle,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Public,10000+ million ,17,334.0,1,1,1,1,0,0,na,senior
-4.1,51 - 200 Employees,HR Consulting,Human resources and staffing,Private Practice / Firm,2000 - 5000 million ,5,26.0,0,0,0,0,0,0,director,na
-4.0,10000+ Employees,Business consulting,Manufacturing,Company - Public,10000+ million ,17,12.0,0,0,0,0,0,0,data scientist,na
-3.9,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,17,10.0,0,0,0,0,0,0,data scientist,senior
-4.0,1001 - 5000 Employees,Business consulting,Manufacturing,Company - Private,10000+ million ,7,27.0,0,0,0,0,0,1,data scientist,na
-4.2,10000+ Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,17,10.0,0,0,0,1,0,0,data scientist,senior
-3.6,1001 - 5000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,25 - 50 million ,3,27.0,0,0,0,0,0,0,mle,na
-4.4,1001 - 5000 Employees,Internet & Web Services,Information Technology,Subsidiary or Business Segment,10000+ million ,3,19.0,0,0,0,0,0,1,analyst,na
-4.1,201 - 500 Employees,Business consulting,Management and consulting,Company - Public,2000 - 5000 million ,17,28.0,0,0,0,0,0,0,na,senior
-4.1,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,17,39.0,0,0,0,0,0,0,data scientist,na
-4.6,10000+ Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,17,30.0,1,1,0,1,0,1,data scientist,senior
-3.7,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,2000 - 5000 million ,17,66.0,0,0,0,0,0,0,data scientist,na
-3.7,10000+ Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Public,2000 - 5000 million ,2,34.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Finance,Company - Public,100 - 500 million ,36,21.0,0,0,0,0,0,0,na,na
-3.6,1 - 50 Employees,Information Technology Support Services,Finance,Company - Private,2000 - 5000 million ,10,174.0,0,0,0,0,0,0,data scientist,na
-3.9,201 - 500 Employees,Business consulting,Management and consulting,Company - Public,100 - 500 million ,17,12.0,0,0,0,0,0,0,manager,na
-4.1,10000+ Employees,Machinery Manufacturing,Manufacturing,Company - Public,10000+ million ,8,135.0,0,0,0,0,0,0,data scientist,na
-3.4,201 - 500 Employees,Software Development,Information Technology,Company - Private,10000+ million ,7,9.0,0,0,0,0,0,0,director,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,21,39.0,0,0,0,0,0,0,data scientist,na
-4.2,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,25 - 50 million ,7,25.0,0,0,0,0,0,0,data scientist,na
-4.0,501 - 1000 Employees,Investment & Asset Management,Finance,Company - Private,100 - 500 million ,6,14.0,0,0,0,0,0,0,data scientist,na
-3.5,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,17,10.0,0,0,0,0,0,0,data scientist,na
-4.0,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,17,188.0,0,0,0,0,0,0,data scientist,senior
-4.5,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,6,19.0,0,0,0,0,0,0,data scientist,na
-4.7,10000+ Employees,Enterprise Software & Network Solutions,Finance,Company - Public,10000+ million ,17,96.0,0,0,0,0,0,0,data scientist,na
-4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Public,10000+ million ,7,26.0,1,0,0,1,0,1,na,na
-4.2,10000+ Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Public,10000+ million ,6,128.0,0,0,0,0,0,0,data scientist,senior
-4.0,1 - 50 Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,5,5.0,0,0,0,0,0,0,data scientist,na
-3.8,10000+ Employees,Internet & Web Services,Information Technology,Company - Public,10000+ million ,6,26.0,0,0,0,0,0,0,mle,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,6,21.0,1,0,1,0,0,0,data scientist,na
-4.3,10000+ Employees,Business consulting,Manufacturing,Company - Private,10000+ million ,17,17.0,0,1,0,0,0,0,data scientist,na
-4.1,10000+ Employees,Business consulting,Management and consulting,Company - Public,2000 - 5000 million ,9,45.0,0,0,0,0,0,0,data scientist,na
-4.0,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,5 - 25 million ,16,17.0,0,0,1,0,0,1,mle,senior
-4.0,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,17,84.0,0,0,0,0,0,0,data scientist,senior
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,6,47.0,1,0,0,0,1,0,na,na
-4.3,10000+ Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Public,10000+ million ,5,101.0,0,0,0,0,0,0,data scientist,na
-3.0,51 - 200 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,4,15.0,0,0,0,0,0,0,data scientist,na
-4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,5,49.0,0,0,1,0,0,0,na,na
-3.7,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,17,43.0,1,1,0,0,0,1,data scientist,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,17,10.0,0,0,0,0,0,0,data scientist,na
-3.4,10000+ Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,17,15.0,0,0,0,0,0,0,na,na
-3.5,1001 - 5000 Employees,Internet & Web Services,Information Technology,Company - Public,5000 - 10000 million ,6,11.0,0,0,0,0,0,0,data scientist,senior
-4.6,51 - 200 Employees,Information Technology Support Services,Management and consulting,Company - Public,10000+ million ,6,154.0,0,0,0,0,0,0,na,na
-4.8,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,7,7.0,0,0,0,0,0,0,data scientist,na
-3.5,10000+ Employees,Business consulting,Finance,Company - Public,100 - 500 million ,17,28.0,0,0,0,0,0,0,data scientist,senior
-4.0,201 - 500 Employees,Information Technology Support Services,Manufacturing,Company - Public,10000+ million ,4,43.0,0,0,0,0,0,0,data scientist,na
-3.8,10000+ Employees,Internet & Web Services,Information Technology,Company - Public,10000+ million ,6,26.0,0,0,0,0,0,0,data scientist,na
-4.1,201 - 500 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,8,9.0,0,0,0,0,0,0,data scientist,na
-4.0,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,5 - 25 million ,10,17.0,1,0,1,0,0,0,mle,na
-3.5,1001 - 5000 Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Private,10000+ million ,4,3.0,0,0,0,0,0,0,data scientist,na
-4.0,201 - 500 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,7,5.0,1,0,0,0,0,1,data scientist,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,10,6.0,0,0,0,0,0,0,mle,senior
-4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Finance,Company - Public,10000+ million ,11,5.0,0,0,0,0,0,0,na,na
-3.7,10000+ Employees,Business consulting,Information Technology,Company - Public,10000+ million ,17,36.0,1,0,0,1,0,0,na,na
-4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,2000 - 5000 million ,8,42.0,1,1,0,0,0,1,data scientist,senior
-4.0,1001 - 5000 Employees,Business consulting,Finance,Company - Private,10000+ million ,22,43.0,1,0,0,0,0,0,na,na
-4.0,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,5 - 25 million ,7,8.0,0,0,0,0,0,0,data scientist,na
-3.2,501 - 1000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,100 - 500 million ,9,24.0,0,0,0,0,0,0,data scientist,na
-3.4,10000+ Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,17,43.0,0,0,0,1,0,0,data scientist,senior
-3.6,1 - 50 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,4,154.0,0,0,0,0,0,0,data scientist,na
-4.0,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,17,26.0,1,0,0,1,0,0,data scientist,na
-3.8,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,17,26.0,0,0,0,0,0,0,data scientist,na
-4.5,10000+ Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,17,7.0,0,0,0,0,0,0,na,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,13,225.0,1,1,0,0,0,0,mle,na
-3.7,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,10,46.0,0,0,0,0,0,0,data scientist,na
-3.4,10000+ Employees,Business consulting,Management and consulting,Company - Public,100 - 500 million ,5,24.0,1,0,0,0,0,1,data scientist,na
-4.0,201 - 500 Employees,Information Technology Support Services,Finance,Company - Public,10000+ million ,17,26.0,0,0,0,0,0,0,data scientist,senior
-4.4,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,17,26.0,1,0,0,0,0,0,data scientist,na
-4.0,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,6,21.0,1,0,0,0,0,0,data scientist,na
-3.8,10000+ Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Public,5000 - 10000 million ,7,79.0,1,0,1,0,0,0,data scientist,na
-3.9,10000+ Employees,Transportation Equipment Manufacturing,Manufacturing,Subsidiary or Business Segment,5000 - 10000 million ,5,56.0,0,0,0,0,0,0,data scientist,senior
-3.3,501 - 1000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,100 - 500 million ,6,24.0,0,0,0,0,0,0,data scientist,na
-4.4,201 - 500 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Public,100 - 500 million ,17,12.0,1,0,0,0,0,0,data scientist,na
-4.0,201 - 500 Employees,Software Development,Information Technology,Company - Public,5 - 25 million ,2,12.0,0,0,0,0,0,0,na,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,13,43.0,1,0,0,0,0,1,data scientist,na
-4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,2000 - 5000 million ,3,42.0,1,1,0,1,0,1,na,na
-4.0,1001 - 5000 Employees,Business consulting,Manufacturing,Company - Private,10000+ million ,15,5.0,0,0,0,0,0,0,na,na
-4.1,1 - 50 Employees,Business consulting,Information Technology,Company - Private,2000 - 5000 million ,5,26.0,0,0,0,0,0,0,data scientist,senior
-3.8,10000+ Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Public,100 - 500 million ,17,9.0,0,1,0,0,0,0,na,na
-4.0,5001 - 10000 Employees,Advertising & Public Relations,Media and communication,Subsidiary or Business Segment,2000 - 5000 million ,8,55.0,0,0,0,0,0,0,manager,na
-4.0,1001 - 5000 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,12,101.0,0,0,0,0,0,0,data scientist,na
-4.1,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,6,25.0,0,0,0,0,0,0,data scientist,senior
-4.3,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,17,48.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Finance,Company - Public,2000 - 5000 million ,6,5.0,1,0,0,1,0,0,na,na
-4.0,1001 - 5000 Employees,Business consulting,Information Technology,Company - Private,10000+ million ,6,39.0,0,0,0,0,0,0,data scientist,na
-4.0,1 - 50 Employees,Information Technology Support Services,Finance,Company - Private,2000 - 5000 million ,4,4.0,0,0,0,0,0,0,na,na
-3.7,1001 - 5000 Employees,Advertising & Public Relations,Media and communication,Company - Public,100 - 500 million ,7,17.0,0,0,0,0,0,0,mle,na
-3.4,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,5000 - 10000 million ,6,101.0,0,0,0,0,0,0,data scientist,senior
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,6,47.0,0,0,0,0,0,0,na,na
-3.9,10000+ Employees,Transportation Equipment Manufacturing,Manufacturing,Company - Public,10000+ million ,6,109.0,0,0,0,0,0,0,analyst,na
-3.7,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,5,43.0,1,0,0,1,1,1,data scientist,na
-3.8,10000+ Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,17,6.0,0,0,0,0,0,0,na,na
-3.7,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,17,10.0,0,0,0,0,0,0,data scientist,na
-3.8,10000+ Employees,Transportation Equipment Manufacturing,Manufacturing,Company - Public,10000+ million ,4,17.0,1,0,1,0,0,0,data scientist,na
-4.0,1 - 50 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,100 - 500 million ,5,41.0,0,0,0,0,0,0,na,na
-4.0,1001 - 5000 Employees,Business consulting,Finance,Company - Private,10000+ million ,17,5.0,1,0,0,0,0,1,data scientist,na
-3.9,201 - 500 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,17,6.0,0,0,0,0,0,0,na,na
-4.1,201 - 500 Employees,Business consulting,Finance,Company - Public,100 - 500 million ,17,105.0,0,0,0,0,0,0,na,na
-4.4,1001 - 5000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,3,13.0,0,0,0,0,0,0,data scientist,na
-4.1,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,2000 - 5000 million ,8,31.0,0,0,0,1,0,0,data scientist,senior
-4.0,1001 - 5000 Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,6,49.0,0,0,0,0,0,0,data scientist,na
-4.1,1001 - 5000 Employees,Enterprise Software & Network Solutions,Information Technology,Subsidiary or Business Segment,2000 - 5000 million ,5,34.0,1,0,0,0,0,0,data scientist,senior
-4.0,10000+ Employees,Business consulting,Finance,Company - Private,10000+ million ,17,188.0,0,0,0,1,0,0,manager,na
-4.2,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,4,14.0,0,1,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Business consulting,Finance,Company - Private,10000+ million ,17,39.0,0,0,0,0,0,0,data scientist,na
-3.8,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,100 - 500 million ,17,24.0,1,1,0,1,0,1,na,na
-4.4,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,2000 - 5000 million ,17,45.0,0,0,0,0,0,0,mle,na
-4.0,1 - 50 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,4,24.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,15,45.0,0,0,0,0,0,0,data scientist,senior
-4.0,10000+ Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Public,2000 - 5000 million ,17,66.0,0,0,0,0,0,0,na,senior
-4.5,201 - 500 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,100 - 500 million ,12,10.0,0,0,0,1,0,0,data scientist,na
-4.3,51 - 200 Employees,Internet & Web Services,Information Technology,Company - Private,10000+ million ,5,6.0,0,0,0,0,0,0,data scientist,na
-4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,4,49.0,0,0,1,0,0,0,na,senior
-4.5,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,2000 - 5000 million ,9,8.0,0,0,0,0,0,0,mle,na
-2.6,10000+ Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,17,5.0,0,0,1,0,0,0,mle,na
-4.0,1001 - 5000 Employees,Software Development,Information Technology,Company - Private,10000+ million ,6,11.0,0,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,17,19.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Finance,Company - Public,10000+ million ,6,28.0,0,0,0,0,0,0,mle,na
-4.1,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,17,12.0,0,0,0,0,0,0,data scientist,senior
-4.7,51 - 200 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,5,49.0,0,0,0,0,0,0,data scientist,senior
-4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,4,84.0,0,0,0,0,0,0,analyst,na
-4.0,10000+ Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,17,8.0,0,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,2,225.0,0,0,0,0,0,0,mle,na
-4.0,1001 - 5000 Employees,Business consulting,Finance,Company - Public,10000+ million ,17,334.0,0,0,0,0,0,0,data scientist,na
-4.1,10000+ Employees,Business consulting,Management and consulting,Company - Public,2000 - 5000 million ,7,45.0,0,0,0,0,0,0,na,senior
-3.9,1001 - 5000 Employees,Research and development,Management and consulting,Company - Public,5000 - 10000 million ,8,37.0,0,0,0,0,0,0,data scientist,na
-3.8,10000+ Employees,Information Technology Support Services,Finance,Company - Public,100 - 500 million ,17,27.0,0,0,0,0,0,0,data engineer,na
-4.2,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,2,5.0,0,0,0,0,0,0,data scientist,na
-3.9,201 - 500 Employees,Transportation Equipment Manufacturing,Manufacturing,Company - Private,10000+ million ,10,6.0,0,0,0,0,0,0,data scientist,na
-3.8,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,6,47.0,0,1,0,0,0,0,data scientist,na
-4.1,501 - 1000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,25 - 50 million ,7,10.0,0,0,0,0,0,0,data scientist,senior
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,6,85.0,0,0,0,0,0,0,na,na
-4.2,10000+ Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Public,10000+ million ,17,225.0,0,0,0,0,0,0,data scientist,senior
-4.0,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,17,21.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,12,14.0,1,0,0,0,0,1,data scientist,na
-4.2,10000+ Employees,Information Technology Support Services,Finance,Company - Public,100 - 500 million ,17,41.0,0,1,0,0,0,0,data scientist,senior
-4.1,10000+ Employees,Machinery Manufacturing,Manufacturing,Company - Public,10000+ million ,9,135.0,0,0,0,0,1,0,data scientist,senior
-4.2,5001 - 10000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,1 - 5 million ,7,38.0,0,0,0,0,0,0,data scientist,na
-4.1,201 - 500 Employees,Business consulting,Information Technology,Company - Public,10000+ million ,17,25.0,0,0,0,0,0,0,data scientist,senior
-4.0,1 - 50 Employees,Information Technology Support Services,Finance,Company - Private,2000 - 5000 million ,5,19.0,0,0,0,0,0,0,data scientist,na
-4.6,1 - 50 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,32,10.0,0,0,0,0,1,0,data scientist,na
-4.1,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,10,6.0,1,0,0,0,0,1,data scientist,na
-4.2,51 - 200 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,17,10.0,0,0,0,0,0,0,data scientist,na
-3.7,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,5 - 25 million ,22,9.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Business consulting,Information Technology,Company - Private,10000+ million ,26,9.0,0,0,1,0,0,0,data scientist,na
-4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,5,49.0,0,0,1,0,0,0,na,na
-4.1,51 - 200 Employees,HR Consulting,Human resources and staffing,Private Practice / Firm,2000 - 5000 million ,2,26.0,0,0,0,0,0,0,data scientist,na
-4.1,1001 - 5000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,4,56.0,0,0,0,0,0,0,data scientist,senior
-4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,7,49.0,0,0,1,0,1,0,na,na
-4.1,1001 - 5000 Employees,Business consulting,Management and consulting,Company - Private,100 - 500 million ,8,24.0,1,0,0,0,0,1,data scientist,na
-4.6,51 - 200 Employees,HR Consulting,Human resources and staffing,Company - Private,10000+ million ,7,18.0,0,0,0,0,0,0,na,na
-3.6,5001 - 10000 Employees,Advertising & Public Relations,Media and communication,Company - Public,10000+ million ,6,12.0,0,0,0,0,0,0,na,na
-4.0,1 - 50 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,5,7.0,1,0,0,0,0,0,data scientist,na
-4.1,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,2000 - 5000 million ,17,66.0,0,0,0,0,0,0,data scientist,senior
-3.9,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,8,334.0,0,0,0,0,0,0,mle,na
-3.6,10000+ Employees,Investment & Asset Management,Finance,Company - Public,10000+ million ,8,240.0,0,0,0,1,0,0,data scientist,na
-4.3,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,8,8.0,0,0,0,0,0,0,data scientist,senior
-4.0,1 - 50 Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,5,49.0,1,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,25,15.0,1,0,0,0,0,0,data scientist,na
-4.0,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,2000 - 5000 million ,3,12.0,0,0,0,1,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,12,98.0,1,1,0,0,0,0,data scientist,senior
-4.5,10000+ Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,17,26.0,1,0,1,0,1,1,data scientist,na
-4.0,1 - 50 Employees,Business consulting,Manufacturing,Company - Private,10000+ million ,4,7.0,0,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,8,297.0,0,0,0,0,0,0,mle,na
-4.8,10000+ Employees,Business consulting,Manufacturing,Company - Public,10000+ million ,17,26.0,1,0,0,0,0,0,mle,na
-3.8,1 - 50 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,5,7.0,0,0,0,0,0,1,data scientist,na
-4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,7,49.0,0,0,1,1,1,0,na,senior
-3.7,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,5,43.0,1,0,0,0,0,1,data scientist,na
-2.9,10000+ Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,17,5.0,0,0,0,0,0,0,data scientist,na
-4.0,51 - 200 Employees,Software Development,Information Technology,Company - Private,1 - 5 million ,6,6.0,1,0,0,0,0,0,data scientist,senior
-3.7,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,20,15.0,1,0,0,0,1,1,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,9,225.0,1,1,1,0,1,0,data scientist,na
-3.8,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,6,47.0,0,0,0,0,0,0,data scientist,na
-4.1,201 - 500 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,8,9.0,0,0,0,0,0,0,data scientist,na
-4.0,1 - 50 Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,6,49.0,0,0,0,0,0,0,data scientist,na
-3.9,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,2000 - 5000 million ,6,27.0,0,0,0,0,0,0,data scientist,na
-3.6,501 - 1000 Employees,Computer Hardware Development,Information Technology,Company - Private,100 - 500 million ,5,25.0,0,0,0,0,0,0,na,senior
-3.9,10000+ Employees,Electronics Manufacturing,Manufacturing,Company - Public,10000+ million ,7,134.0,0,0,0,0,0,0,na,na
-3.4,51 - 200 Employees,Internet & Web Services,Information Technology,Company - Private,10000+ million ,5,6.0,0,0,0,0,0,0,data scientist,na
-3.8,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,100 - 500 million ,4,28.0,0,0,0,0,0,0,mle,senior
-5.0,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,5,26.0,0,0,0,0,0,0,data scientist,na
-3.7,501 - 1000 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,9,14.0,0,0,0,0,0,0,data scientist,na
-3.9,1 - 50 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,5,85.0,0,0,0,0,0,0,data scientist,senior
-3.4,201 - 500 Employees,Internet & Web Services,Information Technology,Company - Private,25 - 50 million ,6,12.0,0,0,0,0,0,0,data scientist,senior
-4.4,201 - 500 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Public,100 - 500 million ,17,12.0,0,0,0,1,0,0,na,senior
-3.4,501 - 1000 Employees,Information Technology Support Services,Information Technology,Company - Private,100 - 500 million ,5,24.0,0,0,0,1,0,0,data scientist,na
-4.0,1 - 50 Employees,HR Consulting,Human resources and staffing,Company - Private,10000+ million ,27,7.0,1,0,0,0,0,0,data scientist,senior
-4.8,1 - 50 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,5 - 25 million ,5,10.0,0,0,0,0,0,0,data scientist,na
-4.1,201 - 500 Employees,Business consulting,Finance,Company - Public,2000 - 5000 million ,17,42.0,0,0,0,0,0,0,data scientist,senior
-3.7,5001 - 10000 Employees,Information Technology Support Services,Information Technology,Company - Private,100 - 500 million ,6,17.0,1,1,0,0,0,1,na,na
-4.3,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,17,49.0,0,0,0,0,0,0,data scientist,senior
-4.0,1001 - 5000 Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,6,37.0,0,0,0,0,0,0,data scientist,na
-4.0,1 - 50 Employees,Information Technology Support Services,Finance,Company - Public,10000+ million ,4,8.0,0,0,0,0,0,0,data scientist,na
-2.9,201 - 500 Employees,Computer Hardware Development,Information Technology,Company - Private,2000 - 5000 million ,6,21.0,1,0,1,0,0,1,data scientist,senior
-4.0,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,5,120.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,6,15.0,1,1,1,0,0,1,data scientist,senior
-2.5,51 - 200 Employees,Advertising & Public Relations,Media and communication,Company - Private,10000+ million ,4,21.0,0,0,0,0,0,0,data scientist,senior
-4.1,10000+ Employees,Electronics Manufacturing,Manufacturing,Company - Public,10000+ million ,5,57.0,0,0,0,0,0,0,data scientist,na
-4.8,10000+ Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,17,194.0,0,0,0,0,0,0,na,na
-4.0,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,5,225.0,0,0,0,0,0,0,data scientist,na
-4.0,5001 - 10000 Employees,Enterprise Software & Network Solutions,Information Technology,Subsidiary or Business Segment,2000 - 5000 million ,57,21.0,0,0,0,0,0,0,data scientist,senior
-4.0,1001 - 5000 Employees,Information Technology Support Services,Finance,Company - Public,2000 - 5000 million ,3,14.0,1,0,0,0,0,0,mle,na
-3.5,1001 - 5000 Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Subsidiary or Business Segment,2000 - 5000 million ,5,89.0,0,0,0,0,0,0,data scientist,na
-3.5,5001 - 10000 Employees,Information Technology Support Services,Information Technology,Company - Public,100 - 500 million ,25,48.0,0,0,0,0,1,0,mle,na
-4.7,201 - 500 Employees,Business consulting,Information Technology,Company - Private,2000 - 5000 million ,6,4.0,0,0,0,0,0,0,na,na
-3.6,1001 - 5000 Employees,HR Consulting,Human resources and staffing,Company - Private,100 - 500 million ,7,27.0,0,0,0,0,0,0,data scientist,na
-4.4,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,9,6.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,7,18.0,1,1,0,1,0,1,data scientist,na
-4.0,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Public,100 - 500 million ,17,24.0,0,0,0,0,0,0,data scientist,senior
-4.7,10000+ Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,17,11.0,0,0,0,0,0,0,data scientist,senior
-4.0,1 - 50 Employees,Computer Hardware Development,Information Technology,Company - Private,2000 - 5000 million ,3,5.0,1,0,0,0,0,1,data scientist,jr
-4.0,1 - 50 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,5,26.0,1,1,0,0,0,1,na,na
-4.2,5001 - 10000 Employees,Health Care Products Manufacturing,Manufacturing,Company - Public,10000+ million ,7,132.0,0,0,0,0,0,0,data scientist,na
-3.7,5001 - 10000 Employees,Information Technology Support Services,Information Technology,Company - Private,100 - 500 million ,8,28.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,13,42.0,0,0,0,0,0,0,data scientist,na
-4.1,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,10,6.0,0,0,0,0,0,0,data scientist,na
-3.6,201 - 500 Employees,Information Technology Support Services,Finance,Company - Private,2000 - 5000 million ,50,31.0,0,0,0,0,0,0,data scientist,senior
-4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,17,10.0,0,0,1,0,1,0,data scientist,na
-4.1,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,3,66.0,0,0,0,0,0,0,data scientist,senior
-3.6,10000+ Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,17,12.0,0,0,0,0,0,0,na,na
-4.1,201 - 500 Employees,Business consulting,Manufacturing,Company - Private,10000+ million ,17,7.0,0,0,0,0,1,0,manager,na
-4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,2000 - 5000 million ,6,42.0,1,0,0,1,0,0,mle,na
-4.1,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,2,44.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Finance,Company - Public,2000 - 5000 million ,6,25.0,0,0,0,0,0,0,mle,na
-3.7,201 - 500 Employees,Business consulting,Manufacturing,Company - Private,10000+ million ,5,24.0,0,0,0,0,0,0,data scientist,senior
-4.1,10000+ Employees,Business consulting,Management and consulting,Company - Private,100 - 500 million ,6,174.0,0,0,0,0,0,0,director,na
-4.1,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,2000 - 5000 million ,5,9.0,0,0,0,0,0,0,data scientist,na
-4.1,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,4,56.0,1,0,0,1,1,1,na,na
-3.8,10000+ Employees,Transportation Equipment Manufacturing,Manufacturing,Company - Public,10000+ million ,4,25.0,1,0,0,0,0,0,data scientist,na
-4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,4,49.0,0,0,1,0,0,0,data scientist,senior
-4.0,1 - 50 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,4,11.0,1,0,0,0,0,0,data scientist,na
-4.2,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,4,14.0,0,0,0,0,0,0,data scientist,senior
-4.0,1 - 50 Employees,Information Technology Support Services,Finance,Company - Private,2000 - 5000 million ,4,26.0,0,0,0,0,0,0,data scientist,senior
-4.0,1001 - 5000 Employees,Business consulting,Manufacturing,Company - Private,10000+ million ,5,10.0,0,0,0,0,0,0,na,na
-4.1,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,3,66.0,0,0,0,0,0,0,data scientist,senior
-4.2,501 - 1000 Employees,Internet & Web Services,Information Technology,Company - Private,100 - 500 million ,9,12.0,0,0,0,0,0,0,data scientist,na
-3.4,51 - 200 Employees,Investment & Asset Management,Finance,Company - Private,10000+ million ,6,26.0,1,0,0,1,0,0,data scientist,senior
-3.9,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,4,11.0,0,0,0,0,0,0,data scientist,na
-4.0,1 - 50 Employees,Enterprise Software & Network Solutions,Finance,Company - Public,10000+ million ,5,10.0,1,1,0,0,0,0,data scientist,na
-3.9,10000+ Employees,Internet & Web Services,Information Technology,Company - Public,10000+ million ,7,15.0,0,0,0,0,0,0,data scientist,senior
-4.8,1 - 50 Employees,Information Technology Support Services,Information Technology,Private Practice / Firm,2000 - 5000 million ,6,8.0,0,0,0,0,0,0,data scientist,senior
-4.1,5001 - 10000 Employees,Machinery Manufacturing,Manufacturing,Company - Public,2000 - 5000 million ,5,48.0,0,0,0,1,0,0,data scientist,na
-3.4,10000+ Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,17,39.0,0,0,0,0,0,0,data scientist,na
-4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,2000 - 5000 million ,17,66.0,0,0,0,0,0,0,data scientist,na
-4.6,10000+ Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,17,188.0,1,0,0,0,0,0,mle,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,4,10.0,1,0,0,0,0,0,data scientist,na
-3.8,10000+ Employees,Internet & Web Services,Information Technology,Company - Public,10000+ million ,6,26.0,0,0,0,0,0,0,manager,na
-4.0,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,100 - 500 million ,17,12.0,0,0,0,0,0,0,data scientist,na
-3.9,201 - 500 Employees,Business consulting,Information Technology,Company - Public,2000 - 5000 million ,17,15.0,0,0,0,0,0,0,data engineer,na
-4.0,1 - 50 Employees,Information Technology Support Services,Manufacturing,Company - Private,100 - 500 million ,3,24.0,1,0,0,0,0,0,na,na
-3.4,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,5000 - 10000 million ,6,101.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,9,4.0,1,0,0,0,0,1,data scientist,na
-3.7,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,17,30.0,0,0,0,0,0,0,data scientist,senior
-3.4,10000+ Employees,Business consulting,Management and consulting,Company - Public,10000+ million ,17,16.0,0,0,0,0,0,0,data scientist,na
-4.0,201 - 500 Employees,Business consulting,Manufacturing,Company - Public,100 - 500 million ,6,117.0,1,0,1,0,0,0,mle,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,17,21.0,1,0,0,1,1,1,mle,na
-3.8,10000+ Employees,Business consulting,Management and consulting,Company - Public,10000+ million ,6,48.0,1,0,0,1,0,1,data scientist,na
-4.1,201 - 500 Employees,Business consulting,Management and consulting,Company - Public,100 - 500 million ,17,27.0,0,0,0,0,0,0,na,na
-4.0,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Public,2000 - 5000 million ,17,9.0,0,0,0,0,0,0,na,senior
-4.0,1001 - 5000 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,17,10.0,0,0,0,0,0,0,na,na
-4.4,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,2000 - 5000 million ,3,16.0,0,0,0,0,0,0,data scientist,senior
-4.0,10000+ Employees,Business consulting,Manufacturing,Company - Private,10000+ million ,17,10.0,1,0,0,0,0,0,data scientist,senior
-4.0,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Public,10000+ million ,4,49.0,0,0,1,0,0,0,data scientist,na
-4.2,1001 - 5000 Employees,Business consulting,Management and consulting,Company - Private,100 - 500 million ,4,24.0,0,0,0,0,0,0,data scientist,na
-3.8,1001 - 5000 Employees,Research and development,Management and consulting,Company - Private,100 - 500 million ,6,21.0,0,0,0,0,1,0,data scientist,senior
-4.0,1 - 50 Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,5,69.0,0,0,0,0,0,0,data scientist,na
-4.4,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,5,14.0,1,1,1,0,0,1,data scientist,senior
-4.1,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Public,100 - 500 million ,17,12.0,0,0,0,0,0,0,data scientist,senior
-4.0,10000+ Employees,Electronics Manufacturing,Manufacturing,Company - Public,10000+ million ,2,44.0,0,0,0,0,0,0,data scientist,na
-3.7,1 - 50 Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,6,56.0,1,0,0,0,0,0,na,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,6,43.0,1,1,0,0,0,0,na,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,6,47.0,0,0,0,1,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,17,5.0,1,0,0,1,0,1,data scientist,na
-4.1,1001 - 5000 Employees,Transportation Equipment Manufacturing,Manufacturing,Company - Public,10000+ million ,5,69.0,0,0,0,0,0,0,data scientist,na
-4.1,10000+ Employees,Machinery Manufacturing,Manufacturing,Company - Public,10000+ million ,9,135.0,0,0,0,0,0,0,data scientist,na
-3.6,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,6,57.0,1,0,0,0,0,0,data scientist,na
-4.2,5001 - 10000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,1 - 5 million ,7,38.0,0,0,0,0,0,0,data scientist,senior
-4.0,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,6,225.0,1,0,0,0,0,0,na,na
-4.2,1001 - 5000 Employees,Business consulting,Management and consulting,Company - Private,100 - 500 million ,4,24.0,0,0,0,0,0,0,data scientist,na
-4.2,1 - 50 Employees,HR Consulting,Human resources and staffing,Company - Private,100 - 500 million ,6,9.0,1,0,0,0,0,0,data scientist,senior
-4.0,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,17,10.0,1,1,0,0,0,1,data scientist,na
-4.0,10000+ Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,17,26.0,0,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,17,26.0,0,0,0,0,0,0,na,na
-4.0,10000+ Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,17,4.0,0,0,0,0,0,0,data scientist,na
-4.1,10000+ Employees,Machinery Manufacturing,Manufacturing,Company - Public,10000+ million ,9,135.0,0,0,0,0,0,0,data scientist,na
-4.8,10000+ Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,17,47.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Business consulting,Information Technology,Company - Public,2000 - 5000 million ,17,66.0,0,0,0,0,0,0,mle,na
-4.1,201 - 500 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,17,9.0,0,0,0,0,0,0,data scientist,na
-3.4,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,5000 - 10000 million ,6,101.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,17,12.0,1,0,0,0,0,0,data scientist,senior
-4.0,1001 - 5000 Employees,Business consulting,Information Technology,Company - Private,10000+ million ,15,47.0,0,0,0,0,0,0,mle,na
-4.0,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,17,79.0,0,0,0,0,0,0,na,na
-2.0,1 - 50 Employees,Business consulting,Finance,Company - Public,2000 - 5000 million ,22,45.0,0,0,0,0,0,0,data scientist,senior
-3.7,10000+ Employees,Business consulting,Information Technology,Company - Private,10000+ million ,17,7.0,0,0,0,1,0,0,data scientist,senior
-3.6,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,8,45.0,0,0,0,0,0,0,na,na
-4.2,501 - 1000 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,2,12.0,1,0,1,0,1,0,data engineer,na
-4.5,51 - 200 Employees,Business consulting,Manufacturing,Company - Private,2000 - 5000 million ,11,52.0,0,0,0,0,0,0,data scientist,na
-3.8,10000+ Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,17,49.0,0,0,0,0,0,0,data scientist,na
-3.4,51 - 200 Employees,Business consulting,Finance,Company - Private,10000+ million ,11,48.0,0,0,0,0,0,0,na,na
-4.0,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,17,17.0,0,0,0,0,0,0,na,na
-4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Public,2000 - 5000 million ,17,42.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,6,6.0,1,0,0,1,0,0,mle,na
-4.0,1 - 50 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,5,30.0,1,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,17,14.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,1,49.0,0,0,0,0,0,0,mle,na
-3.8,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,6,30.0,0,0,0,0,0,0,data scientist,senior
-3.9,501 - 1000 Employees,Information Technology Support Services,Information Technology,Company - Private,100 - 500 million ,12,12.0,0,0,0,0,0,0,na,na
-4.1,201 - 500 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,17,6.0,1,0,0,1,0,1,data scientist,na
-4.2,10000+ Employees,Business consulting,Management and consulting,Company - Public,10000+ million ,17,11.0,0,0,0,0,0,0,data scientist,na
-4.6,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,17,39.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Business consulting,Finance,Company - Public,10000+ million ,6,7.0,1,0,0,0,0,0,na,na
-5.0,201 - 500 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,5,9.0,0,0,0,0,0,0,data scientist,na
-3.7,10000+ Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,7,41.0,0,0,0,0,0,0,na,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,45,49.0,0,0,0,0,0,0,data scientist,na
-4.1,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,5,40.0,0,0,0,0,1,0,na,na
-4.2,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,2,5.0,0,0,0,0,0,0,data scientist,na
-3.8,10000+ Employees,Advertising & Public Relations,Media and communication,Company - Public,5000 - 10000 million ,5,98.0,0,0,0,0,0,0,mle,na
-3.0,1 - 50 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,5,15.0,0,0,0,0,0,0,data scientist,senior
-4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,8,12.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,2000 - 5000 million ,6,66.0,1,0,0,0,0,0,mle,na
-4.1,51 - 200 Employees,HR Consulting,Human resources and staffing,Private Practice / Firm,10000+ million ,6,26.0,0,0,0,0,0,0,data scientist,na
-4.0,1 - 50 Employees,Business consulting,Finance,Company - Private,100 - 500 million ,3,21.0,1,0,0,0,0,0,mle,na
-3.8,10000+ Employees,Business consulting,Finance,Company - Private,10000+ million ,17,57.0,1,0,0,0,0,1,data scientist,na
-3.9,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,2000 - 5000 million ,6,42.0,0,0,0,0,0,0,data scientist,na
-3.9,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,7,334.0,0,0,0,0,0,0,na,na
-4.0,10000+ Employees,Transportation Equipment Manufacturing,Manufacturing,Company - Public,10000+ million ,8,121.0,0,0,0,0,0,0,data engineer,na
-4.1,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Public,10000+ million ,17,42.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,11,85.0,1,0,0,0,0,0,data engineer,na
-3.5,10000+ Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,17,101.0,0,0,0,0,0,0,data scientist,na
-4.0,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,5 - 25 million ,6,12.0,0,0,0,0,0,0,data scientist,na
-4.6,51 - 200 Employees,HR Consulting,Human resources and staffing,Company - Private,2000 - 5000 million ,7,18.0,0,0,0,0,0,0,director,na
-3.9,201 - 500 Employees,Information Technology Support Services,Manufacturing,Company - Public,2000 - 5000 million ,17,113.0,1,0,1,0,0,1,mle,na
-4.1,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,2000 - 5000 million ,17,26.0,0,0,0,0,1,0,mle,na
-4.8,51 - 200 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,100 - 500 million ,6,5.0,0,0,0,0,0,0,na,na
-4.1,201 - 500 Employees,Computer Hardware Development,Information Technology,Company - Private,2000 - 5000 million ,6,26.0,0,0,0,0,0,0,data scientist,na
-4.2,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,5 - 25 million ,6,30.0,1,0,0,1,0,1,analyst,na
-4.0,10000+ Employees,Business consulting,Information Technology,Company - Public,10000+ million ,17,49.0,0,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,17,26.0,0,0,0,0,0,0,data scientist,na
-3.6,1001 - 5000 Employees,Computer Hardware Development,Information Technology,Company - Private,100 - 500 million ,5,24.0,1,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,17,10.0,0,0,0,0,0,0,data scientist,na
-3.9,5001 - 10000 Employees,Information Technology Support Services,Information Technology,Company - Private,100 - 500 million ,3,34.0,1,0,0,0,0,1,analyst,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,6,79.0,0,0,0,0,0,0,mle,na
-5.0,1 - 50 Employees,Business consulting,Information Technology,Company - Private,2000 - 5000 million ,4,66.0,0,0,0,0,0,0,data scientist,na
-4.1,51 - 200 Employees,HR Consulting,Human resources and staffing,Private Practice / Firm,10000+ million ,6,26.0,0,0,0,0,0,0,data scientist,na
-4.2,10000+ Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,17,49.0,0,0,0,0,0,0,data scientist,na
-4.6,10000+ Employees,Enterprise Software & Network Solutions,Finance,Company - Public,10000+ million ,17,24.0,0,0,0,0,0,0,data scientist,na
-3.8,10000+ Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Public,5000 - 10000 million ,7,79.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Business consulting,Management and consulting,Company - Public,100 - 500 million ,17,117.0,1,1,1,1,0,1,mle,na
-4.5,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,12,24.0,1,0,0,0,0,0,data scientist,na
-4.5,1 - 50 Employees,Information Technology Support Services,Management and consulting,Company - Private,2000 - 5000 million ,15,7.0,1,0,1,0,0,0,data scientist,senior
-3.7,10000+ Employees,Machinery Manufacturing,Manufacturing,Company - Public,10000+ million ,6,122.0,0,0,0,0,0,0,data scientist,na
-4.0,201 - 500 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,5,139.0,0,0,0,0,0,0,data scientist,na
-2.6,501 - 1000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,25 - 50 million ,6,15.0,0,0,0,0,0,0,data scientist,senior
-4.2,10000+ Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,17,7.0,0,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Business consulting,Information Technology,Company - Private,10000+ million ,17,47.0,0,0,0,0,0,0,data scientist,senior
-3.8,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,25 - 50 million ,7,12.0,0,0,0,0,0,0,data scientist,na
-4.1,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,4,12.0,0,0,0,0,0,0,data scientist,na
-4.4,1 - 50 Employees,Business consulting,Management and consulting,Company - Private,1 - 5 million ,7,188.0,0,0,0,0,0,0,data scientist,na
-4.0,51 - 200 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,5,6.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Business consulting,Information Technology,Company - Private,10000+ million ,6,8.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,100 - 500 million ,6,21.0,1,0,0,1,0,1,mle,na
-4.0,10000+ Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,17,26.0,0,0,0,0,0,0,na,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Management and consulting,Company - Public,10000+ million ,5,26.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Public,100 - 500 million ,17,117.0,0,0,0,0,0,0,na,senior
-4.3,10000+ Employees,Investment & Asset Management,Finance,Company - Private,10000+ million ,10,78.0,0,0,0,1,0,0,data scientist,senior
-4.0,1 - 50 Employees,Information Technology Support Services,Information Technology,Company - Private,1 - 5 million ,6,7.0,0,0,0,0,0,0,data scientist,na
-4.1,201 - 500 Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,17,10.0,0,0,0,0,0,0,data scientist,na
-4.3,10000+ Employees,Business consulting,Finance,Company - Public,2000 - 5000 million ,17,78.0,0,0,0,0,0,0,na,na
-4.8,51 - 200 Employees,Software Development,Information Technology,Company - Private,100 - 500 million ,15,13.0,0,0,0,1,0,0,na,na
-3.8,51 - 200 Employees,Business consulting,Finance,Company - Private,10000+ million ,6,34.0,1,0,0,0,0,1,na,na
-3.5,10000+ Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Public,100 - 500 million ,17,117.0,0,0,0,0,0,0,data scientist,senior
-3.9,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,2000 - 5000 million ,5,13.0,0,0,0,0,0,0,data scientist,senior
-4.0,1 - 50 Employees,Information Technology Support Services,Finance,Company - Private,100 - 500 million ,5,117.0,0,0,0,0,0,0,na,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,10,8.0,1,0,0,0,1,0,mle,na
-3.9,51 - 200 Employees,Internet & Web Services,Information Technology,Company - Private,2000 - 5000 million ,5,8.0,0,0,0,0,0,0,data scientist,senior
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,24,49.0,1,0,0,0,0,0,data scientist,senior
-4.0,1001 - 5000 Employees,Information Technology Support Services,Management and consulting,Company - Public,100 - 500 million ,6,11.0,0,0,0,0,0,0,mle,na
-5.0,1 - 50 Employees,Business consulting,Information Technology,Company - Private,2000 - 5000 million ,16,28.0,1,0,0,0,0,0,data scientist,senior
-3.8,10000+ Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Public,2000 - 5000 million ,17,98.0,0,0,0,0,0,0,data scientist,senior
-4.0,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,17,48.0,0,0,0,0,0,0,data scientist,na
-4.2,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,8,7.0,0,0,0,0,0,0,data scientist,na
-4.0,1 - 50 Employees,Information Technology Support Services,Manufacturing,Company - Private,2000 - 5000 million ,4,7.0,0,0,0,0,0,0,data scientist,na
-2.9,1 - 50 Employees,Research and development,Management and consulting,Company - Private,1 - 5 million ,6,6.0,1,0,0,0,0,1,data scientist,na
-4.2,10000+ Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,17,8.0,1,0,0,0,0,0,na,na
-2.9,1 - 50 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,7,14.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Business consulting,Manufacturing,Company - Private,10000+ million ,22,58.0,0,0,0,0,1,0,data scientist,senior
-3.7,10000+ Employees,Banking & Lending,Finance,Company - Public,2000 - 5000 million ,3,39.0,0,0,0,0,0,0,data scientist,na
-4.0,1 - 50 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,5,49.0,0,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,17,9.0,0,0,0,0,0,0,data scientist,na
-4.6,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,100 - 500 million ,6,10.0,1,0,0,0,0,0,mle,na
-3.8,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,6,47.0,0,0,0,0,0,0,data scientist,senior
-3.9,10000+ Employees,Electronics Manufacturing,Manufacturing,Company - Public,10000+ million ,8,17.0,1,0,1,0,0,1,data scientist,na
-3.8,5001 - 10000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,2000 - 5000 million ,5,14.0,0,0,0,0,0,0,data scientist,senior
-3.8,10000+ Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,17,26.0,0,0,0,0,0,0,data scientist,senior
-4.2,51 - 200 Employees,Business consulting,Management and consulting,Company - Private,2000 - 5000 million ,7,10.0,0,0,1,0,0,0,data scientist,senior
-3.7,10000+ Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,17,8.0,0,0,0,0,0,0,data scientist,na
-3.9,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,100 - 500 million ,7,27.0,0,1,0,0,0,1,data scientist,na
-4.0,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,2,225.0,0,0,0,0,0,0,mle,na
-4.2,10000+ Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,17,4.0,0,0,0,1,0,0,data scientist,na
-4.2,501 - 1000 Employees,Banking & Lending,Finance,Company - Private,2000 - 5000 million ,10,13.0,0,0,0,0,0,0,data scientist,senior
-3.9,10000+ Employees,Transportation Equipment Manufacturing,Manufacturing,Company - Public,10000+ million ,4,109.0,0,0,0,0,0,0,data scientist,na
-4.1,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,5,113.0,1,0,0,1,0,0,data scientist,na
-4.4,201 - 500 Employees,Software Development,Information Technology,Company - Public,2000 - 5000 million ,5,9.0,0,0,0,0,1,0,data scientist,na
-5.0,1 - 50 Employees,HR Consulting,Human resources and staffing,Company - Private,10000+ million ,9,5.0,1,0,0,0,0,0,mle,na
-4.5,10000+ Employees,Business consulting,Information Technology,Company - Private,10000+ million ,17,79.0,0,0,0,0,0,0,data scientist,na
-3.5,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,5 - 25 million ,9,7.0,0,0,0,0,0,0,mle,na
-4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,10,49.0,0,0,1,0,0,0,na,senior
-4.0,51 - 200 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,2000 - 5000 million ,5,37.0,0,0,0,0,0,0,mle,na
-3.7,10000+ Employees,Business consulting,Information Technology,Company - Public,2000 - 5000 million ,17,22.0,1,1,0,1,1,0,na,na
-4.0,201 - 500 Employees,Business consulting,Finance,Company - Public,10000+ million ,4,49.0,0,0,0,0,0,0,data scientist,na
-4.1,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,17,53.0,0,0,0,0,0,0,mle,na
-4.0,10000+ Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,17,21.0,0,0,0,0,0,0,na,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,6,21.0,1,0,0,0,0,0,mle,na
-4.0,1001 - 5000 Employees,Business consulting,Information Technology,Company - Public,2000 - 5000 million ,2,26.0,0,0,0,0,1,0,data scientist,senior
-3.8,10000+ Employees,Information Technology Support Services,Finance,Company - Public,100 - 500 million ,17,24.0,0,0,0,0,0,0,data scientist,senior
-3.9,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Public,2000 - 5000 million ,17,8.0,0,0,0,0,1,0,data scientist,na
-4.0,1 - 50 Employees,Business consulting,Finance,Company - Private,10000+ million ,5,35.0,1,1,0,1,0,1,data scientist,na
-4.1,1 - 50 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,6,17.0,0,0,0,0,0,0,na,na
-3.4,10000+ Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,17,5.0,0,0,0,0,0,0,data scientist,senior
-4.1,51 - 200 Employees,HR Consulting,Human resources and staffing,Private Practice / Firm,10000+ million ,6,26.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,15,58.0,0,0,0,0,0,0,data scientist,senior
-4.0,201 - 500 Employees,Information Technology Support Services,Finance,Company - Public,2000 - 5000 million ,17,78.0,0,0,0,0,0,0,na,na
-4.4,201 - 500 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,17,44.0,0,0,0,0,0,0,data scientist,na
-4.9,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Public,100 - 500 million ,17,27.0,0,0,0,1,0,0,mle,na
-3.7,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,5,43.0,1,0,0,0,0,1,data scientist,na
-4.0,1 - 50 Employees,Business consulting,Information Technology,Company - Private,10000+ million ,5,31.0,0,0,0,0,0,0,data scientist,na
-3.9,201 - 500 Employees,Business consulting,Manufacturing,Company - Public,10000+ million ,17,46.0,1,0,0,0,0,0,data scientist,na
-4.2,201 - 500 Employees,Computer Hardware Development,Information Technology,Company - Private,5 - 25 million ,4,15.0,0,0,0,0,0,0,na,na
-4.0,1 - 50 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,15,58.0,0,0,0,0,0,0,data scientist,na
-4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,17,45.0,0,0,0,0,0,0,data scientist,na
-4.0,1 - 50 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,6,26.0,0,0,0,0,0,0,mle,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,17,12.0,1,0,0,1,0,0,na,na
-4.0,1 - 50 Employees,Information Technology Support Services,Management and consulting,Private Practice / Firm,10000+ million ,6,47.0,1,0,0,0,0,1,data scientist,na
-4.2,10000+ Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,17,7.0,0,0,0,0,0,0,na,na
-4.3,10000+ Employees,Business consulting,Management and consulting,Company - Public,2000 - 5000 million ,17,22.0,1,1,0,0,0,1,na,na
-3.7,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,5,43.0,1,0,0,0,0,1,na,na
-3.4,201 - 500 Employees,Software Development,Information Technology,Company - Private,10000+ million ,7,9.0,0,0,0,0,0,0,data scientist,na
-4.0,1 - 50 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,2000 - 5000 million ,5,183.0,0,0,0,0,0,0,data scientist,na
-4.0,1 - 50 Employees,Information Technology Support Services,Information Technology,Company - Private,2000 - 5000 million ,5,11.0,1,1,0,0,0,0,data scientist,na
-3.9,501 - 1000 Employees,Information Technology Support Services,Information Technology,Company - Private,1 - 5 million ,3,14.0,0,0,0,0,0,0,mle,na
-4.1,51 - 200 Employees,HR Consulting,Human resources and staffing,Private Practice / Firm,10000+ million ,2,26.0,0,0,0,0,0,0,data scientist,na
-3.7,5001 - 10000 Employees,Information Technology Support Services,Information Technology,Company - Private,100 - 500 million ,8,28.0,0,0,0,0,0,0,data scientist,senior
-4.0,1001 - 5000 Employees,Advertising & Public Relations,Media and communication,Subsidiary or Business Segment,100 - 500 million ,7,52.0,0,0,0,1,0,0,data scientist,senior
-3.7,10000+ Employees,Business consulting,Management and consulting,Company - Private,100 - 500 million ,7,41.0,0,0,0,0,0,0,data scientist,senior
-4.2,1001 - 5000 Employees,Internet & Web Services,Information Technology,Company - Private,2000 - 5000 million ,8,16.0,0,0,0,0,0,0,data scientist,senior
-3.9,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,2000 - 5000 million ,17,18.0,0,0,0,0,0,0,data scientist,senior
-3.9,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,6,5.0,0,0,0,0,0,0,data scientist,na
-3.6,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,100 - 500 million ,7,9.0,0,0,0,0,0,0,data scientist,senior
-4.0,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,4,16.0,1,0,0,0,0,0,director,na
-4.1,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,6,25.0,0,0,0,0,0,0,data scientist,na
-4.0,1 - 50 Employees,Information Technology Support Services,Management and consulting,Company - Public,2000 - 5000 million ,5,4.0,0,0,0,0,0,0,data scientist,senior
-4.0,1 - 50 Employees,Business consulting,Finance,Company - Private,10000+ million ,5,16.0,1,0,0,0,0,0,data scientist,senior
-3.7,10000+ Employees,Information Technology Support Services,Information Technology,Company - Private,2000 - 5000 million ,5,28.0,1,0,1,1,1,0,mle,na
-4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,7,49.0,0,0,1,0,0,0,data scientist,senior
-4.0,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,7,24.0,0,0,0,0,0,0,data scientist,na
-2.5,1 - 50 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,2000 - 5000 million ,4,9.0,1,0,0,0,0,0,mle,na
-4.0,10000+ Employees,Information Technology Support Services,Finance,Company - Public,2000 - 5000 million ,17,66.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,6,26.0,0,0,0,0,0,0,na,na
-3.6,10000+ Employees,Business consulting,Management and consulting,Company - Public,2000 - 5000 million ,10,56.0,0,0,0,0,0,0,na,na
-2.4,201 - 500 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,2000 - 5000 million ,9,183.0,0,0,0,0,0,0,mle,na
-4.0,1001 - 5000 Employees,Business consulting,Finance,Company - Private,10000+ million ,17,7.0,0,0,0,0,0,0,data scientist,na
-4.0,1 - 50 Employees,Business consulting,Information Technology,Company - Private,10000+ million ,5,5.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Public,100 - 500 million ,6,26.0,0,0,0,0,0,0,na,na
-4.0,10000+ Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,17,6.0,0,0,0,0,0,0,na,na
-3.9,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,5 - 25 million ,5,18.0,1,0,0,0,1,0,data scientist,na
-4.0,10000+ Employees,Business consulting,Finance,Company - Public,2000 - 5000 million ,17,16.0,1,0,0,0,0,0,na,na
-4.1,501 - 1000 Employees,Information Technology Support Services,Information Technology,Company - Private,25 - 50 million ,12,26.0,1,0,0,0,0,0,data scientist,na
-4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,6,139.0,0,0,0,0,0,0,data scientist,na
-4.0,51 - 200 Employees,Business consulting,Finance,Company - Private,10000+ million ,4,26.0,0,0,0,0,0,0,data scientist,na
-4.7,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,17,9.0,0,0,0,0,0,0,na,senior
-4.1,201 - 500 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,17,7.0,0,1,0,0,0,1,data scientist,na
-3.8,10000+ Employees,Investment & Asset Management,Finance,Company - Public,10000+ million ,4,212.0,0,0,0,0,0,0,na,na
-3.5,10000+ Employees,Enterprise Software & Network Solutions,Finance,Company - Public,2000 - 5000 million ,17,49.0,0,0,0,0,0,0,data scientist,senior
-4.0,5001 - 10000 Employees,Advertising & Public Relations,Media and communication,Subsidiary or Business Segment,2000 - 5000 million ,8,55.0,0,0,0,0,0,0,data scientist,senior
-4.0,1 - 50 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,4,35.0,0,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Electronics Manufacturing,Manufacturing,Company - Public,10000+ million ,7,141.0,0,0,0,0,0,0,data scientist,na
-3.8,5001 - 10000 Employees,Information Technology Support Services,Information Technology,Company - Public,2000 - 5000 million ,3,183.0,0,0,0,0,0,0,analyst,senior
-4.0,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,100 - 500 million ,5,11.0,0,0,0,0,0,0,na,na
-3.3,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,25 - 50 million ,6,9.0,1,1,1,0,0,1,data scientist,senior
-3.7,10000+ Employees,Enterprise Software & Network Solutions,Finance,Company - Public,100 - 500 million ,17,12.0,0,0,0,0,0,0,na,na
-4.5,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,2000 - 5000 million ,11,52.0,0,0,0,0,0,0,data scientist,na
-3.6,5001 - 10000 Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Public,2000 - 5000 million ,5,70.0,0,0,0,0,0,0,data scientist,senior
-4.1,10000+ Employees,Business consulting,Management and consulting,Company - Private,2000 - 5000 million ,6,174.0,0,0,0,0,0,0,data scientist,senior
-4.1,10000+ Employees,Health Care Products Manufacturing,Manufacturing,Company - Public,10000+ million ,4,83.0,0,0,0,0,0,0,director,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Finance,Company - Public,10000+ million ,6,7.0,1,0,0,0,0,1,na,na
-4.3,51 - 200 Employees,Software Development,Information Technology,Company - Private,1 - 5 million ,6,28.0,1,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,17,43.0,0,0,0,0,0,0,na,na
-4.0,51 - 200 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,7,17.0,1,1,0,0,0,1,data scientist,na
-3.9,201 - 500 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,17,101.0,0,0,0,0,0,0,na,na
-3.9,1001 - 5000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,100 - 500 million ,8,36.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,19,8.0,0,0,0,0,0,0,data scientist,na
-5.0,1 - 50 Employees,HR Consulting,Human resources and staffing,Company - Private,10000+ million ,5,14.0,1,0,0,0,0,0,data scientist,na
-3.9,201 - 500 Employees,Business consulting,Information Technology,Company - Public,10000+ million ,15,9.0,1,0,0,0,0,0,data scientist,na
-4.2,10000+ Employees,Software Development,Information Technology,Company - Public,100 - 500 million ,6,21.0,0,0,0,0,0,0,data scientist,senior
-4.0,1 - 50 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,2000 - 5000 million ,6,174.0,0,0,0,0,0,0,na,na
-4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,2000 - 5000 million ,6,12.0,0,0,0,0,0,0,data scientist,senior
-3.7,51 - 200 Employees,Software Development,Information Technology,Company - Private,5 - 25 million ,9,10.0,0,0,0,0,0,0,data scientist,senior
-4.1,10000+ Employees,Electronics Manufacturing,Manufacturing,Company - Public,10000+ million ,5,57.0,0,0,0,0,0,0,data scientist,na
-3.6,1001 - 5000 Employees,Internet & Web Services,Information Technology,Company - Private,2000 - 5000 million ,6,9.0,0,0,0,0,0,0,data scientist,na
-3.7,5001 - 10000 Employees,Information Technology Support Services,Information Technology,Company - Private,100 - 500 million ,8,17.0,0,0,0,0,1,0,data scientist,na
-4.0,1 - 50 Employees,Information Technology Support Services,Information Technology,Company - Private,2000 - 5000 million ,5,16.0,0,0,0,0,0,0,na,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Public,10000+ million ,17,10.0,0,0,0,1,0,0,data scientist,na
-3.9,201 - 500 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Public,10000+ million ,17,49.0,0,0,0,0,0,0,mle,na
-4.2,1001 - 5000 Employees,Internet & Web Services,Information Technology,Company - Private,2000 - 5000 million ,8,16.0,1,0,0,0,0,0,data scientist,senior
-4.1,10000+ Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,6,174.0,0,0,0,0,0,0,data scientist,na
-4.2,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,4,7.0,0,0,0,0,0,0,data scientist,senior
-3.8,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,5,47.0,0,0,0,0,0,0,na,na
-4.3,501 - 1000 Employees,Information Technology Support Services,Information Technology,Company - Private,2000 - 5000 million ,4,14.0,0,0,0,0,0,0,mle,na
-3.5,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,5 - 25 million ,9,7.0,0,0,0,0,0,0,mle,na
-4.1,51 - 200 Employees,HR Consulting,Human resources and staffing,Private Practice / Firm,10000+ million ,6,26.0,0,0,0,0,0,0,data scientist,na
-3.9,10000+ Employees,Banking & Lending,Finance,Company - Public,100 - 500 million ,4,55.0,0,0,0,0,0,0,na,na
-4.0,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Public,100 - 500 million ,17,26.0,0,0,0,0,0,0,na,na
-3.6,10000+ Employees,Business consulting,Finance,Company - Public,2000 - 5000 million ,17,66.0,0,0,0,1,0,0,na,na
-4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,3,49.0,0,0,1,1,0,0,manager,senior
-4.2,5001 - 10000 Employees,Health Care Products Manufacturing,Manufacturing,Company - Public,10000+ million ,7,132.0,0,0,0,0,0,0,na,senior
-4.1,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,17,101.0,0,0,0,0,0,0,data scientist,na
-4.1,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,3,66.0,0,0,0,0,0,0,data scientist,senior
-4.0,501 - 1000 Employees,Investment & Asset Management,Finance,Company - Private,100 - 500 million ,5,14.0,0,0,0,0,1,0,data scientist,na
-3.7,10000+ Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Public,2000 - 5000 million ,2,34.0,0,0,0,0,0,0,data scientist,na
-3.1,10000+ Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,17,10.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,40,58.0,0,0,0,0,0,0,data scientist,na
-3.6,501 - 1000 Employees,Advertising & Public Relations,Media and communication,Company - Private,10000+ million ,9,14.0,0,0,0,0,0,0,data scientist,na
-3.7,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,5,43.0,1,0,1,1,0,1,data scientist,na
-4.0,1001 - 5000 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,6,47.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Business consulting,Finance,Company - Public,2000 - 5000 million ,17,16.0,1,0,0,1,0,0,na,senior
-4.1,5001 - 10000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,2000 - 5000 million ,5,44.0,0,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,6,225.0,0,0,0,0,0,0,analyst,na
-4.1,51 - 200 Employees,HR Consulting,Human resources and staffing,Private Practice / Firm,10000+ million ,6,26.0,0,0,0,0,0,0,na,na
-4.2,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,5 - 25 million ,4,12.0,0,0,0,0,0,0,data scientist,na
-3.8,5001 - 10000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,5,14.0,0,0,0,0,0,0,data scientist,na
-4.3,501 - 1000 Employees,Business consulting,Management and consulting,Company - Private,2000 - 5000 million ,5,45.0,0,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,17,24.0,0,0,0,0,0,0,data scientist,na
-3.6,10000+ Employees,Business consulting,Finance,Company - Public,2000 - 5000 million ,17,9.0,0,1,1,0,0,0,na,na
-4.0,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,17,28.0,1,0,0,0,0,0,data scientist,senior
-4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,5,43.0,0,0,0,0,0,0,data scientist,na
-3.7,501 - 1000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,7,18.0,0,0,0,0,0,0,data scientist,na
-4.1,201 - 500 Employees,Business consulting,Finance,Company - Public,10000+ million ,17,12.0,0,0,0,0,0,0,na,senior
-3.1,10000+ Employees,Business consulting,Finance,Company - Public,2000 - 5000 million ,17,9.0,0,0,0,0,0,0,data engineer,na
-4.0,201 - 500 Employees,Business consulting,Information Technology,Company - Private,10000+ million ,17,40.0,0,0,0,0,0,0,data scientist,jr
-4.0,1001 - 5000 Employees,Information Technology Support Services,Management and consulting,Company - Public,100 - 500 million ,7,11.0,1,0,0,1,0,1,data scientist,na
-3.7,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,4,17.0,0,0,0,0,0,0,data scientist,na
-4.1,1 - 50 Employees,HR Consulting,Human resources and staffing,Company - Private,10000+ million ,21,8.0,0,0,0,0,0,0,data scientist,na
-4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,4,49.0,0,0,1,0,0,0,data scientist,na
-4.6,1 - 50 Employees,Information Technology Support Services,Information Technology,Company - Private,1 - 5 million ,3,79.0,0,0,0,0,1,0,mle,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,17,101.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Business consulting,Manufacturing,Company - Public,10000+ million ,3,225.0,0,0,0,1,0,0,na,na
-4.1,10000+ Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Public,10000+ million ,7,148.0,0,0,0,0,0,0,data scientist,na
-3.8,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,17,26.0,1,1,0,0,0,0,data scientist,na
-4.1,51 - 200 Employees,Electronics Manufacturing,Manufacturing,Company - Private,10000+ million ,7,9.0,0,0,0,0,0,0,data scientist,na
-4.0,201 - 500 Employees,Information Technology Support Services,Finance,Company - Public,10000+ million ,3,10.0,0,0,0,0,0,0,data scientist,na
-4.0,1 - 50 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,6,17.0,0,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,2000 - 5000 million ,6,22.0,0,0,0,0,0,0,na,na
-5.0,51 - 200 Employees,Business consulting,Management and consulting,Private Practice / Firm,1 - 5 million ,7,7.0,0,0,0,0,0,0,na,na
-3.9,10000+ Employees,Transportation Equipment Manufacturing,Manufacturing,Subsidiary or Business Segment,5000 - 10000 million ,6,19.0,1,1,0,1,0,0,data scientist,na
-3.9,201 - 500 Employees,Enterprise Software & Network Solutions,Finance,Company - Private,10000+ million ,17,225.0,0,0,0,0,0,0,data scientist,na
-3.5,10000+ Employees,Information Technology Support Services,Finance,Company - Public,2000 - 5000 million ,17,26.0,0,0,0,0,0,0,data scientist,senior
-4.2,501 - 1000 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,2,12.0,1,1,0,0,1,1,mle,na
-4.0,1 - 50 Employees,Business consulting,Information Technology,Company - Private,10000+ million ,7,86.0,0,0,0,0,0,0,data scientist,na
-3.5,1001 - 5000 Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Subsidiary or Business Segment,2000 - 5000 million ,8,89.0,0,0,0,1,0,0,data engineer,na
-4.0,10000+ Employees,Banking & Lending,Finance,Company - Public,10000+ million ,5,225.0,0,0,0,0,0,0,data scientist,senior
-4.1,1001 - 5000 Employees,Software Development,Information Technology,Company - Public,10000+ million ,2,12.0,0,0,0,0,0,0,data scientist,na
-3.9,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,17,8.0,1,0,0,1,0,0,data scientist,na
-3.7,10000+ Employees,Business consulting,Management and consulting,Company - Public,10000+ million ,17,7.0,0,0,0,0,0,0,data scientist,na
-3.7,10000+ Employees,Internet & Web Services,Information Technology,Company - Public,10000+ million ,7,30.0,0,0,0,0,0,0,data scientist,senior
-5.0,201 - 500 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Public,10000+ million ,1,15.0,0,0,0,0,0,0,data scientist,na
-4.4,201 - 500 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Public,2000 - 5000 million ,17,19.0,1,0,0,0,0,1,data scientist,na
-3.9,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,17,154.0,0,0,0,0,0,0,mle,senior
-4.0,201 - 500 Employees,Business consulting,Management and consulting,Company - Public,10000+ million ,6,6.0,1,0,0,0,0,0,analyst,na
-4.0,1001 - 5000 Employees,Business consulting,Manufacturing,Company - Public,2000 - 5000 million ,6,7.0,0,0,0,0,0,0,mle,na
-4.0,1 - 50 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,5,9.0,0,0,0,0,0,0,analyst,na
-4.6,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,11,15.0,1,0,0,0,0,1,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Public,100 - 500 million ,17,29.0,0,1,0,0,0,0,data scientist,senior
-3.9,201 - 500 Employees,Information Technology Support Services,Management and consulting,Company - Public,10000+ million ,17,7.0,0,0,0,0,0,0,na,na
-3.8,10000+ Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,17,121.0,1,1,0,0,0,0,data scientist,na
-4.0,1 - 50 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,5,66.0,0,0,0,0,0,0,data scientist,na
-4.3,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,8,8.0,0,0,0,0,0,0,data scientist,na
-3.5,1001 - 5000 Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Subsidiary or Business Segment,2000 - 5000 million ,5,89.0,0,0,0,1,0,0,data scientist,na
-3.5,1001 - 5000 Employees,Internet & Web Services,Information Technology,Company - Public,5000 - 10000 million ,6,11.0,0,0,0,1,0,0,data scientist,senior
-4.0,1001 - 5000 Employees,Business consulting,Information Technology,Company - Public,10000+ million ,17,86.0,1,1,1,0,0,1,data engineer,na
-3.2,5001 - 10000 Employees,Health Care Products Manufacturing,Manufacturing,Subsidiary or Business Segment,2000 - 5000 million ,7,84.0,0,0,0,0,0,0,data scientist,na
-4.2,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,8,85.0,0,0,0,0,0,0,data scientist,na
-4.1,10000+ Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Public,10000+ million ,9,148.0,0,0,0,0,0,0,data scientist,na
-4.8,51 - 200 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,2000 - 5000 million ,7,7.0,0,0,0,0,0,0,data scientist,senior
-4.0,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,10,28.0,0,0,0,0,1,0,na,na
-4.7,10000+ Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,17,17.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,17,10.0,1,0,0,1,0,1,data scientist,na
-3.8,501 - 1000 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,8,11.0,0,0,0,0,0,0,data scientist,na
-3.6,10000+ Employees,Business consulting,Manufacturing,Company - Public,2000 - 5000 million ,17,7.0,1,0,0,0,0,0,mle,na
-3.8,501 - 1000 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,8,11.0,1,1,1,0,0,1,data scientist,senior
-4.0,1001 - 5000 Employees,Information Technology Support Services,Management and consulting,Company - Private,10000+ million ,9,12.0,1,0,0,0,0,0,analyst,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,10000+ million ,8,9.0,0,0,0,0,0,0,mle,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Finance,Company - Public,100 - 500 million ,17,148.0,1,0,0,0,0,1,data scientist,na
-4.1,201 - 500 Employees,Business consulting,Management and consulting,Company - Private,2000 - 5000 million ,8,9.0,0,0,0,0,0,0,data scientist,senior
-3.8,10000+ Employees,Business consulting,Finance,Company - Public,10000+ million ,17,26.0,0,0,0,0,0,0,data scientist,na
-3.6,10000+ Employees,Information Technology Support Services,Information Technology,Company - Public,100 - 500 million ,17,38.0,0,0,0,0,0,0,na,senior
-4.8,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Public,10000+ million ,17,34.0,0,0,0,0,0,0,data scientist,na
-4.3,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,4,49.0,0,0,1,0,0,0,manager,na
-2.9,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Public,2000 - 5000 million ,17,7.0,0,0,0,0,0,0,data scientist,na
-4.5,51 - 200 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,2000 - 5000 million ,6,7.0,0,0,0,0,0,0,na,na
-4.0,1 - 50 Employees,Business consulting,Information Technology,Company - Private,2000 - 5000 million ,5,16.0,0,0,0,0,0,0,data scientist,senior
-3.8,10000+ Employees,Business consulting,Manufacturing,Company - Private,10000+ million ,17,57.0,0,0,0,0,0,0,manager,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Public,2000 - 5000 million ,6,174.0,1,0,0,0,0,0,na,na
-3.8,10000+ Employees,Information Technology Support Services,Manufacturing,Company - Public,10000+ million ,17,55.0,0,0,0,1,1,0,data scientist,na
-4.0,201 - 500 Employees,Software Development,Information Technology,Company - Private,2000 - 5000 million ,2,12.0,0,0,0,0,0,0,data scientist,senior
-4.1,1001 - 5000 Employees,Business consulting,Management and consulting,Company - Private,100 - 500 million ,8,24.0,0,0,0,0,0,0,data scientist,senior
-3.9,201 - 500 Employees,Information Technology Support Services,Manufacturing,Company - Private,10000+ million ,17,39.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,10000+ million ,17,55.0,0,0,0,0,1,0,data scientist,senior
-4.0,10000+ Employees,Information Technology Support Services,Finance,Company - Public,10000+ million ,17,7.0,1,0,0,0,0,0,na,na
-3.6,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,25 - 50 million ,4,12.0,0,0,0,0,0,0,data scientist,senior
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,3,225.0,0,0,0,0,0,0,data scientist,na
-3.6,1001 - 5000 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Public,25 - 50 million ,2,27.0,0,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,17,58.0,0,0,0,1,0,0,data scientist,na
-3.8,201 - 500 Employees,Enterprise Software & Network Solutions,Information Technology,Company - Private,25 - 50 million ,4,10.0,0,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Transportation Equipment Manufacturing,Manufacturing,Company - Public,10000+ million ,8,121.0,0,0,0,0,0,0,data scientist,na
-4.4,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Public,10000+ million ,6,120.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,5,57.0,0,0,0,0,0,0,data scientist,na
-4.0,51 - 200 Employees,Software Development,Information Technology,Company - Private,10000+ million ,6,5.0,0,0,0,0,0,0,data scientist,na
-4.2,201 - 500 Employees,Information Technology Support Services,Information Technology,Company - Private,5 - 25 million ,7,16.0,0,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Public,10000+ million ,6,225.0,0,0,0,0,0,0,mle,na
-4.7,10000+ Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,17,297.0,0,0,0,0,0,0,na,na
-4.0,10000+ Employees,Investment & Asset Management,Finance,Company - Public,2000 - 5000 million ,5,46.0,0,0,0,0,0,0,mle,na
-3.9,201 - 500 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,17,11.0,0,0,0,0,0,0,data scientist,senior
-4.0,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,3,39.0,0,0,0,0,0,0,mle,na
-4.0,201 - 500 Employees,Enterprise Software & Network Solutions,Management and consulting,Company - Private,10000+ million ,17,43.0,0,0,0,0,0,0,data scientist,na
-4.0,10000+ Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,7,139.0,0,0,0,0,0,0,data scientist,senior
-3.6,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,8,10.0,0,0,1,0,0,0,data scientist,na
-4.0,201 - 500 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,1,26.0,0,0,0,0,0,0,data scientist,na
-4.1,201 - 500 Employees,Business consulting,Management and consulting,Company - Private,10000+ million ,17,43.0,0,0,0,0,0,0,data scientist,na
-3.5,10000+ Employees,Business consulting,Management and consulting,Company - Public,2000 - 5000 million ,10,125.0,0,0,0,0,0,0,data scientist,senior
-4.0,1001 - 5000 Employees,Information Technology Support Services,Finance,Company - Private,10000+ million ,3,21.0,1,0,0,0,0,0,na,na
-3.9,1001 - 5000 Employees,Internet & Web Services,Information Technology,Company - Private,10000+ million ,4,17.0,0,0,0,0,0,0,data scientist,senior
-3.8,10000+ Employees,Transportation Equipment Manufacturing,Manufacturing,Company - Public,10000+ million ,4,12.0,1,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,17,58.0,1,0,0,0,0,0,na,senior
-3.7,10000+ Employees,Internet & Web Services,Information Technology,Company - Public,10000+ million ,7,30.0,1,0,1,0,0,1,data scientist,na
-3.7,1001 - 5000 Employees,Computer Hardware Development,Information Technology,Company - Public,10000+ million ,5,25.0,0,0,0,0,0,0,data scientist,na
-4.1,51 - 200 Employees,Information Technology Support Services,Information Technology,Company - Private,2000 - 5000 million ,6,19.0,0,0,0,0,0,0,na,na
-4.0,1001 - 5000 Employees,Information Technology Support Services,Information Technology,Company - Private,10000+ million ,3,15.0,1,0,0,0,0,0,data scientist,na
-4.0,1001 - 5000 Employees,Enterprise Software & Network Solutions,Manufacturing,Company - Private,10000+ million ,4,6.0,0,0,0,0,0,0,data scientist,na
-4.3,10000+ Employees,Biotech & Pharmaceuticals,Pharmaceutical and biotechnology,Company - Public,10000+ million ,2,194.0,1,0,0,0,0,1,data scientist,na
-4.4,51 - 200 Employees,Software Development,Information Technology,Company - Private,25 - 50 million ,5,18.0,0,0,0,0,0,0,data scientist,na
-3.9,10000+ Employees,Electronics Manufacturing,Manufacturing,Company - Public,10000+ million ,10,79.0,0,0,0,0,0,0,data scientist,na
+Company_Rating,python,r,sql,tensorflow,pytorch,data analysis,statistics,machine learning,deep learning,nlp,ai,cloud_platforms,Intern,Junior_Associate,Senior,Staff_Principal,Lead_Manager,ML_Engineer,Data_Scientist,Data_Analyst,Salary_Source_Glassdoor,Salary_Source_Employer,Loc_Ahmedabad,Loc_Bengaluru,Loc_Chennai,Loc_Gurgaon,Loc_Hyderābād,Loc_India,Loc_Mumbai,Loc_Noida,Loc_Other,Loc_Pune,Loc_Remote,Salary
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,900000.0
+-1.0084271118044361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,700000.0
+0.9196347874946107,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,700000.0
+0.4911765876503777,1,0,0,0,1,0,1,1,1,1,1,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1200000.0
+0.06271838780614558,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,900000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,700000.0
+-1.8653435114929011,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,400000.0
+0.06271838780614558,1,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,900000.0
+-1.0084271118044361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,600000.0
+0.06271838780614558,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,200000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,600000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,300000.0
+-0.7941980118823195,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+-0.3657398120380865,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1000000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,829864.0
+-0.3657398120380865,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,300000.0
+0.4911765876503777,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,800000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,900000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,300000.0
+0.7054056875724951,1,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,800000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,900000.0
+-0.5799689119602031,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,800000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,360000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,600000.0
+-0.7941980118823195,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,93000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,900000.0
+0.7054056875724951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,700000.0
+-0.15151071211597092,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+-0.7941980118823195,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,800000.0
+0.9196347874946107,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,900000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,2400000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,400000.0
+0.7054056875724951,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+-2.722259911181366,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,400000.0
+-1.2226562117265525,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+0.4911765876503777,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,300000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,2400000.0
+-0.15151071211597092,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,800000.0
+0.2769474877282621,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+0.2769474877282621,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,500000.0
+0.7054056875724951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,500000.0
+-0.7941980118823195,1,0,1,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+-1.8653435114929011,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1500000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,600000.0
+1.5623220872609593,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,120000.0
+0.06271838780614558,1,0,1,1,1,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,300000.0
+1.1338638874167282,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,400000.0
+1.9907802871051923,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,120000.0
+-0.15151071211597092,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,200000.0
+-0.5799689119602031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,500000.0
+0.4911765876503777,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+0.2769474877282621,0,0,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,800000.0
+1.1338638874167282,1,1,1,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,900000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,300000.0
+-0.3657398120380865,1,0,0,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,600000.0
+0.9196347874946107,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,600000.0
+-1.8653435114929011,1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,120000.0
+-0.5799689119602031,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+-0.5799689119602031,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,600000.0
+1.3480929873388436,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,3000000.0
+0.4911765876503777,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,500000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,200000.0
+1.5623220872609593,0,0,0,1,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.4911765876503777,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,600000.0
+0.4911765876503777,1,0,1,0,0,1,1,1,0,0,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,200000.0
+-1.0084271118044361,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,700000.0
+2.4192384869494252,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,402903.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+-0.5799689119602031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,600000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,200000.0
+1.1338638874167282,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,120000.0
+-0.5799689119602031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.7054056875724951,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+0.7054056875724951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,700000.0
+-0.3657398120380865,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,108000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,600000.0
+-6.149925509935228,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,400000.0
+-0.15151071211597092,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,400000.0
+-0.7941980118823195,1,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+-1.6511144115707845,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,400000.0
+-0.15151071211597092,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+0.7054056875724951,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,600000.0
+0.2769474877282621,1,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,700000.0
+0.4911765876503777,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+0.4911765876503777,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+-0.3657398120380865,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+0.9196347874946107,1,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,400000.0
+0.06271838780614558,1,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1248000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,800000.0
+0.4911765876503777,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+0.06271838780614558,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1100000.0
+0.06271838780614558,1,0,1,1,1,0,1,1,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1300000.0
+0.2769474877282621,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,900000.0
+-0.3657398120380865,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,600000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,400000.0
+-0.7941980118823195,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,400000.0
+0.2769474877282621,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,500000.0
+-6.149925509935228,0,0,0,1,0,0,0,1,1,1,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,400000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,700000.0
+0.06271838780614558,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,900000.0
+1.5623220872609593,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1300000.0
+0.06271838780614558,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1800000.0
+0.06271838780614558,1,1,1,1,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,700000.0
+0.06271838780614558,1,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,720000.0
+0.7054056875724951,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,520000.0
+-2.2938017113371343,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,600000.0
+-0.5799689119602031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,300000.0
+-0.5799689119602031,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+0.4911765876503777,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,600000.0
+-0.5799689119602031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,700000.0
+-0.3657398120380865,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+0.06271838780614558,1,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,2000000.0
+-1.0084271118044361,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,900000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,216000.0
+0.06271838780614558,1,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,2400000.0
+0.06271838780614558,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1500000.0
+0.2769474877282621,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,600000.0
+1.7765511871830768,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1600000.0
+-0.5799689119602031,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,300000.0
+-0.15151071211597092,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,600000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1000000.0
+0.7054056875724951,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,77000.0
+0.06271838780614558,1,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,900000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1200000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,900000.0
+0.7054056875724951,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,800000.0
+-1.4368853116486682,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,500000.0
+1.1338638874167282,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1000000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,60000.0
+0.2769474877282621,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,500000.0
+-2.0795726114150175,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,900000.0
+-0.15151071211597092,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,600000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,900000.0
+-0.15151071211597092,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,700000.0
+1.3480929873388436,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,400000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,900000.0
+0.9196347874946107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,700000.0
+0.06271838780614558,1,0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,2800000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,600000.0
+0.9196347874946107,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,8000000.0
+-0.5799689119602031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+0.06271838780614558,1,1,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1200000.0
+0.7054056875724951,1,1,1,0,0,1,1,1,0,1,0,1,0,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,700000.0
+0.06271838780614558,1,1,0,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,120000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,600000.0
+1.1338638874167282,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,400000.0
+-0.7941980118823195,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,400000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+-2.0795726114150175,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,700000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,5300000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,700000.0
+-1.0084271118044361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,900000.0
+0.4911765876503777,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+-1.0084271118044361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+0.06271838780614558,1,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,18000.0
+-1.2226562117265525,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1500000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1000000.0
+0.2769474877282621,1,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,500000.0
+2.4192384869494252,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1200000.0
+-0.5799689119602031,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,600000.0
+0.06271838780614558,1,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,600000.0
+-1.0084271118044361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,500000.0
+1.3480929873388436,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,800000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,500000.0
+-2.0795726114150175,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,700000.0
+-0.7941980118823195,1,1,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1200000.0
+-0.5799689119602031,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,800000.0
+0.06271838780614558,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,600000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,500000.0
+0.7054056875724951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,500000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1080000.0
+-0.7941980118823195,0,0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,400000.0
+-0.5799689119602031,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+0.7054056875724951,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,800000.0
+0.2769474877282621,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,700000.0
+0.7054056875724951,0,1,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,600000.0
+0.06271838780614558,0,1,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,180000.0
+-0.5799689119602031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,600000.0
+-0.15151071211597092,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,300000.0
+0.06271838780614558,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+1.1338638874167282,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1000000.0
+-2.5080308112592498,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,800000.0
+-0.5799689119602031,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,800000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,600000.0
+0.4911765876503777,1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2000000.0
+-1.6511144115707845,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,700000.0
+-0.5799689119602031,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,300000.0
+0.4911765876503777,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+0.06271838780614558,1,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+-0.7941980118823195,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+-1.0084271118044361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,400000.0
+2.4192384869494252,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,300000.0
+0.7054056875724951,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,200000.0
+0.2769474877282621,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,400000.0
+-3.3649472109477157,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,2000000.0
+-0.7941980118823195,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+-0.3657398120380865,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,500000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,600000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,800000.0
+2.2050093870273098,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,400000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.2769474877282621,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,600000.0
+-1.0084271118044361,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,600000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,200000.0
+0.06271838780614558,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,400000.0
+1.1338638874167282,1,0,0,1,1,0,0,1,1,1,1,1,0,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,3000000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+0.7054056875724951,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.7054056875724951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,200000.0
+-1.4368853116486682,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,96000.0
+0.4911765876503777,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+1.3480929873388436,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,800000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,800000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,792000.0
+-0.7941980118823195,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1000000.0
+-0.7941980118823195,1,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,400000.0
+-0.15151071211597092,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,300000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,600000.0
+0.06271838780614558,1,0,0,0,0,0,0,1,1,1,1,1,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,600000.0
+0.9196347874946107,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,400000.0
+-0.3657398120380865,1,0,0,0,1,1,0,1,0,0,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,400000.0
+-1.6511144115707845,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+1.1338638874167282,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,800000.0
+0.7054056875724951,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,800000.0
+-1.0084271118044361,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,400000.0
+0.06271838780614558,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,600000.0
+-1.4368853116486682,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,600000.0
+-0.3657398120380865,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,800000.0
+-0.3657398120380865,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,300000.0
+0.4911765876503777,1,1,0,0,0,0,1,1,0,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,500000.0
+-0.15151071211597092,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1000000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1800000.0
+0.2769474877282621,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,800000.0
+0.06271838780614558,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1200000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,700000.0
+-0.15151071211597092,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,800000.0
+-0.5799689119602031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,700000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,600000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,600000.0
+0.7054056875724951,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,600000.0
+0.06271838780614558,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,500000.0
+-0.15151071211597092,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,600000.0
+0.06271838780614558,1,0,1,0,0,1,1,1,0,1,1,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,900000.0
+1.3480929873388436,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,500000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+0.06271838780614558,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,360000.0
+-1.4368853116486682,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,300000.0
+-0.3657398120380865,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+1.3480929873388436,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,800000.0
+-2.5080308112592498,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,400000.0
+-6.149925509935228,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,3800000.0
+2.4192384869494252,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,62400.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,900000.0
+0.06271838780614558,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,700000.0
+0.9196347874946107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,500000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,180000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,600000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,400000.0
+0.06271838780614558,1,0,1,0,0,1,0,1,0,1,1,1,0,0,0,0,1,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,2500000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,700000.0
+0.4911765876503777,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,900000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,400000.0
+1.1338638874167282,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,700000.0
+2.4192384869494252,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,336000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,300000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,400000.0
+-0.5799689119602031,1,0,1,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,600000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+-2.0795726114150175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+1.1338638874167282,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,600000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,700000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+-0.7941980118823195,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,900000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,300000.0
+0.06271838780614558,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+0.06271838780614558,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,120000.0
+0.7054056875724951,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,520000.0
+0.4911765876503777,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,700000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,500000.0
+0.06271838780614558,1,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,2400000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,3700000.0
+-0.5799689119602031,1,1,1,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+-6.149925509935228,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1200000.0
+0.06271838780614558,1,0,0,1,1,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1500000.0
+0.06271838780614558,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1100000.0
+-0.5799689119602031,1,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,400000.0
+-1.6511144115707845,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+0.7054056875724951,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,3328000.0
+-0.15151071211597092,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,600000.0
+0.06271838780614558,1,0,1,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1200000.0
+-1.6511144115707845,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,800000.0
+0.7054056875724951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,200000.0
+0.06271838780614558,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,2900000.0
+1.3480929873388436,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,300000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,500000.0
+-0.5799689119602031,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.2769474877282621,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,120000.0
+1.7765511871830768,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,4300000.0
+1.9907802871051923,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,2000000.0
+0.2769474877282621,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,400000.0
+-0.15151071211597092,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,800000.0
+0.2769474877282621,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,700000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,800000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,400000.0
+1.1338638874167282,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,900000.0
+0.7054056875724951,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,4000000.0
+-0.3657398120380865,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+0.06271838780614558,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,900000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1000000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,600000.0
+0.4911765876503777,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+0.4911765876503777,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,400000.0
+0.9196347874946107,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,500000.0
+-0.5799689119602031,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1000000.0
+-1.2226562117265525,1,1,0,1,1,0,1,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+-0.5799689119602031,1,1,0,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,500000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,600000.0
+-0.5799689119602031,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,500000.0
+-2.2938017113371343,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,5000000.0
+-1.0084271118044361,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,900000.0
+0.7054056875724951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,400000.0
+-0.3657398120380865,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,200000.0
+-1.2226562117265525,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1600000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,400000.0
+0.2769474877282621,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,700000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,700000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,600000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,800000.0
+-1.0084271118044361,0,0,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,960000.0
+-0.15151071211597092,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,700000.0
+0.9196347874946107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,800000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,700000.0
+0.06271838780614558,1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,900000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,400000.0
+-0.5799689119602031,1,0,1,1,1,0,1,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+1.7765511871830768,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1200000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,800000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,800000.0
+0.7054056875724951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+0.06271838780614558,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1800000.0
+-0.7941980118823195,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,300000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,800000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,480000.0
+2.4192384869494252,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,800000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.9196347874946107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,400000.0
+0.2769474877282621,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,400000.0
+-0.5799689119602031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+-0.5799689119602031,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,700000.0
+0.06271838780614558,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1000000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,800000.0
+0.06271838780614558,1,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,120000.0
+-0.15151071211597092,1,0,1,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,2000000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,700000.0
+1.7765511871830768,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,540000.0
+0.2769474877282621,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,900000.0
+-1.0084271118044361,1,0,1,0,0,0,0,1,0,1,1,1,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,120000.0
+0.7054056875724951,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,800000.0
+0.7054056875724951,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+-0.15151071211597092,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,700000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,600000.0
+0.4911765876503777,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,300000.0
+-0.15151071211597092,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,600000.0
+0.4911765876503777,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,400000.0
+0.2769474877282621,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,800000.0
+0.4911765876503777,1,0,0,1,1,0,0,1,0,1,1,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,800000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,500000.0
+0.9196347874946107,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+-0.15151071211597092,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,7000000.0
+-1.0084271118044361,1,0,0,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,800000.0
+-1.8653435114929011,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,400000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,120000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,700000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,700000.0
+0.4911765876503777,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,500000.0
+0.06271838780614558,1,1,1,1,1,0,0,1,1,0,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1030892.0
+0.9196347874946107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,600000.0
+0.7054056875724951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,120000.0
+0.06271838780614558,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,700000.0
+0.06271838780614558,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1800000.0
+0.9196347874946107,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,800000.0
+-1.6511144115707845,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,400000.0
+0.4911765876503777,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+0.9196347874946107,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,400000.0
+-0.5799689119602031,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,200000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1400000.0
+-0.7941980118823195,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,600000.0
+0.06271838780614558,0,0,0,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,500000.0
+-0.5799689119602031,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+0.4911765876503777,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,900000.0
+-0.15151071211597092,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+-1.0084271118044361,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,200000.0
+0.7054056875724951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,300000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,400000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,600000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,700000.0
+0.2769474877282621,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1000000.0
+-0.5799689119602031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+-0.7941980118823195,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1200000.0
+0.4911765876503777,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,120000.0
+1.7765511871830768,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1000000.0
+-1.0084271118044361,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+-0.7941980118823195,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,600000.0
+-1.0084271118044361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+0.7054056875724951,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,700000.0
+0.06271838780614558,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,900000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,400000.0
+0.06271838780614558,0,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,240000.0
+-1.0084271118044361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,500000.0
+0.7054056875724951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,800000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1164000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1800000.0
+0.06271838780614558,1,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1664000.0
+-0.3657398120380865,1,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,120000.0
+-0.15151071211597092,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+0.06271838780614558,1,0,0,0,0,0,0,1,1,1,1,1,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,600000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,500000.0
+0.06271838780614558,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,240000.0
+2.4192384869494252,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+0.4911765876503777,1,1,0,0,0,0,1,1,1,1,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,240000.0
+-0.7941980118823195,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,800000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+0.7054056875724951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,300000.0
+0.06271838780614558,1,0,1,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+1.3480929873388436,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,120000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+0.06271838780614558,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+1.1338638874167282,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,800000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+0.9196347874946107,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,500000.0
+-2.0795726114150175,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,700000.0
+0.9196347874946107,1,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+-0.5799689119602031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,800000.0
+-0.15151071211597092,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1000000.0
+2.4192384869494252,1,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,800000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,900000.0
+1.3480929873388436,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1000000.0
+2.4192384869494252,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,600000.0
+2.4192384869494252,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,2000000.0
+-0.15151071211597092,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,400000.0
+0.2769474877282621,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,400000.0
+0.9196347874946107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+0.2769474877282621,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,600000.0
+1.1338638874167282,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,400000.0
+-0.15151071211597092,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,300000.0
+-0.3657398120380865,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,300000.0
+0.2769474877282621,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1000000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,900000.0
+0.4911765876503777,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,600000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+-1.0084271118044361,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,500000.0
+0.9196347874946107,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+0.4911765876503777,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+-0.7941980118823195,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,800000.0
+-1.6511144115707845,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,400000.0
+-0.15151071211597092,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,600000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1200000.0
+-0.3657398120380865,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+0.4911765876503777,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,120000.0
+-1.2226562117265525,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+-1.4368853116486682,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,300000.0
+1.7765511871830768,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,500000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1000000.0
+1.7765511871830768,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,800000.0
+0.7054056875724951,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1500000.0
+-0.7941980118823195,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.06271838780614558,1,1,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,900000.0
+0.7054056875724951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,500000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,800000.0
+-1.0084271118044361,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,480000.0
+0.2769474877282621,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,600000.0
+1.7765511871830768,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,300000.0
+-0.5799689119602031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,500000.0
+1.7765511871830768,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1300000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+-1.2226562117265525,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+0.4911765876503777,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1200000.0
+1.3480929873388436,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,120000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.9196347874946107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,900000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,900000.0
+0.2769474877282621,0,0,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1000000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1200000.0
+0.06271838780614558,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,700000.0
+0.06271838780614558,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,500000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,600000.0
+-0.15151071211597092,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+-1.0084271118044361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,700000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,700000.0
+0.06271838780614558,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,360000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,2000000.0
+1.3480929873388436,1,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,400000.0
+0.06271838780614558,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,700000.0
+0.4911765876503777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,200000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1400000.0
+-0.7941980118823195,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,400000.0
+0.2769474877282621,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,600000.0
+-0.3657398120380865,0,0,1,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,2300000.0
+-0.5799689119602031,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,800000.0
+0.06271838780614558,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,700000.0
+-0.7941980118823195,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+-2.0795726114150175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,300000.0
+0.7054056875724951,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,600000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,700000.0
+-1.0084271118044361,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+-1.0084271118044361,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,500000.0
+-1.4368853116486682,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,300000.0
+0.4911765876503777,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+0.06271838780614558,1,0,1,0,1,0,0,1,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,800000.0
+0.9196347874946107,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,500000.0
+-0.5799689119602031,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,500000.0
+-0.3657398120380865,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1200000.0
+0.06271838780614558,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,3500000.0
+0.06271838780614558,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,500000.0
+-1.2226562117265525,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,300000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,120000.0
+-0.5799689119602031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,800000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1000000.0
+0.06271838780614558,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,120000.0
+-0.3657398120380865,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,400000.0
+0.7054056875724951,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,2200000.0
+-0.5799689119602031,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+2.4192384869494252,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,500000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,600000.0
+0.06271838780614558,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,120000.0
+-0.5799689119602031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,600000.0
+-1.8653435114929011,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+0.06271838780614558,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,960000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1000000.0
+1.3480929873388436,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,600000.0
+2.4192384869494252,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,300000.0
+-1.2226562117265525,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1000000.0
+-0.7941980118823195,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,360000.0
+-0.5799689119602031,1,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,700000.0
+-0.15151071211597092,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.7054056875724951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+-0.3657398120380865,1,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,900000.0
+-0.5799689119602031,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,600000.0
+0.06271838780614558,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,540000.0
+0.9196347874946107,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,2000000.0
+-6.149925509935228,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,2800000.0
+1.9907802871051923,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,900000.0
+-0.15151071211597092,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,500000.0
+2.4192384869494252,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,300000.0
+-0.15151071211597092,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+-0.15151071211597092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,700000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.2769474877282621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,400000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,800000.0
+-0.3657398120380865,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+-0.3657398120380865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,600000.0
+0.06271838780614558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,900000.0
+-0.3657398120380865,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1000000.0
+-0.3657398120380865,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1000000.0
+0.06271838780614558,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,900000.0
+-0.5799689119602031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,400000.0
+2.4192384869494252,1,0,1,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,800000.0
+0.2769474877282621,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,500000.0
+0.9196347874946107,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,400000.0
+-0.15151071211597092,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1500000.0
