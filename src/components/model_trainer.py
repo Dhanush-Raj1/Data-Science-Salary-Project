@@ -96,9 +96,9 @@ class ModelTrainer:
             save_object(file_path=self.model_trainer_config.model_path, 
                         obj=best_model)
             
-            predicted = best_model.predict(X_test)
+            y_test_pred = best_model.predict(X_test)
             
-            r_2_score = r2_score(y_test, predicted)
+            r_2_score = r2_score(y_test, y_test_pred)           # r2 score is calculated on actual and predicted values
             
             print(f"Best model: {best_model_name}")
             print(f"Final score: {r_2_score}")
@@ -107,7 +107,6 @@ class ModelTrainer:
             logging.info(f"Final accuracy: {r_2_score}")
             
             return r_2_score
-        
         
         except Exception as e:
             raise Custom_Exception(e, sys)           
