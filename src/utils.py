@@ -35,7 +35,7 @@ def load_object(file_path):
         raise Custom_Exception(e, sys)
     
     
-
+ 
 
 def evaluate_models(X_train, X_test, y_train , y_test, models, params):
     
@@ -56,7 +56,7 @@ def evaluate_models(X_train, X_test, y_train , y_test, models, params):
             y_train_pred = model.predict(X_train)
             y_test_pred = model.predict(X_test)
             
-            train_set_score = r2_score(y_train, y_train_pred)
+            train_set_score = r2_score(y_train, y_train_pred)       # r2 score is calculated on actual and predicted values
             test_set_score = r2_score(y_test, y_test_pred)
             
             logging.info(f"Train and test r2 score for {model_name}: {train_set_score, test_set_score}")
