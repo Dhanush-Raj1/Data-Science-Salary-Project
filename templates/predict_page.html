@@ -4,6 +4,9 @@
     <title>Data Science Salary Estimator</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/pp_style.css')}}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+
 </head>
 <body>
     <header>
@@ -19,210 +22,191 @@
                 <li><a href="">Get in touch</a></li>
             </ul>
         </nav>
-
+  
         <div class="content-intro">
-            <h2>Enter Company Data</h2>
-            <p>Enter the company details and get an estimate of your salary</p>
+            <h2>Enter Job & Company Data</h2>
+            <p>Provide details and get an estimated salary</p>
         </div>
     </header>
 
     <main class="content-main">
-        <div class="data-title">
-            <h2>Company Details:</h2>
-        </div>
+        <form action="{{ url_for('predict_datapoint')}}" method="post" class="predictdata">
 
-        <form action="{{ url_for('predict')}}" method="post" class="predictdata">
-
+            <!-- Company Rating -->
             <div class="data-item">
-                <label for="Industry">Industry:</label>
-                <p>Which industry does the company operate in?</p>  
-                <select id="Industry" name="Industry" required>                               
+                <label for="Company_Rating">Company Rating:</label>
+                <p>What is the rating of the company? 
+                    <br>Enter a rating between 0 and 5</p>
+                <input type="number" id="Company_Rating" name="Company_Rating" step="0.1" min="0" max="5" required style="margin-top: 4px;">
+            </div>
+
+            <!-- Job Type -->
+            <div class="data-item">
+                <label for="Job_type">Job Type:</label>
+                <p>What type of job is it?</p>
+                <select id="Job_type" name="Job_type" required>
                     <option value="">Select</option>
-                    <option value="Information Technology Support Services">Information Technology Support Services</option>
-                    <option value="Enterprise Software & Network Solutions">Enterprise Software & Network Solutions</option>
-                    <option value="Business consulting">Business consulting</option>
-                    <option value="Computer Hardware Development">Computer Hardware Development</option>
-                    <option value="Internet & Web Services">Internet & Web Services</option>
-                    <option value="Biotech & Pharmaceuticals">Biotech & Pharmaceuticals</option>
-                    <option value="Software Development">Software Development</option>
-                    <option value="Banking & Lending">Banking & Lending</option>
-                    <option value="HR Consulting">HR Consulting</option>
-                    <option value="Transportation Equipment Manufacturing">Transportation Equipment Manufacturing</option>
-                    <option value="Machinery Manufacturing">Machinery Manufacturing</option>
+                    <option value="ML_Engineer">ML Engineer</option>
+                    <option value="Data_Scientist">Data Scientist</option>
+                    <option value="Data_Analyst">Data Analyst</option>
                 </select>
             </div>
-
-            <div class="data-item">
-                <label for="Sector">Sector:</label>
-                <p>Which sector does the company belong to?</p>
-                <select id="Sector" name="Sector" required>
-                    <option value="">Select</option>
-                    <option value="Information Technology">Information Technology</option>
-                    <option value="Finance">Finance</option>
-                    <option value="Management and consulting">Management and consulting</option>
-                    <option value="Manufacturing">Manufacturing</option>
-                    <option value="Pharmaceutical and biotechnology">Pharmaceutical and biotechnology</option>
-                    <option value="Human resources and staffing">Human resources and staffing</option>
-                </select>
-            </div>
-
-            <div class="data-item">
-                <label for="Size">Size:</label>
-                <p>What is the size of the company's workforce?</p>
-                <select id="Size" name="Size" required>
-                    <option value="">Select</option>
-                    <option value="1 - 50 Employees">1 - 50 Employees</option>
-                    <option value="51 - 200 Employees">51 - 200 Employees</option>
-                    <option value="201 - 500 Employees">201 - 500 Employees</option>
-                    <option value="501 - 1000 Employees">501 - 1000 Employeesy</option>
-                    <option value="1001 - 5000 Employees">1001 - 5000 Employees</option>
-                    <option value="5001 - 10000 Employees">5001 - 10000 Employees</option>
-                    <option value="10000+ Employees">10000+ Employees</option>
-                </select>
-            </div>
-
-            <div class="data-item">
-                <label for="Revenue">Revenue:</label>
-                <p>what is the annual revenue of the company?</p>
-                <select id="Revenue" name="Revenue" required>
-                    <option value="">Select</option>
-                    <option value="1 - 5 million ">1 - 5 million</option>
-                    <option value="5 - 25 million ">5 - 25 million</option>
-                    <option value="25 - 50 million ">25 - 50 million</option>
-                    <option value="100 - 500 million ">100 - 500 million</option>
-                    <option value="2000 - 5000 million ">2000 - 5000 million</option>
-                    <option value="5000 - 10000 million ">5000 - 10000 million</option>
-                    <option value="10000+ million ">10000+ million</option>
-                </select>
-            </div>
-
-            <div class="data-item">
-                <label for="Ownership">Ownership:</label>
-                <p>What type of ownerhip does the company have?</p>
-                <select id="Ownership" name="Ownership" required>
-                    <option value="">Select</option>
-                    <option value="Company - Private">Company - Private</option>
-                    <option value="Company - Public">Company - Public</option>
-                    <option value="Private Practice / Firm">Private Practice / Firm </option>
-                    <option value="Subsidiary or Business Segment">Subsidiary or Business Segment</option>
-                </select>
-            </div>
-
-            <div class="data-item">
-                <label for="Rating">Rating:</label>
-                <p>what is the rating of the company?</p>
-                <input type="number" id="Rating" name="Rating" step="1" placeholder="Rating" min="0" required>
-            </div>
-
-            <div class="data-item">
-                <label for="age">Age:</label>
-                <p>What is the company's age as of today?</p>
-                <input type="number" id="age" name="age" step="1" placeholder="age" min="0" required>
-            </div>
-
-            <div class="data-title">
-                <h2>Job Details:</h2>
-            </div>
-
-            <div class="data-item">
-                <label for="Job_simp">Job title:</label>
-                <p>Name of the job you are applying for?</p>
-                <select id="Job_simp" name="Job_simp" required>
-                    <option value="">Select</option>
-                    <option value="data scientist">data scientist</option>
-                    <option value="na">na</option>
-                    <option value="mle">mle</option>
-                    <option value="analyst">analyst</option>
-                    <option value="data engineer">data engineer</option>
-                    <option value="manager">manager</option>
-                    <option value="director">director</option>
-                </select>
-            </div>
-
-            <div class="data-item">
-                <label for="seniority">Seniority level:</label>
-                <p>What is the seniority level of the job?</p>
-                <select id="seniority" name="seniority" required>
-                    <option value="">Select</option>
-                    <option value="na">na</option>
-                    <option value="senior">senior</option>
-                    <option value="jr">jr</option>
-                </select>
-            </div>
-
-            <div class="data-title">
-                <h2>Skills Details:</h2>
-                <p>Does the following skills a part of your job?</p>
-                <p>0 for No, 1 for Yes</p>
-            </div>
-
-            <div class="data-item">
-                <label for="python">Python:</label>
-                <select id="python" name="python" required>
-                    <option value="">Select</option>
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                </select>
-            </div>
-
-            <div class="data-item">
-                <label for="spark">Spark:</label>
-                <select id="spark" name="spark" required>
-                    <option value="">Select</option>
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                </select>
-            </div>
-
-            <div class="data-item">
-                <label for="aws">Aws:</label>
-                <select id="aws" name="aws" required>
-                    <option value="">Select</option>
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                </select>
-            </div>
-
-            <div class="data-item">
-                <label for="excel">Excel:</label>
-                <select id="excel" name="excel" required>
-                    <option value="">Select</option>
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                </select>
-            </div>
-
-            <div class="data-item">
-                <label for="LLMs">LLMs:</label>
-                <select id="LLMs" name="LLMs" required>
-                    <option value="">Select</option>
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                </select>
-            </div>
-
-            <div class="data-item">
-                <label for="sql">Sql:</label>
-                <select id="sql" name="sql" required>
-                    <option value="">Select</option>
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                </select>
-            </div>
-
             
+            <!--Seniority-->
+            <div class="data-item">
+                <label for="Seniority">Seniority:</label>
+                <p>What is the seniority level of the job?</p>
+                <select id="Seniority" name="Seniority" required>
+                    <option value="">Select</option>
+                    <option value="Intern">Intern</option>
+                    <option value="Junior_Associate">Junior Associate</option>
+                    <option value="Senior">Senior</option>
+                    <option value="Staff_Principal">Staff Principal</option>
+                    <option value="Lead_Manager">Lead Manager</option>
+                </select>
+            </div>
+
+            <!-- Skills Section -->
+             <div class="data-item">
+                <label for="Skills">Skills:</label>
+                <p style="margin: 5px 0; font-size: 14px;">Select relevant skill set required for the role</p>
+                <select id="Skills" name="Skills" multiple required>
+                    <option value="Python">Python</option>
+                    <option value="R">R</option>
+                    <option value="SQL">SQL</option>
+                    <option value="TensorFlow">TensorFlow</option>
+                    <option value="PyTorch">PyTorch</option>
+                    <option value="Data_Analysis">Data Analysis</option>
+                    <option value="Statistics">Statistics</option>
+                    <option value="Machine_Learning">Machine Learning</option>
+                    <option value="Deep_Learning">Deep Learning</option>
+                    <option value="NLP">NLP</option>
+                    <option value="AI">AI</option>
+                    <option value="Cloud_Platforms">Cloud Platforms</option>
+                </select>
+            </div>
+
+            <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Choices('#Skills', {
+      removeItemButton: true,   // allows removing selected skill
+      placeholderValue: 'Select skills...',     
+    });
+  });
+</script>
+
+            <!-- Salary Source -->
+            <div class="data-item">
+                <label for="Salary_Source">Salary Source:</label>
+                <p>Where is the salary information sourced from?</p>
+                <select id="Salary_Source" name="Salary_Source" required>
+                    <option value="">Select</option>
+                    <option value="Glassdoor">Glassdoor (Job Portal)</option>
+                    <option value="Employer">Employer (The company)</option>
+                </select>
+            </div>
+
+            <!-- Location -->
+            <div class="data-item">
+                <label for="Location">Location:</label>
+                <p>What is the job location?</p>
+                <select id="Location" name="Location" required>
+                    <option value="">Select</option>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Bengaluru">Bengaluru</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Gurgaon">Gurgaon</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="India">India</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Noida">Noida</option>
+                    <option value="Other">Other</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Remote">Remote</option>
+                </select>
+            </div>
+
+
+            <!-- Submit -->
             <div class="predict-button">
                 <button type="submit">Predict</button>
             </div>
 
         </form>
 
-        {% if result is not none %}
+        <!-- {% if result is not none %}
             <section class="result">
                 <h1>Prediction Result:</h1>
                 <p>{{result_text}} <span>{{result}}</span></p>
             </section>
+        {% endif %} -->
+
+        {% if result is not none %}
+            <section class="result">
+                <div class="result-content">
+                    <div class="result-icon">
+                        <i class="fas fa-chart-line-up"></i>
+                    </div>
+
+                    <div class="result-header">
+                        <h1>Salary Prediction</h1>
+                        <p class="result-subtitle">Based on your job posting analysis</p>
+                    </div>
+
+                    <div class="salary-display">
+                        <div class="salary-label">Your Estimated Annual Salary</div>
+                        <div class="salary-amount" id="salaryAmount">
+                            <span class="currency-symbol">₹</span>
+                            <span class="amount-number">{{result}}</span>
+                        </div>
+                    </div>
+
+                    <div class="result-footer">
+                        <div class="confidence-indicator">
+                            <i class="fas fa-check-circle"></i>
+                            <span>High Confidence Prediction</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const resultSection = document.querySelector('.result');
+                if (resultSection) {
+                    // Add entrance animation
+                    setTimeout(() => {
+                        resultSection.classList.add('animate-in');
+                    }, 100);
+
+                    // Animate the salary number
+                    const amountElement = document.querySelector('.amount-number');
+                    if (amountElement) {
+                        // Get the clean number from backend (already processed)
+                        const finalAmount = parseInt(amountElement.textContent.replace(/,/g, ''));
+
+                        // Set initial value to 0 for animation
+                        amountElement.textContent = '0';
+
+                        let current = 0;
+                        const increment = finalAmount / 80; // Slower animation for better effect
+
+                        const timer = setInterval(() => {
+                            current += increment;
+                            if (current >= finalAmount) {
+                                current = finalAmount;
+                                clearInterval(timer);
+                            }
+                            // Format with Indian number system (lakhs, crores)
+                            amountElement.textContent = Math.floor(current).toLocaleString('en-IN');
+                        }, 25);
+                    }
+                }
+            });
+            </script>
         {% endif %}
+
+
     </main>
 
 
