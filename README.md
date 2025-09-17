@@ -162,10 +162,10 @@ The app will be available at: **http://127.0.0.1:5000/**
 <br>
 
 # 🎯 Future Enhancements  
-✅ Add more job platforms like LinkedIn and Indeed for better data  
-✅Host MLflow Tracking Server remotely for persistent experiment logs
-✅Automate retraining pipelines with GitHub Actions and CI/CD
-✅Add real-time salary updates based on market trends 
+✅ Add more job platforms like LinkedIn and Indeed for better data    
+✅Host MLflow Tracking Server remotely for persistent experiment logs  
+✅Automate retraining pipelines with GitHub Actions and CI/CD  
+✅Add real-time salary updates based on market trends   
 
 <br>
 
