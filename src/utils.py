@@ -30,7 +30,7 @@ def load_object(file_path):
     except Exception as e:
         raise Custom_Exception(e, sys)
     
-    
+     
 
 def evaluate_models(X_train, X_test, y_train , y_test, models, params):
     
@@ -38,7 +38,7 @@ def evaluate_models(X_train, X_test, y_train , y_test, models, params):
         report = {}
         trained_models = {}
         best_params = {}
-        logging.info("Starting model evaluation process.")
+        logging.info("🔰 Starting model evaluation process.")
         
         for model_name, model in models.items():
             param = params[model_name]
@@ -73,7 +73,7 @@ def evaluate_models(X_train, X_test, y_train , y_test, models, params):
             param = gs.best_params_
             best_params[model_name] = param
             
-        logging.info("Model evalution process has been completed.")
+        logging.info("🔰 Model evalution process has been completed.")
         return report, trained_models, best_params
     
     
