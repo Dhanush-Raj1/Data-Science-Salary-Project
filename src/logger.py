@@ -10,29 +10,27 @@ logs_file_name = datetime.now().strftime('%d_%m_%Y_%H_%M_%S') + ".log"
 # log folder name 
 logs_folder_name = datetime.now().strftime('%d_%m_%Y')
 
-
 # logs folder path 
 logs_path = os.path.join(os.getcwd(), "logs", logs_folder_name)
-
 
 # create logs folder path 
 os.makedirs(logs_path, exist_ok=True)
 
-
 # path for storing logs files
 logs_file_path = os.path.join(logs_path, logs_file_name)
 
+file_handler = logging.FileHandler(logs_file_path, encoding='utf-8')
 
 # configure logging
-logging.basicConfig(filename=logs_file_path,
-                    
+logging.basicConfig(#filename=logs_file_path,
+                    handlers=[file_handler],
                     # format of logging message
                     format="[%(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
-                    
                     # level info and above 
-                    level=logging.INFO)
+                    level=logging.INFO,)
+                    # for emojis in logging statement
+                    #encoding="utf-8")   
 
 
-# testing code 
 if __name__=="__main__":
-    logging.info('Logging has started')
+    logging.info("➡️Logging has started")
