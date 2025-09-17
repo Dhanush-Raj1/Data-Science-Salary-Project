@@ -107,11 +107,10 @@ class ModelTrainer:
             
             logging.info(f"Model Report: {model_report}")
             logging.info(f"Best model: {best_model_name}")
-            logging.info(f"Best model's metrics: [r2_score:{best_r2_score}, \
-                                           mean_absolute_error: {best_mae}, \
-                                           mean_squared_error: {best_mse}]")
+            logging.info(f"Best model's metrics: [r2_score:{best_r2_score}, mean_absolute_error: {best_mae}, mean_squared_error: {best_mse}]")
             logging.info(f"✅ Model training has been completed.")
 
+            logging.info(f"➡️ Starting MLFlow logging process.")
             for model_name, model in trained_models.items():
                 self.mlflow_logger.log_model(
                     model_name = model_name,
@@ -120,7 +119,8 @@ class ModelTrainer:
                     model = model,
                     X_train = X_train
                 )
-            
+            logging.info(f"✅ MLflow logging has been completed.")      
+
             # register the best model (should be outside the above loop)
             self.mlflow_logger.register_best_model(
                     metrics = model_report,
