@@ -17,6 +17,7 @@ class MLFlowLogger:
         mlflow.set_tracking_uri("http://localhost:8000")
         self.experiment_name = "Data-Science-Salary-Prediction"
         mlflow.set_experiment(self.experiment_name)
+        logging.info(f"Initializing MLflow with experiment name: {self.experiment_name}")
 
     def log_model(self, model_name, params, metrics, model, X_train):
         """
@@ -28,7 +29,6 @@ class MLFlowLogger:
         model: model object,
         x_train: training data for inference signature
         """
-        logging.info(f"Initializing MLflow with experiment name: {self.experiment_name}")
         logging.info(f"Starting MLflow run for model: {model_name}")
         with mlflow.start_run(run_name=model_name):
             # log params
@@ -76,6 +76,8 @@ class MLFlowLogger:
             except Exception as e:
                 logging.info(f"Error logging model {model_name}: {str(e)}")
                 raise Custom_Exception(e, sys)
+        
+        logging.info(f"✅ MLflow logging for all models has been completed.")
             
 
     def register_best_model(self, metrics, models, X_train):
@@ -83,9 +85,10 @@ class MLFlowLogger:
         Registers the best model based on R2 score.
         Params:
         metrics(dict): performance metrics of all models,
-        models(dict): dict of mobel objects with model names as keys,
+        models(dict): dict of model objects with model names as keys,
         X_train: Training data for inference signature
         """
+        logging.info(f"➡️ Starting best model registration process in MLflow.")
         logging.info(f"Finding best model based on R2 score")
         best_model = None 
         best_model_name = None
@@ -108,7 +111,7 @@ class MLFlowLogger:
                 mlflow.log_param("Best Model", best_model_name)
                 mlflow.log_metric("Best Model R2 Score", best_r2_score)
                 signature = infer_signature(X_train, best_model.predict(X_train))
-                registered_model_name = f"DS-Salary-Prediction-{best_model_name}-model"
+                registered_model_name = f"DSS-Prediction-best-model-{best_model_name}"
                 logging.info(f"Registering best model as {registered_model_name})")
 
                 try:
@@ -136,7 +139,7 @@ class MLFlowLogger:
                             input_example=X_train[:5],
                             registered_model_name=f"DS-Salary-Prediction-{best_model_name}-model"
                         )
-                    logging.info(f"Successfully registered best model: {registered_model_name} ")
+                    logging.info(f"✅ Successfully registered best model: {registered_model_name} ")
 
                 except Exception as e:
                     logging.info(f"Error registering best model {best_model_name}: {str(e)}")

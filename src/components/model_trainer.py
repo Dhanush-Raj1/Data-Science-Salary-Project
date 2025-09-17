@@ -35,7 +35,7 @@ class ModelTrainer:
     #def initiate_model_trainer(self, train_array, test_array):
     def initiate_model_trainer(self, X_train, X_test, y_train, y_test):
         try:
-            logging.info("Model training has been started.")
+            logging.info("➡️ Model training has been started.")
             
             #X_train, X_test, y_train, y_test = (train_array[:, :-1], test_array[:, :-1],
                                                 #train_array[:, -1], test_array[:, -1])
@@ -93,8 +93,8 @@ class ModelTrainer:
             best_model_score = model_report[best_model_name]['r2_score']
             best_model = trained_models[best_model_name]
             
-            save_object(file_path=self.model_trainer_config.model_path, 
-                        obj=best_model)
+            #save_object(file_path=self.model_trainer_config.model_path, 
+                        #obj=best_model)
                      
             best_r2_score = model_report[best_model_name]['r2_score']
             best_mae = model_report[best_model_name]['mean_absolute_error']
@@ -105,10 +105,12 @@ class ModelTrainer:
                                            mean_absolute_error: {best_mae}, \
                                            mean_squared_error: {best_mse}]")
             
+            logging.info(f"Model Report: {model_report}")
             logging.info(f"Best model: {best_model_name}")
             logging.info(f"Best model's metrics: [r2_score:{best_r2_score}, \
                                            mean_absolute_error: {best_mae}, \
                                            mean_squared_error: {best_mse}]")
+            logging.info(f"✅ Model training has been completed.")
 
             for model_name, model in trained_models.items():
                 self.mlflow_logger.log_model(
