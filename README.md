@@ -66,7 +66,7 @@
 <img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/readme_images/missing_values.png" width="800" height="500">  
 <img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/readme_images/word_cloud.png" width="500" height="700">  
 
-## 4. Model Building:
+## 4. Model Building with MLFlow tracking:
   - Split the dataset into train and test sets.
   - Trained multiple models (Linear Regression, Ridge, Lasso, Random Forest, XGBoost, CatBoost).
   - **Logged model parameters, metrics, and artifacts to MLflow**.
@@ -74,7 +74,7 @@
 
 ## 5. Productionization:
    - In the final step, to productionize the model I build a flask API endpoint (application) using the flask module.
-   - The app takes in a request with a list of values of a job posting and returns the estimated salary.v
+   - The app takes in a request with a list of values of a job posting and returns the estimated salary.
    - For simplicity the app was hosted on a local webserver. 
 
 <br>
@@ -85,6 +85,7 @@
 | **Python** | Programming language used  |
 | **Selenium** | Scraping real world data |
 | **Flask** | Web framework for UI and API integration |
+| **MLflow** | Experiment tracking and model registry |
 | **HTML & CSS** | Frontend design and styling |
 | **Pandas** | Cleaning and preprocessing the data |
 | **Numpy** | Performing numerical operations |
@@ -112,11 +113,21 @@ conda activate envi     # On Windows
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run the Flask App
+### 4️⃣ Start MLflow Tracking Server
+```sh
+mlflow ui --backend-store-uri sqlite:///mlruns.db  --default-artifact-root ./mlruns --host 127.0.0.1 --port 8000
+```
+Access the mlflow UI at: http://127.0.0.1:8000
+
+### 5️⃣ Run the Training Script
+```sh
+python main.py
+```
+
+### To access the Flask App
 ```sh
 python app.py
 ```
-
 The app will be available at: **http://127.0.0.1:5000/**
 
 <br>
@@ -130,6 +141,11 @@ The app will be available at: **http://127.0.0.1:5000/**
 <br>
 
 # 📸 Screenshots  
+### MLFlow UI (model logging, best model registry)
+<img src="readme_image/mlflow.PNG" width="1000" height="500">
+
+<br>
+
 ### 🟠 Home Page  
 <img src="readme_images/home_page.PNG" width="1000" height="500">
 
@@ -147,11 +163,9 @@ The app will be available at: **http://127.0.0.1:5000/**
 
 # 🎯 Future Enhancements  
 ✅ Add more job platforms like LinkedIn and Indeed for better data  
-✅ Include real-time salary updates based on market trends and inflation  
-✅ Implement automated Retraining Pipeline    
-✅ Add company benefits and work culture factors to prediction model      
-✅ Develop a more user-friendly web interface with visualizations   
-✅ Automate data scraping to keep the model updated with fresh job listings.  
+✅Host MLflow Tracking Server remotely for persistent experiment logs
+✅Automate retraining pipelines with GitHub Actions and CI/CD
+✅Add real-time salary updates based on market trends 
 
 <br>
 
