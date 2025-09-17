@@ -1,5 +1,5 @@
 <h1 align="center"> Data Science Salary Estimator </h1>
-<h3 align="center"> End to End Data Science Project: "Predicting Salary of a Data Scientist in India" </h3>
+<h3 align="center"> End to End MLOps Data Science Project: "Predicting Salary of a Data Scientist in India" </h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=black&labelColor=white&color=red" />
   <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=black&labelColor=white&color=darkblue" />
@@ -13,11 +13,13 @@
 
 ## 📌 Project Overview
    - Developed a robust model to predict the salary of Data Scientists in India.
-   - Collected data from glassdoor website, scraped over 900 job postings.
-   - Cleaned and pre-processed the raw data. 
-   - Engineered featues, created new features that captures the importance of tools like 'python', 'r', 'sql', 'aws', 'spark', 'genai', 'LLMs' for a data science role.
-   - Trained the model by utilizing different machine learning algorithms, optimized it using cross validation, gridsearch methods.
-   - Deployed the model as an application using Flask, pickle.
+   - Collected data from glassdoor website, scraped over 800 job postings.
+   - Cleaned and pre-processed the raw data.
+   - Engineered new featues, created new features that captures the importance of tools like 'python', 'r', 'sql', 'aws', 'spark', 'genai', 'LLMs' for a data science role.
+   - Trained multiple machine learning algorithms and evaluated them using cross-validation and GridSearch.
+   - **Integrated MLflow to track experiments, metrics, hyperparameters, and model artifacts automatically.**
+   - Deployed the best-performing model as a Flask API.
+
 
 
 # 🧱 Project Workflow 
@@ -31,14 +33,6 @@
        * Location of the job
        * Job Description
        * Rating of the company
-       * Size of the company (total number of employees working)
-       * Industry
-       * Sector
-       * Founded date of the company
-       * Ownership type of the company
-       * Revenue of the company
-   - Took me a while to complete the scraping process (around 3 hours for the scraping process to complete).
-
 
 ## 2. Data Cleaning & Preprocessing: 
    - Once the data is scraped I performed data clearning process and also prepared the data for model building.
@@ -47,7 +41,7 @@
         * Removed unwanted text, black spaces from the values of different columns
         * Parsed numeric data from 'Salary Esitmate' column.
         * Found the age of the company using 'Founded' column.
-        * Created the following new columns for the skills, tools listed in 'Job Description' column 
+        * Created the following new columns for the skills, tools listed in 'Job Description' column:
              * Python
              * r
              * sql
@@ -55,6 +49,7 @@
              * spark
              * genai
              * LLMs
+       * Created new features for type of roles, seniority levels. 
 
 ## 3. Exploratory Data Analysis & Feature Engineering:
    - After the data is clearned I analyzed the data to find hidden patterns, trends other relationship between features.
@@ -72,13 +67,10 @@
 <img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/readme_images/word_cloud.png" width="500" height="700">  
 
 ## 4. Model Building:
-   - During the model building process I first converted the categorical values into dummy variables and I split the data into train and test set with a test size of 20%.
-   - Then I tried different models and evalutated them using mean squared error and mean absolute error. I used the following models :
-        - Multiple Linear regression - As a base model 
-        - Ridge regresssion - Used both L1 and L2 to handle outliers  
-        - Lasso regression 
-        - Random forest regressor - Finally used random forest as it would be a good fit for sparsity associated with the data.
-   - Out of all the models random forest regressor's performance was better and error rate was lower.
+  - Split the dataset into train and test sets.
+  - Trained multiple models (Linear Regression, Ridge, Lasso, Random Forest, XGBoost, CatBoost).
+  - **Logged model parameters, metrics, and artifacts to MLflow**.
+  - **Used MLflow to register and compare the best-performing model based on R² score.**
 
 ## 5. Productionization:
    - In the final step, to productionize the model I build a flask API endpoint (application) using the flask module.
