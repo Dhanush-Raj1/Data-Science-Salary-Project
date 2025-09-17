@@ -163,7 +163,7 @@ class DataTransformation:
 
     def initiate_data_transformation(self):
         try:
-            logging.info("Starting data transformation")
+            logging.info("➡️ Starting data transformation")
             logging.info("Reading cleaned data from 'Data/data_cleaned.csv'")
             df = pd.read_csv('data/data_cleaned.csv')   # The file is executed from the root directory as 'data' folder is in root dir 
             
@@ -215,7 +215,7 @@ class DataTransformation:
             logging.info("Saving preprocessor object")
             save_object(file_path=self.data_transformation_config.preprocessor_file_path, obj=preprocessor)
 
-            logging.info("Data transformation completed successfully.")
+            logging.info("✅ Data transformation completed successfully.")
             return (X_train_pre,        # array 
                     X_test_pre,         # array
                     y_train,            # series
