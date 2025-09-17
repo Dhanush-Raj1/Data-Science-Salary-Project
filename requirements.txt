@@ -15,5 +15,6 @@ requests
 gunicorn 
 wordcloud
 nltk
+mlflow
 
 -e .
