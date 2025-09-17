@@ -3,12 +3,12 @@ import sys
 from src.logger import logging
 from src.exception_handling import Custom_Exception
 from src.utils import save_object, evaluate_models
+from src.mlflow.mlflow_tracking import MLFlowLogger 
 
 import pandas as pd
 import numpy as np
 from dataclasses import dataclass
 from sklearn.metrics import r2_score
-
 from sklearn.linear_model import LinearRegression
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
@@ -30,6 +30,7 @@ class ModelTrainer:
      
     def __init__(self):
         self.model_trainer_config = ModelTrainerConfig()
+        self.mlflow_logger = MLFlowLogger()
         
     #def initiate_model_trainer(self, train_array, test_array):
     def initiate_model_trainer(self, X_train, X_test, y_train, y_test):
@@ -86,28 +87,47 @@ class ModelTrainer:
                        "Catboost regressor": {}     }
             
             
-            model_report = evaluate_models(X_train, X_test, y_train, y_test, models, params)
+            model_report, trained_models, best_params = evaluate_models(X_train, X_test, y_train, y_test, models, params)
             
-            best_model_name = max(model_report, key=lambda x: model_report[x]['test_accuracy'])
-            best_model_score = model_report[best_model_name]['test_accuracy']
-            best_model = models[best_model_name]
-            
+            best_model_name = max(model_report, key=lambda x: model_report[x]['r2_score'])
+            best_model_score = model_report[best_model_name]['r2_score']
+            best_model = trained_models[best_model_name]
             
             save_object(file_path=self.model_trainer_config.model_path, 
                         obj=best_model)
-            
-            y_test_pred = best_model.predict(X_test)
-            
-            r_2_score = r2_score(y_test, y_test_pred)           # r2 score is calculated on actual and predicted values
-            
+                     
+            best_r2_score = model_report[best_model_name]['r2_score']
+            best_mae = model_report[best_model_name]['mean_absolute_error']
+            best_mse = model_report[best_model_name]['mean_squared_error']
+
             print(f"Best model: {best_model_name}")
-            print(f"Final score: {r_2_score}")
+            print(f"Best model's metrics: [r2_score:{best_r2_score}, \
+                                           mean_absolute_error: {best_mae}, \
+                                           mean_squared_error: {best_mse}]")
             
             logging.info(f"Best model: {best_model_name}")
-            logging.info(f"Final accuracy: {r_2_score}")
+            logging.info(f"Best model's metrics: [r2_score:{best_r2_score}, \
+                                           mean_absolute_error: {best_mae}, \
+                                           mean_squared_error: {best_mse}]")
+
+            for model_name, model in trained_models.items():
+                self.mlflow_logger.log_model(
+                    model_name = model_name,
+                    params = best_params[model_name],
+                    metrics = model_report[model_name],
+                    model = model,
+                    X_train = X_train
+                )
             
-            return r_2_score
+            # register the best model (should be outside the above loop)
+            self.mlflow_logger.register_best_model(
+                    metrics = model_report,
+                    models = trained_models,
+                    X_train = X_train
+                )                               
+            
+            return model_report[best_model_name]
         
         except Exception as e:
             raise Custom_Exception(e, sys)           
-            
+             
