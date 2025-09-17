@@ -77,9 +77,8 @@ class MLFlowLogger:
                 logging.info(f"Error logging model {model_name}: {str(e)}")
                 raise Custom_Exception(e, sys)
         
-        logging.info(f"✅ MLflow logging for all models has been completed.")
             
-
+ 
     def register_best_model(self, metrics, models, X_train):
         """
         Registers the best model based on R2 score.
