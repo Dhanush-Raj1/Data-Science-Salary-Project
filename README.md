@@ -1,23 +1,31 @@
 <h1 align="center"> Data Science Salary Estimator </h1>
-<h3 align="center"> End to End Data Science Project: "Predicting Salary of a Data Scientist in India" </h3>
+  
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=black&labelColor=white&color=red" />
   <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=black&labelColor=white&color=darkblue" />
+  <img src="https://img.shields.io/badge/MLFlow-0194E2?style=for-the-badge&logo=MLflow&logoColor=black&labelColor=white&color=BD10DE" />
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=black&labelColor=white&color=teal" />
   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=black&labelColor=white&color=brightgreen" />
-  <img src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=CSS&logoColor=black&labelColor=white&color=fuchsia" />
+  <img src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=CSS&logoColor=black&labelColor=white&color=E36DCC" />
   <img src="https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=black&labelColor=white&color=cyan" />
   <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=black&labelColor=white&color=blue" />
   <img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=black&labelColor=white&color=yellow" />
 </p>
+  
+<h3 align="center"> End to End MLOps Data Science Project: "Predicting Salary of a Data Scientist in India" </h3>
+<h3 align="center"> With MLflow Experiment Tracking </h3>
+
+<br>
 
 ## 📌 Project Overview
    - Developed a robust model to predict the salary of Data Scientists in India.
-   - Collected data from glassdoor website, scraped over 900 job postings.
-   - Cleaned and pre-processed the raw data. 
-   - Engineered featues, created new features that captures the importance of tools like 'python', 'r', 'sql', 'aws', 'spark', 'genai', 'LLMs' for a data science role.
-   - Trained the model by utilizing different machine learning algorithms, optimized it using cross validation, gridsearch methods.
-   - Deployed the model as an application using Flask, pickle.
+   - Collected data from glassdoor website, scraped over 800 job postings.
+   - Cleaned and pre-processed the raw data.
+   - Engineered new featues, created new features that captures the importance of tools like 'python', 'r', 'sql', 'aws', 'spark', 'genai', 'LLMs' for a data science role.
+   - Trained multiple machine learning algorithms and evaluated them using cross-validation and GridSearch.
+   - **Integrated MLflow to track experiments, metrics, hyperparameters, and model artifacts automatically.**
+   - Deployed the best-performing model as a Flask API.
+
 
 
 # 🧱 Project Workflow 
@@ -31,14 +39,6 @@
        * Location of the job
        * Job Description
        * Rating of the company
-       * Size of the company (total number of employees working)
-       * Industry
-       * Sector
-       * Founded date of the company
-       * Ownership type of the company
-       * Revenue of the company
-   - Took me a while to complete the scraping process (around 3 hours for the scraping process to complete).
-
 
 ## 2. Data Cleaning & Preprocessing: 
    - Once the data is scraped I performed data clearning process and also prepared the data for model building.
@@ -47,7 +47,7 @@
         * Removed unwanted text, black spaces from the values of different columns
         * Parsed numeric data from 'Salary Esitmate' column.
         * Found the age of the company using 'Founded' column.
-        * Created the following new columns for the skills, tools listed in 'Job Description' column 
+        * Created the following new columns for the skills, tools listed in 'Job Description' column:
              * Python
              * r
              * sql
@@ -55,6 +55,7 @@
              * spark
              * genai
              * LLMs
+       * Created new features for type of roles, seniority levels. 
 
 ## 3. Exploratory Data Analysis & Feature Engineering:
    - After the data is clearned I analyzed the data to find hidden patterns, trends other relationship between features.
@@ -71,18 +72,15 @@
 <img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/readme_images/missing_values.png" width="800" height="500">  
 <img src="https://github.com/Dhanush-Raj1/Data-Science-Salary-Project/blob/main/readme_images/word_cloud.png" width="500" height="700">  
 
-## 4. Model Building:
-   - During the model building process I first converted the categorical values into dummy variables and I split the data into train and test set with a test size of 20%.
-   - Then I tried different models and evalutated them using mean squared error and mean absolute error. I used the following models :
-        - Multiple Linear regression - As a base model 
-        - Ridge regresssion - Used both L1 and L2 to handle outliers  
-        - Lasso regression 
-        - Random forest regressor - Finally used random forest as it would be a good fit for sparsity associated with the data.
-   - Out of all the models random forest regressor's performance was better and error rate was lower.
+## 4. Model Building with MLFlow tracking:
+  - Split the dataset into train and test sets.
+  - Trained multiple models (Linear Regression, Ridge, Lasso, Random Forest, XGBoost, CatBoost).
+  - **Logged model parameters, metrics, and artifacts to MLflow**.
+  - **Used MLflow to register and compare the best-performing model based on R² score.**
 
 ## 5. Productionization:
    - In the final step, to productionize the model I build a flask API endpoint (application) using the flask module.
-   - The app takes in a request with a list of values of a job posting and returns the estimated salary.v
+   - The app takes in a request with a list of values of a job posting and returns the estimated salary.
    - For simplicity the app was hosted on a local webserver. 
 
 <br>
@@ -93,6 +91,7 @@
 | **Python** | Programming language used  |
 | **Selenium** | Scraping real world data |
 | **Flask** | Web framework for UI and API integration |
+| **MLflow** | Experiment tracking and model registry |
 | **HTML & CSS** | Frontend design and styling |
 | **Pandas** | Cleaning and preprocessing the data |
 | **Numpy** | Performing numerical operations |
@@ -120,11 +119,21 @@ conda activate envi     # On Windows
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run the Flask App
+### 4️⃣ Start MLflow Tracking Server
+```sh
+mlflow ui --backend-store-uri sqlite:///mlruns.db  --default-artifact-root ./mlruns --host 127.0.0.1 --port 8000
+```
+Access the mlflow UI at: http://127.0.0.1:8000
+
+### 5️⃣ Run the Training Script
+```sh
+python main.py
+```
+
+### To access the Flask App
 ```sh
 python app.py
 ```
-
 The app will be available at: **http://127.0.0.1:5000/**
 
 <br>
@@ -138,6 +147,11 @@ The app will be available at: **http://127.0.0.1:5000/**
 <br>
 
 # 📸 Screenshots  
+### MLFlow UI (model logging, best model registry)
+<img src="readme_image/mlflow_page.PNG" width="1200" height="600">
+
+<br>
+
 ### 🟠 Home Page  
 <img src="readme_images/home_page.PNG" width="1000" height="500">
 
@@ -154,12 +168,10 @@ The app will be available at: **http://127.0.0.1:5000/**
 <br>
 
 # 🎯 Future Enhancements  
-✅ Add more job platforms like LinkedIn and Indeed for better data  
-✅ Include real-time salary updates based on market trends and inflation  
-✅ Implement automated Retraining Pipeline    
-✅ Add company benefits and work culture factors to prediction model      
-✅ Develop a more user-friendly web interface with visualizations   
-✅ Automate data scraping to keep the model updated with fresh job listings.  
+✅ Add more job platforms like LinkedIn and Indeed for better data    
+✅Host MLflow Tracking Server remotely for persistent experiment logs  
+✅Automate retraining pipelines with GitHub Actions and CI/CD  
+✅Add real-time salary updates based on market trends   
 
 <br>
 
