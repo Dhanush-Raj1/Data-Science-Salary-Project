@@ -15,6 +15,7 @@
 <h3 align="center"> End to End MLOps Data Science Project: "Predicting Salary of a Data Scientist in India" </h3>
 <h3 align="center"> With MLflow Experiment Tracking </h3>
 
+<br>
 
 ## 📌 Project Overview
    - Developed a robust model to predict the salary of Data Scientists in India.
