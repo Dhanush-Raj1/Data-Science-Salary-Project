@@ -148,7 +148,7 @@ The app will be available at: **http://127.0.0.1:5000/**
 
 # 📸 Screenshots  
 ### MLFlow UI (model logging, best model registry)
-<img src="readme_image/mlflow_page.PNG" width="1200" height="600">
+<img src="readme_images/mlflow_page.PNG" width="1200" height="600">
 
 <br>
 
