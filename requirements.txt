@@ -7,9 +7,9 @@ numpy
 # matplotlib
 # seaborn 
 scikit-learn 
-xgboost
-catboost 
-selenium 
+# xgboost
+# catboost 
+# selenium 
 Flask 
 requests 
 gunicorn 
