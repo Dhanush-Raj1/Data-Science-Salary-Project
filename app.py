@@ -19,7 +19,7 @@ def home():
 @app.route('/predictdata', methods=['GET', 'POST'])
 def predict_datapoint():
     if request.method == 'GET':
-        return render_template('predict_page1.html')
+        return render_template('predict_page.html')
     else:
         try:
             logging.info("POST request has been made.")
@@ -44,11 +44,12 @@ def predict_datapoint():
             predicted_salary = round(float(result[0]))
             result_text =  "Your estimated salary is"
 
-            return render_template('predict_page1.html', result=predicted_salary, result_text=result_text)
+            return render_template('predict_page.html', result=predicted_salary, result_text=result_text)
 
         except Exception as e:
             raise Custom_Exception(e, sys)
         
+
 
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=False, port=8000)
