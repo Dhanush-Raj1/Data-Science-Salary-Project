@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 
-
-#python = 3.8.19
+dill
 pandas 
 numpy 
 # matplotlib
 # seaborn 
-scikit-learn 
+scikit-learn  
 # xgboost
 # catboost 
 # selenium 
