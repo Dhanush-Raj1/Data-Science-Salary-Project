@@ -17,4 +17,4 @@ gunicorn == 22.0.0
 # nltk
 mlflow == 2.17.2
 
--e .
+# -e .
