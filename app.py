@@ -1,7 +1,7 @@
 import sys 
 from src.logger import logging 
 from src.exception_handling import Custom_Exception
-from src.pipelines.predict_pipeline1 import PredictData, NewData 
+from src.pipelines.predict_pipeline import PredictData, NewData 
 from flask import Flask, request, render_template, url_for 
 import numpy as np
 
