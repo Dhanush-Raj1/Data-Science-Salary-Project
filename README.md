@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=black&labelColor=white&color=red" />
   <img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=Render&logoColor=black&labelColor=white&color=blue" />
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=Render&logoColor=black&labelColor=white&color=orange" />
   <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=black&labelColor=white&color=darkblue" />
   <img src="https://img.shields.io/badge/MLFlow-0194E2?style=for-the-badge&logo=MLflow&logoColor=black&labelColor=white&color=BD10DE" />
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=black&labelColor=white&color=teal" />
@@ -18,6 +17,12 @@
 
 <br>
 
+## 🚀 Live Demo
+🌐 The application is deployed and live on Render 
+👉 [Access the web app here](https://data-science-salary-project.onrender.com/)
+
+> **Note:** The app is hosted on Render's free tier, so the initial load may take 30-60 seconds as the service spins up.
+
 ## 📌 Project Overview
    - Developed a robust model to predict the salary of Data Scientists in India.
    - Collected data from glassdoor website, scraped over 800 job postings.
@@ -26,6 +31,7 @@
    - Trained multiple machine learning algorithms and evaluated them using cross-validation and GridSearch.
    - **Integrated MLflow to track experiments, metrics, hyperparameters, and model artifacts automatically.**
    - Deployed the best-performing model as a Flask API.
+   - Successfully hosted the web app on **Render** for continuous availability
 
 
 
@@ -79,10 +85,11 @@
   - **Logged model parameters, metrics, and artifacts to MLflow**.
   - **Used MLflow to register and compare the best-performing model based on R² score.**
 
-## 5. Productionization:
-   - In the final step, to productionize the model I build a flask API endpoint (application) using the flask module.
-   - The app takes in a request with a list of values of a job posting and returns the estimated salary.
-   - For simplicity the app was hosted on a local webserver. 
+## 5. Productionization & Deployment:
+   - Built a Flask API endpoint that takes in job posting details and returns estimated salary.
+   - Designed an intuitive web interface using HTML and CSS for user interaction..
+   - Deployed the application on Render with continuous availability.
+   - The live application is accessible to anyone with internet access.
 
 <br>
         
@@ -90,6 +97,7 @@
 | Technology | Description |
 |------------|-------------|
 | **Python** | Programming language used  |
+| **Render** | Cloud platform for deployment and hosting|
 | **Selenium** | Scraping real world data |
 | **Flask** | Web framework for UI and API integration |
 | **MLflow** | Experiment tracking and model registry |
