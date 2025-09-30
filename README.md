@@ -21,8 +21,11 @@
 🌐 The application is deployed and live on Render   
 👉 [Access the web app here](https://data-science-salary-project.onrender.com/)  
   
-> **Note:** The initial load of the web app may take 30-60 seconds as the service spins up.  
-> **Tip:** For the best experience, please refer to the #-usage-guide section below to learn how to navigate and use the web app effectively.  
+> [!NOTE]
+> The initial load of the web app may take 30-60 seconds as the service spins up.
+
+> [!TIP]
+> For the best experience, please refer to the [Usage Guide](#-usage-guide) section below to learn how to navigate and use the web app effectively.  
 <br>
 
 ## 📌 Project Overview
