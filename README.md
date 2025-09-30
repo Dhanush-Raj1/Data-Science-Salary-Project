@@ -18,10 +18,12 @@
 <br>
 
 ## 🚀 Live Demo
-🌐 The application is deployed and live on Render 
-👉 [Access the web app here](https://data-science-salary-project.onrender.com/)
-
-> **Note:** The app is hosted on Render's free tier, so the initial load may take 30-60 seconds as the service spins up.
+🌐 The application is deployed and live on Render   
+👉 [Access the web app here](https://data-science-salary-project.onrender.com/)  
+  
+> **Note:** The app is hosted on Render's free tier, so the initial load may take 30-60 seconds as the service spins up.  
+  
+<br>
 
 ## 📌 Project Overview
    - Developed a robust model to predict the salary of Data Scientists in India.
