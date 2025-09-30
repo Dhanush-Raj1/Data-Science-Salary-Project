@@ -2,7 +2,7 @@
   
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=black&labelColor=white&color=red" />
-  <img src="https://img.shields.io/badge/Render-#000000?style=for-the-badge&logo=Render&logoColor=black&labelColor=white&color=blue" />
+  <img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=Render&logoColor=black&labelColor=white&color=blue" />
   <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=black&labelColor=white&color=darkblue" />
   <img src="https://img.shields.io/badge/MLFlow-0194E2?style=for-the-badge&logo=MLflow&logoColor=black&labelColor=white&color=BD10DE" />
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=black&labelColor=white&color=teal" />
