@@ -19,7 +19,8 @@
 
 ## 🚀 Live Application
 🌐 The application is deployed and live   
-👉 [Access the web app here](https://data-science-salary-project.onrender.com/)  
+  
+👉 [Access the web app here](https://data-science-salary-project.onrender.com/)    
   
 > [!NOTE]  
 > The initial load of the web app may take 1-2 minutes. Once loaded, refresh the page to ensure all features work correctly.
