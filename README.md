@@ -154,10 +154,13 @@ The app will be available at: **http://127.0.0.1:5000/**
 <br>
 
 # 🌐 Usage Guide    
-1️⃣ Click the Live demo link to open the web app in your browser    
-2️⃣ Click the "Predict" button on the home page of the web app which will take you to the predict page
-3️⃣ Enter the company details in the respective dropdowns   
-4️⃣ Click the "Predit" button and scroll down to see the predicted results
+>[!NOTE]
+>[Access the web app](https://data-science-salary-project.onrender.com/)
+  
+1️⃣ Click the Live demo link to open the web app in your browser      
+2️⃣ Click the "Predict" button on the home page of the web app which will take you to the predict page  
+3️⃣ Enter the company details in the respective dropdowns     
+4️⃣ Click the "Predit" button and scroll down to see the predicted results  
 
 <br>
 
