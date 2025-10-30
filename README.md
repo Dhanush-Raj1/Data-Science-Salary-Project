@@ -17,8 +17,8 @@
 
 <br>
 
-## 🚀 Live Demo
-🌐 The application is deployed and live on Render   
+## 🚀 Live Application
+🌐 The application is deployed and live   
 👉 [Access the web app here](https://data-science-salary-project.onrender.com/)  
   
 > [!NOTE]  
